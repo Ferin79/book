@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "book-writer": {
+      "source": "kshanxs/book-writer-skill",
+      "sourceType": "github",
+      "skillPath": "book-writer/SKILL.md",
+      "computedHash": "aad967249f82d341a6bda4b749f57ade16b3bf1e90e31114a38928b3d950a2b4"
+    }
+  }
+}
