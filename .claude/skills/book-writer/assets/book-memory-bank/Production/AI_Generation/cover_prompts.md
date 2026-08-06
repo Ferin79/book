@@ -2,6 +2,8 @@
 
 This document provides templates and examples for creating effective prompts for AI image generators (like DALL-E, Midjourney, or Stable Diffusion) to produce compelling book cover options.
 
+**Note for this project:** This book is a real family's story. Consider before using an AI-generated cover image whether a real family photograph (of the father, a meaningful place, or an object) would carry more authenticity and meaning than a generated image — many memoirs use one. If the author does want an AI-generated option (e.g., an evocative, non-literal image rather than a likeness of a real person), use the **Memoir / Biography** genre suggestions below. Never generate an AI image intended to depict a real, identifiable person's likeness.
+
 ## Technical Specifications
 
 For optimal KDP cover requirements:
@@ -97,6 +99,13 @@ Add these keywords to modify the style of any prompt:
 - Romantic settings, natural beauty
 - Soft lighting, warm colors
 - Elegant typography, delicate details
+
+### Memoir / Biography
+- A single evocative object tied to the story (a suitcase, a letter, a pair of glasses, a doorway)
+- Period-appropriate but non-identifying silhouette or figure, shown from behind or at a distance
+- A real type of landscape or place central to the story, without depicting a specific recognizable person
+- Warm, nostalgic, or documentary-style lighting depending on the book's tone
+- Understated typography — memoir covers favor quiet authenticity over drama
 
 ## Title Treatment Suggestions
 

@@ -9,7 +9,7 @@ Use this checklist after drafting a chapter (or set of chapters) to ensure quali
 - [ ] Clear beginning, middle, and end to the chapter
 - [ ] Engaging opening — hooks the reader within the first paragraph
 - [ ] Satisfying chapter ending — either resolves a beat or creates an open loop
-- [ ] The chapter advances at least one of: plot, character arc, theme, or worldbuilding
+- [ ] The chapter advances at least one of: the real story's events, a person's arc as portrayed, or theme
 - [ ] Emotional resonance — the reader should *feel* something by the end
 - [ ] Appropriate pacing — no rushing, no dragging
 - [ ] Tension is managed properly — a proper cycle of action (high tension) and reflection/reaction (low tension) prevents pacing from flatlining
@@ -37,8 +37,7 @@ Use this checklist after drafting a chapter (or set of chapters) to ensure quali
 - [ ] Emphasis is earned through careful development, not manufactured
 - [ ] Writing sounds like teaching/storytelling, not performing
 - [ ] Narrator Warmth: The narrator observes emotional texture and unspoken subtext without editorializing, lecturing, or explaining emotions
-- [ ] Tech/Magic Introduction Rule: Named technologies/magic systems get exactly one warm sentence of context on first appearance, with no info-dumps or acronym expansions
-- [ ] Name Usage: Character names transition smoothly from full name (first introduction) to first name/pronoun; professional titles are restricted to formal/system contexts
+- [ ] Name Usage: Names transition smoothly from full name (first introduction) to first name/relation term/pronoun; formal titles are restricted to formal contexts
 - [ ] Number formatting matches rules (narrative prose spells out counts/durations/distances; data displays use numerals)
 
 ## Punctuation
@@ -56,23 +55,22 @@ Use this checklist after drafting a chapter (or set of chapters) to ensure quali
 - [ ] Punctuation overall feels invisible — it guides the reader without announcing itself
 
 
-## Character Consistency
+## People Consistency
 
-- [ ] Characters behave consistently with established profiles
-- [ ] Dialogue matches each character's voice, education, and era
-- [ ] Motivations and goals are clear and consistent
-- [ ] Character development is gradual and earned, not sudden
-- [ ] Relationships evolve naturally
-- [ ] Historical figures use era-correct titles and honorifics (if applicable)
+- [ ] People behave consistently with what's established about them in `people_and_places.md`
+- [ ] Dialogue matches each person's real voice, education, and era
+- [ ] Motivations and reactions are clear and consistent with who they really were
+- [ ] Any shown change in a person is gradual and earned, not sudden or invented
+- [ ] Relationships evolve consistently with the real history between people
+- [ ] Real titles/roles/honorifics are timeline-correct (if applicable)
 
-## Continuity & Worldbuilding
+## Continuity & Setting
 
 - [ ] Timeline is internally consistent — no date/time contradictions
-- [ ] Setting details match established worldbuilding
-- [ ] No worldbuilding rule violations
-- [ ] Characters don't know things they shouldn't yet (information leaks)
+- [ ] Setting details match what's established in `people_and_places.md`
+- [ ] People don't know things they shouldn't yet at that point in the real timeline (information leaks)
 - [ ] Physical geography is consistent (distances, directions, landmarks)
-- [ ] Cultural and period details are accurate
+- [ ] Cultural and period details are accurate for the real era and place
 
 ## Engagement & Reader Experience
 
@@ -83,22 +81,22 @@ Use this checklist after drafting a chapter (or set of chapters) to ensure quali
 - [ ] Content is actionable/implementable (non-fiction) or emotionally resonant (fiction)
 - [ ] Readers would recommend this chapter's insight to someone else
 
-## Historical Accuracy (for historical/biographical genres)
+## Factual Accuracy (this book is a true story — check every chapter)
 
-- [ ] All dates, battles, and biographical facts match historical record
+- [ ] All dates, places, and biographical facts match the family record/research as best known
 - [ ] Titles and honorifics are timeline-correct
-- [ ] Fictional elements are explicitly marked `[FICTION]` in memory bank
-- [ ] Disputed facts are flagged with the approach taken
-- [ ] Cultural customs and language are period-appropriate
+- [ ] Reconstructed elements (composite scenes, approximated dialogue) are noted in the memory bank, not silently presented as verbatim fact
+- [ ] Disputed or uncertain facts are flagged with `[NEED RESEARCH]` and logged in `Research/research_tracker.md`
+- [ ] Cultural customs and language are period-appropriate for the real era and place
 
-## Popular Science & Tech History (if applicable)
+## Narrative Non-Fiction Craft (see `references/narrative_nonfiction_rules.md`)
 
-- [ ] Past tense is used for narrative history/biography, and present tense for explaining abstract logical rules or algorithmic principles.
-- [ ] Technical concepts are visual and explained via analogy; no raw math equations or code snippets are present.
+- [ ] Past tense is used for narrated events; present tense is reserved for reflective asides or lasting patterns.
+- [ ] Emotions and circumstances are shown through concrete, specific detail rather than named/labeled abstractly.
 - [ ] Biographical detail is woven into the narrative rather than presented as isolated info-dumps.
-- [ ] Technical explanations avoid retroactive anachronisms (e.g., no modern concepts used to describe historical papers before their time).
-- [ ] Quotes from original research papers are formatted as blockquotes and integrated smoothly.
-- [ ] Focus remains on human struggle, collaborative breakthroughs, and scientific atmosphere rather than pure dry engineering.
+- [ ] No retroactive anachronisms (no later knowledge, technology, titles, or attitudes projected onto an earlier scene).
+- [ ] Quotes from real sources (letters, documents, interviews) are formatted as blockquotes and integrated smoothly; no quote is fabricated.
+- [ ] The chapter shows real strengths and real flaws — no hagiography, no character assassination.
 
 ---
 
@@ -173,7 +171,7 @@ When the AI reviews a chapter, it should focus on these areas in order:
 - Maintain narrative stillness and restraint where appropriate
 - Respect ambiguity and silence
 - Improve rhythm, not drama
-- **Never** introduce new scenes, events, or characters during review
+- **Never** introduce new scenes, events, or people that aren't real during review
 - **Never** resolve conflicts or ambiguity that the author left open intentionally
 
 ---

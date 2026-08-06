@@ -110,7 +110,7 @@
 
 **Pacing of action elements**: [Where to speed up/slow down]
 
-**Combat/Intense action**: [Notes on any fight scenes or similar sequences]
+**Physical/intense action**: [Notes on any high-intensity real sequences — an accident, a confrontation, a journey, etc.]
 
 ## Chapter Purpose
 
@@ -118,7 +118,7 @@
 
 **Character development**: [How characters grow or change]
 
-**World building**: [New elements of the setting introduced]
+**Setting/context**: [New real details about the setting or era introduced]
 
 **Reader experience**: [What readers should feel during/after this chapter]
 

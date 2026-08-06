@@ -38,4 +38,4 @@
 
 ## Integration Notes for the AI
 
-*Before drafting any chapter, scan the "Active in Chapters" field to know which motifs should be woven into this scene. Reference this file alongside `world_and_characters.md` and `style_guide.md`. Do NOT over-explain the symbolism to the reader — let the recurrence do the work. Update "Active in Chapters" after each chapter is drafted.*
+*Before drafting any chapter, scan the "Active in Chapters" field to know which motifs should be woven into this scene. Reference this file alongside `people_and_places.md` and `style_guide.md`. Do NOT over-explain the symbolism to the reader — let the recurrence do the work. Update "Active in Chapters" after each chapter is drafted.*

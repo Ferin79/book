@@ -1,250 +1,146 @@
 # Book Memory Bank
 
-A structured documentation system for maintaining context and consistency throughout the book writing process. This memory bank helps writers work with LLM assistants by providing a persistently updated knowledge base that enables a stateless AI to maintain full context across writing sessions.
+A structured documentation system for maintaining context and consistency throughout the writing of this book — a true story, told in storytelling style, about the author's real father and family. This memory bank helps the author work with an AI assistant (Claude Code, using the `book-writer` skill) by providing a persistently updated knowledge base that lets a stateless AI maintain full context across writing sessions.
 
 ## Overview
 
-The Book Memory Bank is designed to solve a key challenge when writing books with AI assistance: maintaining consistent context. It consists of:
+The Book Memory Bank solves a key challenge when writing a book with AI assistance: maintaining consistent, *factually accurate* context across sessions. It consists of:
 
-1. **Core documentation files** for story elements
-2. **Specialized templates** for characters, plot, and world building
+1. **Core documentation files** for real people, real places, and the real timeline
+2. **Specialized templates** for people, timeline, and structure
 3. **Automation scripts** for manuscript preparation
 4. **Workflow guidelines** for effective AI collaboration
-5. **Custom instructions** for LLM assistants
-6. **Conversational memory updating** that eliminates the need for scripts
+5. **Conversational memory updating** that eliminates the need for scripts
 
 ## Getting Started
 
-1. **Set up the Project Structure**:
- - Copy the book-memory-bank folder to your project directory
- - Create .clinerules directory in the root with content from custom_instructions.md
- - Inside of .clinerules directory, copy the memory-bank.md from this directory to that one
- - Inside of .clinerules directory, copy the author-rules.md from this directory to that one
+This memory bank is already copied into the project root (see `../../../../book-memory-bank/` relative to this file, i.e. `book-memory-bank/` at the repository root). The `book-writer` skill (in `.agents/skills/book-writer/`) reads and maintains it automatically — there's no separate configuration step needed for Claude Code.
 
-2. **Configure AI Assistant**:
- - Copy the contents of custom_instructions.md to your LLM's custom instructions
- - Ensure file paths in custom instructions include "book-memory-bank/" prefix
- - Open VSCode in your main project directory
+1. **Start Your Session:**
+ - Just describe what you want to work on (fill in a person's profile, outline a chapter, draft a chapter, etc.).
+ - If Core files still show `[TBD]` placeholders for the basics, Claude will run the Story Forge gate (`references/story_forge.md`) to gather real project details — one question at a time, all skippable.
 
-3. **Start Your Project**:
- - Begin in Plan Mode to establish basic story elements
- - Describe what you want to write. Make the first line meaningful, as that's what will show up in Clines history.
- - Add detail - at any level you want. You can start with a basic description and then iterate - or add as much detail as you want. This might include main character(s), 1st or 3rd perspective, tone, plot points, locations, et al. It's recommend to set the over all style of the book. For example, "Write this book in the style of Ernest Hemingway" - or "Write this book with a style of minimalist and direct, using simple language, short sentences, and subtle implication to convey deep meaning through action and dialogue" (which somewhat equates to how Hemingway wrote)
- - Answer any questions given to you.
- - Enter in the prompt "initialize memory bank". This will get the memory bank read
+2. **Writing Process:**
+ - Ask to "write chapter 1 outline" (or "write the next chapter outline").
+ - Review and give feedback.
+ - Ask to "write chapter 1" (or "write the next chapter").
+ - Review and give feedback.
+ - Say "update memory bank" — this captures new people, places, and timeline facts into the Core files.
+ - Repeat until the book is complete.
+ - It's recommended to review each chapter as it's written — later changes are always possible, but get more error-prone the longer they wait.
+ - Periodically review the memory bank files yourself; if you see something wrong (a fact, a name, a date), just tell Claude to correct it.
 
-4. **Writing Process**:
- - Once you are ready to start writing the book, writing to Act mode.
- - It will likely write some.
- - Tell Cline to "update memory bank". This should fully create the memory bank files - characters, locations, plots, etc.
- - As for the master outline to be written. Review and feedback changes (if needed)
- - Once the master outline is how you want it, "update memory bank". This will make sure to your start with a updated memory bank
- - You can iterate how you want at this point. The pattern that seems to work the best:
- 1. Ask to "Write chapter 1 outline" (or just "Write the next chapter outline).
- 2. Review and feedback changes
- 3. Ask to "Write chapter 1" (or just "Write the next chapter).
- 4. Review and feedback changes
- 5. Update memory bank
- 6. Repeat until the book is complete
- - It's recommend to read and feedback on each chapter as they are written - you can always make major chnages later (by prompting for it!), but it will take a while and can be error-prone
- - Periodically review all memoiry bank files - if you see a problem, enter a prompt to correct
-
-5. **Publishing Preparation**:
- - Run the automation scripts in the Production/Scripts directory to assemble and format your manuscript
+3. **Publishing Preparation:**
+ - Run the automation scripts in `Production/Scripts/` to assemble and format the manuscript.
 
 ## Complete Project Structure
 
-The recommended project structure separates the memory bank (metadata and context) from the actual book content:
-
 ```
-YourBookProject/ # Root project directory
-├── .clinerules # Cline rules
-├── └── book-memory-bank.md # Cline rules for book-memory
-├── └── author-rules.md # Cline rules to behave like a human author
-├── Chapters/ # ACTUAL chapter files
-│ └── Chapter01.md
-│ └── Chapter02.md
-├── Outlines/ # ACTUAL outlines
-│ ├── Master_Outline.md
-│ └── Chapter_Outlines/
-│ └── Chapter01_Outline.md
-|── AI Generation/ # ACTUAL AI Generation
-│ ├── cover_prompts.md # ACTUAL cover prompts
-└── book-memory-bank/ # Memory bank files (context only)
- ├── README.md # Memory bank documentation (this file)
- |── system_prompt.md # Suggested system prompt - in Cline, go to Settings and paste the content of that into "Custom Prompt"
- ├── custom_instructions.md # AI assistant instructions
- │
- ├── Core/ # Core story documentation
- │ ├── projectbrief.md # Core project definition
- │ ├── story_structure.md # Story purpose, positioning and narrative patterns
- │ ├── world_and_characters.md # Worldbuilding elements and character profiles
- │ ├── activeContext.md # Current work status
- │ └── progress.md # Completion tracking
- │
- ├── Core/Templates/ # Template files for new content
- │ ├── README.md # Guide to using templates
- │ ├── master_outline_template.md # Story structure template
- │ └── chapter_outline_template.md # Chapter planning template
- │
- ├── Style/ # Writing guidelines
- │ └── style_guide.md
- │
- └── Production/ # Book production resources
- ├── README.md # Guide to using production tools
- │
- ├── AI_Generation/ # AI prompt templates
- │ └── cover_prompts.md # Instructions for AI cover generation
- │
- │
- └── Scripts/ # Automation tools
- ├── combine_chapters.ps1 # Merge chapters into one document (Windows)
- ├── combine_chapters.sh # Merge chapters into one document (Mac/Linux)
- ├── generate_docx.bat # Create Word document (Windows)
- ├── generate_docx.sh # Create Word document (Mac/Linux)
- └── prepare_word_template.ps1 # Setup Word formatting
+book/                                  # Repository root
+├── Chapters/                          # ACTUAL chapter files
+│   └── Chapter01.md
+│   └── Chapter02.md
+├── Outlines/                          # ACTUAL outlines
+│   ├── Master_Outline.md
+│   └── Chapter_Outlines/
+│       └── Chapter01_Outline.md
+├── book-memory-bank/                  # Memory bank files (context only)
+│   ├── README.md                      # This file
+│   ├── Core/                          # Core project documentation
+│   │   ├── projectbrief.md            # Core project definition
+│   │   ├── story_structure.md         # Story purpose and narrative patterns
+│   │   ├── people_and_places.md       # Real people, real settings, timeline
+│   │   ├── activeContext.md           # Current work status
+│   │   ├── progress.md                # Completion tracking
+│   │   └── Templates/                 # Template files for new content
+│   ├── Style/
+│   │   └── style_guide.md
+│   └── Production/                    # Book production resources
+│       ├── README.md
+│       ├── AI_Generation/
+│       │   └── cover_prompts.md
+│       └── Scripts/
+│           ├── combine_chapters.ps1
+│           ├── combine_chapters.sh
+│           ├── generate_docx.bat
+│           ├── generate_docx.sh
+│           └── prepare_word_template.ps1
+└── .agents/skills/book-writer/        # The book-writer skill itself
 ```
 
 ### Key Distinction
 
-1. **Memory Bank** (book-memory-bank/): Contains metadata and context that helps AI maintain understanding
- - Templates, guidelines, and information ABOUT your book (not the book itself)
-
-2. **Book Content** (project root): The actual manuscript and planning documents
- - Chapters/ - Your actual chapter content
- - Outlines/ - Your actual planning documents
+1. **Memory Bank** (`book-memory-bank/`): Metadata and context that helps the AI maintain understanding — information *about* the book, not the book itself.
+2. **Book Content** (project root): The actual manuscript and planning documents — `Chapters/`, `Outlines/`.
 
 ## Core Files
 
-The foundation of the memory bank consists of five core files located in the Core/ directory:
+The foundation of the memory bank consists of five core files in `Core/`:
 
-1. **projectbrief.md** - High-level concept, scope, and goals
-2. **story_structure.md** - Purpose, positioning, reader experience, and narrative techniques
-3. **world_and_characters.md** - Worldbuilding elements, rules, and character profiles
-4. **activeContext.md** - Current work focus and near-term plans
-5. **progress.md** - Project tracking and completion status
+1. **projectbrief.md** — High-level concept, scope, and goals
+2. **story_structure.md** — Purpose, reader experience, and narrative techniques
+3. **people_and_places.md** — Real people, real places, and the real timeline
+4. **activeContext.md** — Current work focus and near-term plans
+5. **progress.md** — Project tracking and completion status
 
-These files build upon each other in a hierarchical structure, moving from foundational elements to current status.
+These files build on each other in a hierarchical structure, moving from foundational elements to current status.
 
 ## Automated Memory Updating
 
-The Book Memory Bank features fully automated updates through Cline's built-in file access capabilities—no scripts or manual updates required:
-
-### Direct Conversational Updates
-
-Cline can automatically maintain your memory bank by:
-
-1. Reading the latest chapter content
-2. Identifying new information about characters, world, and plot elements
-3. Directly updating all relevant memory bank files
-4. Providing a summary of all changes made
-
-This approach leverages Cline's file access to completely automate the memory bank maintenance process with minimal user intervention - no scripts needed, just conversation.
-
-### Using Memory Bank Update Prompts
-
-With specially crafted prompts, you can trigger automatic memory bank updates for both completed chapters and outlines:
-
-
-### Basic full update
-
-Most of the time you will just ask to update memory bank - this should pick up all changes and update the correct files. If this is not working, you can use the other Automatic Content Analysis Prompts - the most used will be update:
+The Book Memory Bank updates through Claude's built-in file access — no scripts or manual updates required. Just tell it:
 
 ```
-
 update memory bank
-
 ```
 
+or, for a specific chapter:
 
-#### For Completed Chapters:
 ```
-I've just completed Chapter 5: The Revelation.
+I've just completed Chapter 5: [Title].
 
 Please:
 1. Read the entire chapter content
-2. Identify all new information about characters, world elements, and plot developments
+2. Identify all new information about real people, places, and events
 3. Automatically update all relevant memory bank files
 4. Provide a summary of the updates you've made
 ```
 
-#### For Chapter Outlines:
-```
-I've just completed the outline for Chapter 5: The Revelation.
+Claude will analyze the content, identify what's new, and directly update the memory bank files.
 
-Please:
-1. Read the entire outline
-2. Identify planned story elements, characters, and world-building components
-3. Update all relevant memory bank files with this planned information
-4. Mark these elements as "planned" (vs. "established") where appropriate
-5. Provide a summary of the updates you've made
-```
-
-Cline will analyze the content, identify important information, and directly update all memory bank files without requiring you to run any scripts.
-
-### Consistency Checking and Audits
-
-You can also request automatic consistency checks:
+### Consistency Checking
 
 ```
 Please perform a comprehensive memory bank consistency check.
 
-1. Review all memory bank files for internal consistency
+1. Review all memory bank files for internal and factual consistency
 2. Check for contradictions between different memory bank files
-3. Verify that character arcs align with plot developments
+3. Verify that timeline and biographical facts line up across chapters
 ```
 
 ## Workflow Guide
 
-The system supports three primary workflows:
+### Initial Planning
+1. Gather real project details (Story Forge)
+2. Populate Core files with real facts, marking unknowns `[TBD]` or `[NEED RESEARCH]`
+3. Build out `people_and_places.md`
+4. Create a master outline of the real timeline and chapter structure
 
-### Initial Planning Workflow
-1. Start in **Plan Mode** with high-level concept discussions
-2. Extract key elements and populate core files
-3. Develop character profiles and world building
-4. Create master outline and chapter structure
-
-### Chapter Development Workflow
-1. Write individual chapters in the Chapters/ directory
-2. Tell Cline: "I've completed Chapter X. Please update the memory bank."
-3. Review Cline's summary of updates made to all relevant memory bank files
+### Chapter Development
+1. Write individual chapters in `Chapters/`
+2. Tell Claude: "I've completed Chapter X. Please update the memory bank."
+3. Review the summary of updates made
 4. Continue with the next chapter based on the updated memory bank
 
-### Publishing Preparation Workflow
-1. Run `Production/Scripts/combine_chapters.ps1` (Windows) or `.sh` (Mac/Linux) to assemble the complete book. This will create a `Manuscript/` directory with `COMBINED.md`.
-2. Use `Production/Scripts/generate_docx.bat` (Windows) or `.sh` (Mac/Linux) to create a properly formatted Word document
-
-## Example Usage
-
-### Memory Bank Initialization
-```
-I want to start a new novel about [concept]. Let's begin by setting up the memory bank.
-```
-
-### Chapter Completion and Memory Update
-```
-I've completed Chapter 3. Please analyze it for new information and update the memory bank files automatically.
-```
-
-### Consistency Check
-```
-Are there any consistency issues between the character development in Chapter 5 and their established profile?
-```
+### Publishing Preparation
+1. Run `Production/Scripts/combine_chapters.ps1` (Windows) or `.sh` (Mac/Linux) to assemble the complete book into `Manuscript/COMBINED.md`.
+2. Use `Production/Scripts/generate_docx.bat`/`.sh` to create a properly formatted Word document.
 
 ## Benefits
 
-- **Continuity**: Maintains consistent story elements across writing sessions
+- **Continuity**: Maintains consistent facts, people, and timeline across writing sessions
+- **Accuracy**: Keeps real details straight so the book stays trustworthy as a true story
 - **Efficiency**: Automates tedious documentation and formatting tasks
-- **Consistency**: Ensures character, plot, and world details remain coherent
-- **Collaboration**: Enables effective teamwork between human and AI
-- **Organization**: Provides clear structure for complex storytelling
+- **Organization**: Provides clear structure for a complex real-life story
 - **Simplicity**: Updates happen through natural conversation, not scripts
 
-## Advanced Features
-
-- **Extract Information Script**: Pulls structured data from completed chapters
-- **Conversational Memory Updates**: Simply tell Cline to update the memory bank
-- **Document Generation**: Creates properly formatted manuscript files
-- **Revision Framework**: Provides systematic approach to manuscript improvement
-
-By using the Book Memory Bank, you transform the stateless nature of LLM interactions into a persistent, context-aware writing partnership that maintains full knowledge of your evolving book project.
+By using the Book Memory Bank, a stateless AI assistant becomes a persistent, context-aware writing partner that maintains full knowledge of this real family's story as it's written.

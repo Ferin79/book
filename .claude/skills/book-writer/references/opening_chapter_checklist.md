@@ -12,9 +12,9 @@ The first chapter makes an implicit contract with the reader about what kind of 
 
 - [ ] **Genre tone is established within the first page** — the reader knows what kind of story they're in
 - [ ] **The emotional register is set** — (e.g., melancholic, tense, playful) and consistent with the style guide
-- [ ] **The point-of-view character is clearly identified** within the first 3 paragraphs
+- [ ] **The point-of-view (narrator or central figure) is clearly identified** within the first 3 paragraphs
 - [ ] **One central question or tension is opened** that the reader wants to see resolved
-- [ ] **The world's rules are implied**, not info-dumped — the reader should feel them, not read a description
+- [ ] **The real world of the story is implied**, not info-dumped — the reader should feel the era and place, not read a description
 
 ---
 
@@ -43,10 +43,10 @@ The first chapter makes an implicit contract with the reader about what kind of 
 
 ---
 
-## Exposition & Worldbuilding
+## Exposition & Setting
 
-- [ ] **No information dump in the first 3 pages** — setting, world, and history are delivered through action
-- [ ] **Character backstory is implied, not explained** — what the character notices tells us who they are
+- [ ] **No information dump in the first 3 pages** — setting, era, and history are delivered through action and detail
+- [ ] **Backstory is implied, not explained** — what a person notices or does tells us who they are
 - [ ] **The reader can orient themselves without a glossary** — if they can't, consider restructuring
 
 ---
@@ -56,4 +56,4 @@ The first chapter makes an implicit contract with the reader about what kind of 
 Before passing Chapter 1:
 - [ ] Read the first and last lines aloud. Do they feel like the same book?
 - [ ] Would a reader who knows nothing about this story want to read Chapter 2?
-- [ ] Does the chapter deliver on the genre's core emotional promise (for thriller: dread; for romance: longing; for literary: insight)?
+- [ ] Does the chapter deliver on memoir's core emotional promise: the feeling of encountering a real, specific life rather than a summary of one?

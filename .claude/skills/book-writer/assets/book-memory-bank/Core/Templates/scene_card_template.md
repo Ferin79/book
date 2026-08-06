@@ -23,7 +23,7 @@ Use one card per scene. Store scene cards inside the relevant chapter outline fi
 | **Aftermath / Reaction** | {{TOKEN:How does the POV character react emotionally and practically after the outcome?}} |
 
 ### Story Function
-- **What this scene advances:** {{TOKEN:Plot / Character arc / Theme / Worldbuilding — pick the primary driver}}
+- **What this scene advances:** {{TOKEN:The real story's events / a person's arc as portrayed / theme / setting — pick the primary driver}}
 - **What hook pulls into next scene:** {{TOKEN:What question or tension does this scene open or leave unresolved?}}
 - **Motifs active in this scene:** {{TOKEN:Reference themes_and_motifs.md — which symbols to weave in?}}
 

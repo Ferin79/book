@@ -1,221 +1,82 @@
-# Brainstorming Gate — New Book Initialization
+# Story Forge — Memoir Onboarding
 
-This file governs the onboarding conversation when a user starts a new book. **Read this file in full before asking the user a single question.**
+This file governs the onboarding conversation for this project's book — a true story about the author's father and family. **Read this file in full before asking a single question.**
+
+This project's genre, factual license, and privacy settings are already fixed (see below) — this gate does **not** need to ask about genre or fiction vs. non-fiction. It only needs to gather the specific facts of *this* family's story.
 
 ---
 
 ## When to Run This Gate
 
-Run this gate ONLY when ONE of these triggers occurs AND the memory bank does not yet exist:
+Run this gate only when the Core memory bank files still show `[TBD]` placeholders for the basics (title, father's name, timeline) AND the author hasn't said to skip it. If real answers already exist in `people_and_places.md` / `projectbrief.md`, **skip this gate entirely** — just read the memory bank and assist.
 
-- `"start a new book"`
-- `"initialize memory bank"`
-- `"let's start building"`
-- `"help me write a book"`
-- `"new book project"`
+---
 
-**If the memory bank Core files already exist → skip this gate entirely.** The user has already onboarded. Just read the memory bank and assist.
+## Fixed Project Facts (do not ask about these)
+
+- **Format:** Markdown, divided into chapters.
+- **Genre:** True storytelling-style biography/memoir about the author's real father and family. Not fiction. No invented characters or invented worldbuilding.
+- **Factual license:** Standard memoir convention — reconstructed dialogue and scene detail are allowed when grounded in real memory; events themselves are never invented. See `references/author_rules.md` §0.
+- **Privacy:** This repository is private. The README and memory bank may include real names and personal family details freely.
+- **Title:** Not yet decided — use `[Book Title — TBD]` until the author sets one.
 
 ---
 
 ## Core Principles
 
 1. **One question at a time.** Never stack multiple questions in one message.
-2. **Everything is optional.** If the user says "skip", "not sure", "doesn't matter", or gives a blank answer — accept it and move on.
-3. **Run once, never again.** After the gate completes and files are initialized, never repeat this onboarding process. In future sessions, read the memory bank silently and begin.
-4. **No repeated pinging.** If the user seems in a rush (e.g., says "just start", "skip everything", "initialize now") — skip all remaining questions, use reasonable defaults, and initialize immediately.
-5. **Draft-first.** If the user provides existing material (a draft, outline, notes, file path), extract everything you can from it and skip questions already answered by that material.
-6. **Respect the user's time.** Keep each question brief. If the user gives a short answer, accept it. Don't ask follow-ups unless something is genuinely ambiguous and important.
+2. **Everything is optional.** If the author says "skip", "not sure", "later", or gives a blank answer — accept it and move on.
+3. **Run once, never again.** Once real answers exist in the memory bank, never repeat this onboarding. In future sessions, read the memory bank silently and begin.
+4. **No repeated pinging.** If the author seems in a rush ("just start", "skip everything") — skip all remaining questions, use `[TBD]` placeholders, and initialize immediately.
+5. **Draft-first.** If the author provides existing material (notes, an outline, chapters already written, photos, letters, interview transcripts), extract everything you can from it and skip questions already answered by that material. The author has said the book's content is already fully worked out — prioritize importing/organizing what they give you over asking questions they've already answered elsewhere.
+6. **Respect the author's time.** Keep each question brief.
 
 ---
 
 ## The Gate Flow
 
-### Step 0a — Spinoff Check
-
-**Before anything else**, check if the user's request is a spinoff / companion book / same-world new story.
-
-Spinoff trigger phrases:
-- "spinoff" / "spin-off"
-- "companion book"
-- "same world, different story" / "same universe"
-- "story about [secondary character]"
-- "prequel" (if cast or premise differs substantially)
-- "side story"
-
-If **any** trigger is present → **Stop this gate. Read `references/spinoff_guide.md` in full and follow the Spinoff Forge instead.** Do not run any steps below.
-
----
-
-### Step 0b — Fast-Track Check
-
-Before asking anything, check if the user's initial message already contains enough information to start. If yes, skip to Step 6 (summary).
-
-If the user says anything like:
-- "just start"
-- "skip everything" / "skip all questions"
-- "initialize now"
-- "I'll fill in details later"
-
-→ **Immediately initialize with defaults and skip all gate questions.**
-
----
-
-### Step 1 — Draft Import
-
-Ask **only this**:
-
-> "Do you have any existing material — an outline, a draft, notes, or a prior version? If yes, share a file path or paste the content and I'll pull what I can from it. Otherwise just say 'no' or 'skip'."
-
-- If user provides material: extract author name, title, genre, characters, setting, and any other relevant details. Pre-fill answers for subsequent steps.
-- If user says no/skip: proceed to Step 2.
-
----
-
-### Step 2 — Author & Title
+### Step 1 — Existing Material
 
 Ask:
 
-> "What's your name (or pen name), and do you have a title or working title in mind? (Say 'skip' to skip either.)"
+> "Do you have existing material ready to bring in — chapter drafts, notes, an outline, photos, letters, interview transcripts? Share file paths or paste content and I'll pull what I can from it. Otherwise say 'no' or 'skip' and we'll go question by question."
 
-Accept whatever they give. Single-word answers are fine.
+- If material is provided: extract the father's name, family members, timeline, chapter structure, and any title/working-title. Pre-fill answers for subsequent steps and skip what's already answered.
+- If skipped: proceed to Step 2.
 
----
+### Step 2 — Title
 
-### Step 3 — Genre
+> "Do you have a title or working title in mind yet? Say 'skip' if not — we'll keep it as TBD."
 
-Present the following menu and ask the user to pick one (or describe their own):
+### Step 3 — The Father & Family
 
-> "What genre best fits your book? Pick a number, name it, or describe something entirely different:"
+> "Tell me about your father — his name, and who else is central to this story (family members, key people). Skip anything you're not ready to share yet."
 
-```
-FICTION
- 1. Literary Fiction — character-driven, prose-focused, realistic
- 2. Historical Fiction — real era, may blend real + invented figures
- 3. Narrative History — non-fiction storytelling of real events
- 4. Fantasy — magic, mythological, or secondary world
- 4a. Epic / High Fantasy
- 4b. Mythological / Folk Fantasy
- 4c. Dark Fantasy
- 4d. Historical Fantasy — real era + fantastical elements
- 5. Science Fiction
- 5a. Hard Sci-Fi — grounded in science
- 5b. Space Opera — sweeping interstellar scope
- 5c. Dystopian / Post-Apoc
- 5d. Cyberpunk / Biopunk
- 6. Thriller / Suspense
- 6a. Political Thriller
- 6b. Spy / Espionage
- 6c. Crime / Noir
- 6d. Psychological Thriller
- 7. Horror
- 7a. Gothic Horror
- 7b. Folk / Cosmic Horror
- 7c. Psychological Horror
- 8. Romance
- 8a. Contemporary Romance
- 8b. Historical Romance
- 8c. Paranormal Romance
- 9. Adventure / Action
- 10. Mystery / Detective
- 11. Biographical / Memoir — real person's life, first or third person
- 12. Young Adult (YA) — any genre, YA lens
- 13. Children's / Middle Grade
- 14. Short Story Collection
- 15. Other — describe it
-```
+Accept partial answers. Anything not given is marked `[TBD]` in `people_and_places.md`.
 
-Accept any answer — a number, a genre name, a mix (e.g., "historical fantasy"), or a free description.
+### Step 4 — Timeline & Setting
 
-**If the user picks 2, 3, 11, or mentions real historical figures/events, or describes a real era:**
-→ Apply **Historical Genre Features** (see section below).
+> "What time period and places does the story cover? A rough span is fine — we can get specific later."
 
-**If the user picks a genre with subgenres (4–8) and hasn't specified one:**
-→ Ask ONE follow-up: *"Any particular subgenre — [list the subgenres for that number]? Or just say 'general' to keep it broad."*
+### Step 5 — Narrative Structure (Optional)
 
----
+> "Do you already know how the book is divided — number of chapters, whether it's chronological or organized some other way (theme, place, etc.)? Skip if you're still figuring that out."
 
-### Step 4 — Story Core
+### Step 6 — Emotional Core (Optional)
 
-Ask:
+Only ask if the conversation is flowing naturally:
 
-> "What's the story about? Give me a sentence or two — or say 'skip' if you're not sure yet."
+> "What's the heart of this story for you — the thing you most want a reader to feel or understand about your father by the end? Say 'skip' if you're not ready to put that into words yet."
 
-If the user gives a premise, great. If they skip, note it as TBD in the project brief.
+Store as "North Star" in `story_structure.md`. This is often the most personal question in the gate — never push if the author hesitates.
 
----
+### Step 7 — Dialogue Language (Optional)
 
-### Step 5 — Characters & World
+> "Any specific language or dialect that shows up in family dialogue (e.g., Hinglish, a regional language)? Or standard English throughout?"
 
-Ask:
+### Step 8 — Sources (Optional)
 
-> "Tell me about your main character and the world or setting. Who are they, and where/when does this story take place? Skip anything you're not sure about."
-
-Accept partial answers. If nothing is provided, mark as TBD.
-
----
-
-### Step 5b — Emotional Core (Optional)
-
-Only ask if conversation is flowing naturally. If the user seems in a hurry, skip it:
-
-> "What's the deeper emotional truth this story explores? What should readers *feel* when they close the book? (This is your North Star — the thing that makes this story matter beyond its plot. Say 'skip' if you're not sure yet.)"
-
-Accept whatever they give — a feeling, a question, a single word. Store as "North Star" in the project brief. If skipped, mark as TBD.
-
-**Examples of good North Stars:**
-- "The weight of watching something you love disappear."
-- "What it means to hold power you never asked for."
-- "Can loyalty survive ambition?"
-
----
-
-### Step 5c — Narrative Structure (Optional)
-
-Only ask if the user hasn't already described their structure:
-
-> "Do you have a narrative structure in mind? Pick one or describe your own — or say 'skip':"
-
-```
-1. Three-Act Structure — Setup → Confrontation → Resolution
-2. Hero's Journey — Ordinary World → Call → Ordeal → Return
-3. Literary Arc — Character-driven, subtle progression, internal journey
-4. Multi-Timeline — Parallel timelines, converging narratives
-5. Episodic — Loosely connected chapters around a theme
-6. Other — describe it
-```
-
-Accept any answer. Store the choice. If skipped, the AI will infer structure from the story as it develops.
-
----
-
-### Step 6 — Dialogue Language (Optional)
-
-Ask:
-
-> "Any specific local language or dialect you want to weave into the dialogue when appropriate? (Like Hinglish, Marathi, French, etc.) Or just standard English?"
-
-Accept their preference or "skip".
-
----
-
-### Step 7 — Style & Scope (Optional)
-
-Only ask this if conversation is flowing naturally. If the user seems in a hurry, skip it:
-
-> "Any author whose style you want to echo? And roughly how long — a short novel, full novel, or open-ended? (Both optional.)"
-
----
-
-### Step 8 — GitHub Visibility (Optional)
-
-Only ask if the user hasn't mentioned GitHub yet:
-
-> "Will you be hosting this on GitHub? If so — public or private? (This affects how your project README is generated. Say 'skip' to skip.)"
-
-Store the answer as one of: `public`, `private`, `none`.
-
----
+> "Are there specific sources you're drawing on — letters, journals, photos, official records, interviews with relatives? Doesn't need to be exhaustive; just flag what exists so we can track it in the research file."
 
 ### Step 9 — Summary & Approval
 
@@ -226,77 +87,34 @@ Here's what we've got so far:
 
 Title: [title or TBD]
 Author: [name or TBD]
-Genre: [genre]
 
-Premise: [one line or TBD]
-Protagonist: [name/description or TBD]
-Setting: [or TBD]
-Dialogue Language: [language or English]
-Style: [or TBD]
-GitHub: [public / private / none]
+Father: [name or TBD]
+Key family members: [list or TBD]
+Timeline / setting: [span and places, or TBD]
+Structure: [chapter plan or TBD]
+North Star: [emotional core or TBD]
+Dialogue language: [language or English]
+Sources: [list or TBD]
 
-Ready to initialize? Say yes — or tell me anything to adjust.
+Ready to fill in the memory bank with this? Say yes — or tell me anything to adjust.
 ```
 
-On approval → run Workflow 1 initialization (copy memory bank, fill Core files, generate README.md).
+On approval → fill `book-memory-bank/Core/` files, replacing `[TBD]` placeholders with real answers, and regenerate `README.md` per `references/readme_template.md`.
 
 ---
 
-## Historical Genre Features
+## Handling Real, Sensitive Family Material
 
-**Applies when:** genre is historical, narrative history, biographical, or historical fantasy — OR the user mentions real historical figures or events.
-
-### Rules
-- All dates, names, battle outcomes, and biographical facts default to historically recorded values.
-- If the user wants a fictional element (invented character, altered timeline, fictitious event), they prefix it with `[FICTION]` in conversation or in their draft. The AI accepts it, marks it as `[FICTION]` in the memory bank, and never treats it as historical fact.
-- When encountering gaps or disputed facts, the AI flags them:
- > *"The exact date of X is uncertain in the sources. Shall I use the most commonly cited date, or mark it as approximate?"*
-- Historical accuracy applies to: names, dates of birth/death, battles, political events, titles, geographic names, and genealogy.
-- It does **not** constrain: prose style, dialogue, interiority, or narrative framing — those are the author's creative domain.
-
-### Title & Honorific Timeline Rule (CRITICAL)
-
-Historical figures must be addressed **only by the titles and honorifics they held at the specific point in the narrative timeline.** A title earned later in life must NOT be applied retroactively to earlier periods.
-
-**The rule:** For every named historical figure, record:
-1. Their name at birth / before titles
-2. Each title or honorific they received and the **exact date / event** that conferred it
-3. Their full formal address after each title was conferred
-
-The AI applies the correct form of address based on where the narrative currently sits in the timeline.
-
-**Canonical examples:**
-
-| Figure | Before title | Title conferred | Correct address after |
-|---|---|---|---|
-| Shivaji | Shivaji (no prefix) | Crowned Chhatrapati at Raigad, June 1674; title *Kshatriyakulavatamsa Kshatriyapati* conferred | Chhatrapati Shivaji Maharaj |
-| Pratap Singh | Pratap Singh (prince) | Became Maharana of Mewar after Udai Singh II's death, 1572 | Maharana Pratap |
-| Bajirao I | Bajirao (son of Balaji Vishwanath) | Appointed Peshwa in 1720 by Chhatrapati Shahu | Peshwa Bajirao / Bajirao Peshwa |
-
-**In practice:**
-- If a scene is set before 1674, refer to: *Shivaji* (not Chhatrapati Shivaji Maharaj)
-- If a scene is set after June 1674, refer to: *Chhatrapati Shivaji Maharaj*
-- If writing about Pratap Singh before 1572: *Pratap Singh* or *Kunwar Pratap*
-- If writing about him after 1572: *Maharana Pratap*
-
-**Recording in memory bank:** When a new historical figure is added to `world_and_characters.md`, always include a `Title Timeline` section:
-```
-### [Figure Name]
-- Birth name: ...
-- Title Timeline:
- - [Date/Event]: received title "..."; address changes to "..."
- - [Date/Event]: received title "..."; address changes to "..."
-- Current address in narrative (as of chapter X): ...
-```
-
-**When the AI is uncertain** about when a title was conferred:
-> *"I'm not certain of the exact date [figure] received the title '[title]'. Do you have a source, or shall I mark it as 'circa [year]' and flag it?"*
+- Treat everything the author shares about their family as sensitive personal information, not as generic "story data."
+- Never soften, sanitize, or "improve" a real fact to make it more dramatic — the honesty of the account matters more than narrative polish.
+- If the author shares something painful or private, follow their lead on how much detail to record in the memory bank versus keep only in the chapter text itself.
+- When in doubt about whether a detail should be recorded (vs. left as the author's private context), ask.
 
 ---
 
 ## After the Gate — Never Repeat
 
-Once the gate has run and the memory bank files exist:
+Once the gate has run and the memory bank has real (non-TBD) answers:
 - **Do not run the gate again**, ever, in any session.
 - **Do not ask any of these setup questions** in future sessions.
 - In all future sessions: silently read memory bank files and assist with the current task.

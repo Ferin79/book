@@ -2,6 +2,8 @@
 
 Read this reference when outlining or drafting chapters. It provides structural formulas, pacing techniques, and engagement strategies.
 
+**For this project:** use the narrative non-fiction / memoir patterns below (the "Story Open," "In-Medias-Res," and "Observation Open" formulas work well for real scenes). Ignore anything below that assumes an invented plot or fictional world — every beat here should map to something that actually happened.
+
 ---
 
 ## Book Size Options

@@ -60,7 +60,7 @@ REQUIRED CONTEXT FILES TO READ:
 - Chapters/chapter-[N-1].md (if N > 1, for backward continuity)
 - Chapters/chapter-[N+1].md (if exists, for forward continuity)
 - book-memory-bank/Style/style_guide.md (voice and tone rules)
-- book-memory-bank/Core/world_and_characters.md (character consistency)
+- book-memory-bank/Core/people_and_places.md (real-person and factual consistency)
 
 REVIEW FOCUS AREAS:
 - Language: Reduce redundancy, tighten phrasing, improve rhythm.
@@ -75,7 +75,7 @@ REVISION PRINCIPLES:
 - Respect ambiguity and silence.
 
 MUST DO: Cross-check with outline, prior/next chapters, and context files.
-MUST NOT: Introduce new scenes, events, or characters. Resolve future conflicts.
+MUST NOT: Introduce new scenes, events, or people that aren't real. Resolve future conflicts.
 OUTPUT: Save refined draft to Chapters/chapter-[N].md (overwrite existing).
 ```
 

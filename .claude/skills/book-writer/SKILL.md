@@ -1,26 +1,32 @@
 ---
 name: book-writer
 description: |
- Comprehensive book writing assistant and memory maintainer. Use when tasked with:
- - Writing books, novels, fiction, non-fiction, or any long-form manuscript
- - Creating characters, outlining chapters, building worlds
- - Drafting, reviewing, or revising chapters
- - Writing children's books, picture books, rhyming stories, or songs for ages 2–9
- - "initialize memory bank", "update memory bank", "start a new book", "let's start building"
- - Planning book structure (MVB, short book, full book, literary novel, picture book)
+ Book writing assistant and memory maintainer for this project's book — a true, non-fiction, storytelling-style book about the author's father and family, told in real events with real people (no invented characters, no fictional worldbuilding). Use when tasked with:
+ - Drafting, outlining, reviewing, or revising chapters
+ - Building out the People & Places reference (real family members, real settings, real timeline)
+ - "initialize memory bank", "update memory bank", "let's start building"
  - Checking continuity or consistency across chapters
- - Any request involving book chapters, manuscripts, or story development
+ - Compiling the manuscript or generating a query letter / synopsis
+ - Any request involving book chapters, manuscripts, or this family story's development
 
- Provides specialized guidelines to write like a master author while maintaining an automated book memory bank to preserve context across sessions. Includes children's book writing, parallel chapter workflows, and multi-genre support.
+ Provides specialized guidelines to write narrative non-fiction/memoir prose in a warm storytelling voice, while maintaining an automated book memory bank to preserve context (real people, real timeline, real events) across sessions.
 ---
 
-# Book Writer
+# Book Writer — Memoir Edition
+
+## What This Project Is
+
+This repository holds one book: a **true story**, written in **Markdown**, divided into **chapters**, about the author's real father and their family. It is **not fiction** — every person named is a real person, every event is a real event (as remembered/researched), and there are no invented characters or invented worldbuilding. Reconstructed dialogue and scenes are permitted in the standard memoir sense (see `references/author_rules.md` §Factual License) — grounded in real memory and real events, written with narrative craft — but the book never fabricates events that didn't happen.
+
+The book's title is not yet decided (use `[Book Title — TBD]` as a placeholder until the author sets one). More project detail — the father's name, family members, timeline, and source material — will be provided by the author over time; treat gaps as TBD rather than inventing them.
+
+This is a single-project repository. There is no multi-genre menu, no spinoff/companion-book workflow, and no children's-book workflow — this skill has been trimmed to just what this memoir needs.
 
 ## Context Efficiency Rule
 
 **CRITICAL — Read this before loading any files.**
 
-This skill has many reference files. Do NOT pre-load them all. Use **lazy loading** — only read a reference file when its specific feature is needed:
+This skill has several reference files. Do NOT pre-load them all. Use **lazy loading** — only read a reference file when its specific feature is needed:
 
 | Only load this file... | When... |
 |------------------------|---------|
@@ -29,129 +35,85 @@ This skill has many reference files. Do NOT pre-load them all. Use **lazy loadin
 | `references/revision_checklist.md` | Reviewing or revising chapters |
 | `references/book_memory_protocol.md` | Updating memory bank or running continuity check |
 | `references/memory_update_prompts.md` | Performing a comprehensive memory audit |
-| `references/story_forge.md` | Only during initialization |
-| `references/readme_template.md` | Only when generating the project README |
-| `references/character_worldbuilding_tables.md` | Building character profiles or worldbuilding tables |
-| `references/childrens_book_craft.md` | Only for children's book projects |
-| `references/parallel_workflows.md` | Only when parallel drafting |
+| `references/story_forge.md` | Only during initialization (first time project details are gathered) |
+| `references/readme_template.md` | Only when generating/refreshing the project README |
+| `references/people_places_tables.md` | Building real-person or real-place profiles |
 | `references/punctuation_guide.md` | Running a punctuation pass or prose polish |
-| `references/spinoff_guide.md` | Only for spinoff projects |
 | `references/opening_chapter_checklist.md` | Only when reviewing Chapter 1 |
-| `references/query_letter_guide.md` | Only when user asks for blurb, synopsis, or query letter |
-| `references/popscience_history_rules.md` | Writing or reviewing popular-science, technical history, or narrative non-fiction |
-| `Core/world_gita.md` (or `tech_gita.md`) | Reading world technology, magic, or lore rules |
+| `references/query_letter_guide.md` | Only when the author asks for a blurb, synopsis, or query letter |
+| `references/narrative_nonfiction_rules.md` | Writing or reviewing any chapter — this is the core voice/accuracy guide for this book |
+| `references/parallel_workflows.md` | Only when handling multiple chapters at once |
 | Template files | Only when generating the specific document |
 
 **Never load more than 3–4 reference files at once unless explicitly required by the task.**
 
 ## Workflows
 
-### 1. Initialization: Starting a New Book Project
-When the user asks to start a new book project or "initialize the memory bank", follow these steps:
+### 1. Initialization: First-Time Project Setup
+The physical scaffolding (`book-memory-bank/`, `Chapters/`, `Outlines/`) already exists in this repo with TBD placeholders. Run this gate only when real project details haven't been captured yet (Core files still show `[TBD]` placeholders) or the author explicitly says "let's start building" / "initialize memory bank":
 
-0. **Evaluate Genre and Skills:**
-   - Read `skills-lock.json` in the root (if it exists) and ask about the project's genre.
-   - If the book is narrative non-fiction, popular science, biography, or history, check if `research-dojo` is installed.
-   - If NOT installed, recommend the user install it for factual/claim verification:
-     > *"I noticed this is a non-fiction book project. The `research-dojo` skill can help verify historical dates and scientific paper details. Would you like me to install it?"*
-     Offer to execute: `npx skills add https://github.com/kshanxs/skill-dojo --skill research-dojo` using the `run_command` tool.
-   - **Evaluate Style Companion:** Check if `calligraph-sensei` is installed. If NOT, recommend the user install it for advanced humanization, prose styling, and writing cadence diagnostics:
-     > *"Would you like me to install `calligraph-sensei`? It integrates with Book Writer to polish chapters, enhance sensory language, and vary sentence structures for fiction/non-fiction."*
-     Offer to execute: `npx skills add https://github.com/kshanxs/skill-dojo --skill calligraph-sensei` using the `run_command` tool.
-0a. **Run The Story Forge.** Read `references/story_forge.md` in full and follow its instructions. Ask questions one at a time to gather book details. Every question is skippable. If the memory bank Core files already exist, skip this step entirely — just read the memory bank and assist.
-1. Copy the `assets/book-memory-bank/` directory to the root of the user's project workspace.
-2. Read `references/author_rules.md` to adopt the persona and style of a master fiction author.
-3. Help the user establish the foundational elements (concept, style, characters) by discussing the book's plan.
-4. Use `references/character_worldbuilding_tables.md` for structured character profiles and worldbuilding tables when building out characters and settings. Offer to create `character_arcs.md`, `themes_and_motifs.md`, or a `world_gita.md` (or `tech_gita.md` / `lore_gita.md` for detailed tech/magic/lore) using the templates in `assets/book-memory-bank/Core/Templates/`.
-5. **Offer the Pacing Blueprint.** Ask if the user wants to pre-plan the book's structural arc now using `assets/book-memory-bank/Core/Templates/pacing_blueprint_template.md`. Save the completed file as `Core/pacing_blueprint.md`. Recommended for novels — skippable for short projects.
-6. Record these elements into the newly created `book-memory-bank/Core/` and `book-memory-bank/Style/` Markdown files.
-7. **Generate the project README.** Read `references/readme_template.md`, fill all `{{TOKEN}}` placeholders using answers from the brainstorming gate and the newly written memory bank files, and write the completed file as `README.md` in the project root. Do not ask the user to review it — just create it silently.
+0. **Evaluate research support:** If the author wants help verifying historical dates, places, or documents (birth/death records, military service, immigration, employment history), check if `research-dojo` is installed. If not, mention it's available for factual verification of real historical/genealogical details — this is genuinely useful for a true story, not just for fiction research.
+   **Evaluate style companion:** Check if `calligraph-sensei` is installed. If not, mention it can help polish prose, sensory language, and sentence rhythm once chapters exist.
+1. **Run The Story Forge.** Read `references/story_forge.md` in full and follow it. Ask questions one at a time; every question is skippable. If the Core files already have real (non-TBD) answers, skip this step — just read the memory bank and assist.
+2. Read `references/author_rules.md` to adopt the narrative-nonfiction/memoir voice for this project.
+3. Help the author fill in the People & Places reference (`book-memory-bank/Core/people_and_places.md`) using `references/people_places_tables.md` as the structured format — real family members, real settings, real timeline.
+4. Record what's gathered into `book-memory-bank/Core/` and `book-memory-bank/Style/` files, replacing `[TBD]` placeholders as real information comes in.
+5. **Regenerate the project README** whenever meaningful new information is captured (title decided, chapters drafted, etc.). Read `references/readme_template.md`, fill the `{{TOKEN}}` placeholders from the memory bank, and write `README.md` at the project root. Do not ask the author to review it first — it's a living document they can edit anytime.
 
 ### 2. Writing & Outlining
-When the user asks to outline or write chapters:
-1. **Initialize the Smart-Reading Protocol:** 
-   - Read `book-memory-bank/Core/activeContext.md` and check `skills-lock.json` in the root.
-   - **Dojo Synergy:** If `research-dojo` is installed, enable **Factual Audit Mode**. Scan the project's `Research/` directory for any Dojo audit files (e.g., `dojo_dossier.md` or `paper_audit_[name].md`). Ingest these as primary factual sources and record the active integration status in `activeContext.md`.
-   - Consult the memory status index to check which files have changed, or if it is a fresh session. Only load other files (like characters, worldbuilding, or style guides) if they have been updated or if the task directly targets their specific domain.
-2. Adopt the instructions in `references/author_rules.md` for generating high-quality narrative prose, realistic dialogue, and engaging scenes.
-3. Consult `references/chapter_craft.md` for chapter structure templates, opening/closing formulas, and engagement techniques appropriate to the book type.
-4. **For children's books (ages 2–9):** Also consult `references/childrens_book_craft.md` for age-appropriate vocabulary, rhyming/meter, illustration notes, and educational integration.
-5. Write outlines in the `Outlines/Chapter_Outlines/` directory.
-6. **After all chapter outlines are created**, auto-generate a `chapter-titles-guide.md` inside the `Outlines/` directory (see [Chapter Titles Guide](#chapter-titles-guide) below).
-7. Write chapters in the `Chapters/` directory.
-8. **For multi-chapter workflows**, consult `references/parallel_workflows.md`. Recommend sequential drafting for prose chapters to preserve narrative continuity, and reserve parallel workflows (background agents) strictly for outlining, creating scene cards, and conducting edit/review passes.
+When the author asks to outline or write chapters:
+1. **Smart-Reading Protocol:** Read `book-memory-bank/Core/activeContext.md` first. Only load `people_and_places.md`, the style guide, or other Core files if directly relevant or flagged as changed.
+2. Adopt `references/author_rules.md` for voice and `references/narrative_nonfiction_rules.md` for the specific rules of writing real events (tense conventions, anti-anachronism, weaving biography into narrative, flagging uncertain facts).
+3. Consult `references/chapter_craft.md` for chapter structure, opening/closing formulas, and pacing — use the memoir/narrative non-fiction patterns, not the fiction-genre ones.
+4. Write outlines in `Outlines/Chapter_Outlines/`.
+5. **After all chapter outlines exist**, auto-generate `Outlines/chapter-titles-guide.md` (see [Chapter Titles Guide](#chapter-titles-guide) below).
+6. Write chapters in `Chapters/`.
+7. **For multiple chapters at once**, consult `references/parallel_workflows.md`. Sequential drafting is mandatory for chapters that follow the real timeline; parallel background agents are reserved for outlining or review passes only.
 
 ### 3. Compilation
-If the user asks YOU (the AI) to compile or combine the book (rather than running the included scripts themselves):
-1. Determine the user's OS. If Mac/Linux, attempt to run the provided bash script `book-memory-bank/Production/Scripts/combine_chapters.sh`. If Windows, run `combine_chapters.ps1`.
-2. If the script fails or is unavailable, create the `Manuscript/` directory in the project root if it does not already exist.
-3. Read all files from `Chapters/` in numerical order, combine them into a single file, and save it inside the `Manuscript/` folder (e.g., `Manuscript/Complete_Manuscript.md`).
+If the author asks the AI to compile the book:
+1. Determine OS. Mac/Linux → run `book-memory-bank/Production/Scripts/combine_chapters.sh`. Windows → run `combine_chapters.ps1`.
+2. If the script fails or is unavailable, create `Manuscript/` at the project root if missing.
+3. Read all files from `Chapters/` in numerical order, combine into one file, save to `Manuscript/Complete_Manuscript.md`.
 
 ### 4. Memory Updating Protocol (CRITICAL)
-Maintaining the Book Memory Bank is essential for consistency. You must seamlessly and *automatically* update the memory bank whenever substantive writing is done. No scripts or manual user steps should be required.
-1. Consult `references/book_memory_protocol.md` for the strict rules on how and when to update the memory bank files.
-2. Consult `references/memory_update_prompts.md` for specific criteria on what changes should trigger file modifications (e.g., character traits, plot developments, world-building).
-3. If the user explicitly says "update memory bank", perform a comprehensive audit and update across all memory files based on the most recent chapter or outline. Always provide a clear summary of which files were updated and what changed.
+1. Consult `references/book_memory_protocol.md` for the rules on how and when to update the memory bank.
+2. Consult `references/memory_update_prompts.md` for what changes should trigger updates (new person mentioned, new place, new timeline detail, factual correction).
+3. If the author explicitly says "update memory bank", perform a comprehensive audit across all memory files based on the most recent chapter or outline, and summarize what changed.
+4. **This is a true story:** anything learned about a real person, place, date, or event goes into `people_and_places.md` as fact, not as an invented "character profile." If a scene/dialogue is reconstructed rather than directly remembered, note that distinction rather than presenting it as verified fact.
 
 ### 5. Chapter Review & Revision
-When the user asks to review, revise, or polish a chapter:
-1. Read the chapter draft, its outline, adjacent chapters (for continuity), and all context files (Style, Characters, Worldbuilding).
-2. Consult `references/revision_checklist.md` for the quality gates and review focus areas.
-3. **If reviewing Chapter 1**, also load `references/opening_chapter_checklist.md` and run its additional gates.
-4. Conduct a **Scene Tension Map** analysis to ensure proper structural pacing.
-5. Review in this order: Language → Emotion → Dialogue → Pacing → Continuity.
-    - **Advanced Stylistic Polish & Proofreading:** If `calligraph-sensei` is installed, delegate the advanced style pass to it using **Creative/Fiction** mode (or General/Academic-Formal depending on book genre) for creative prose adjustments, or use its **Proofreading / Correction** mode for a conservative error-correction pass that leaves the story style and character dialogue voices completely untouched.
-6. Apply revision principles: preserve voice above all, revise gently, clarify emotion without explaining, respect ambiguity.
-7. **Never** introduce new scenes, events, or characters during review. **Never** resolve conflicts the author left open intentionally.
-8. Save revised version and announce changes.
+1. Read the chapter draft, its outline, adjacent chapters (for continuity), and the relevant context files (Style, `people_and_places.md`).
+2. Consult `references/revision_checklist.md` for quality gates.
+3. **If reviewing Chapter 1**, also load `references/opening_chapter_checklist.md`.
+4. Conduct a Scene Tension Map for pacing (same technique as fiction, applied to real scenes).
+5. Review order: Language → Emotion → Dialogue → Pacing → Continuity → Factual accuracy.
+   - If `calligraph-sensei` is installed, delegate the advanced style pass to it (Creative/Fiction mode for narrative polish, or Proofreading mode for conservative correction that leaves voice untouched).
+6. Apply revision principles: preserve voice above all, revise gently, clarify emotion without explaining, respect ambiguity, and **never invent an event, date, or quote that wasn't in the source material or the author's account.**
+7. Save revised version and announce changes.
 
-*(Users can request Specialized Revision Passes: Dialogue, Sensory, Prose Polish, or Tension & Pacing — see `references/revision_checklist.md`).*
+*(Authors can request Specialized Revision Passes: Dialogue, Sensory, Prose Polish, or Tension & Pacing — see `references/revision_checklist.md`).*
 
 ### 6. Continuity Check
-When the user asks to "check continuity", "run continuity check", or "check for consistency":
+When asked to "check continuity" or "check for consistency":
 1. Follow the Continuity Diagnostic Report process in `references/book_memory_protocol.md`.
-2. Cross-check all chapters against the memory bank for timeline, character, worldbuilding, emotional, and thematic consistency.
-3. Generate a diagnostic report saved to `Research/continuity_diagnostic_report.md`.
+2. Cross-check all chapters against `people_and_places.md` and the timeline for consistency — and also flag anywhere a real fact (date, name, place) appears to contradict itself across chapters, since accuracy matters more here than in fiction.
+3. Save the report to `Research/continuity_diagnostic_report.md`.
 4. Use question-based language — flag issues, don't impose fixes.
 
 ### 7. Parallel Chapter Drafting & Review
-When multiple chapters need drafting, outlining, or reviewing:
-1. Consult `references/parallel_workflows.md` for the full workflow constraints.
-2. **Drafting:** Prose drafting of sequential narrative chapters must be performed **sequentially** to preserve continuity. Parallel drafting is restricted strictly to non-sequential scene cards or outlining.
-3. **Review:** After chapters are drafted, offer parallel (using background agents) or sequential review and editing.
-4. Always explain the continuity requirements and ask the user for their preferred approach before launching background tasks.
+Consult `references/parallel_workflows.md`. Sequential drafting is mandatory for chapters following the real chronological story. Parallel background agents are only for non-sequential outlining or independent review passes — always confirm with the author before launching background tasks.
 
 ### 8. Complete & Present
-After all chapters are drafted, reviewed, and continuity-checked:
-1. Scan all chapter files for `[NEED RESEARCH]` flags and cross-reference against `Research/research_tracker.md`. All open items must be resolved or explicitly flagged before the manuscript is finalized.
-2. Present a final verification summary listing all created files:
- - Foundation files (Characters, Worldbuilding, Synopsis, Timeline, Conflict, Style)
- - Chapter outlines and chapter titles guide
- - Drafted and reviewed chapters
- - Continuity diagnostic report
-3. Suggest next steps (address continuity issues, refine chapters, compile manuscript).
-4. Offer ongoing help: revise chapters, brainstorm scenes, refine arcs.
-
-### 9. Starting a Spinoff
-When the user mentions "spinoff", "companion book", "same world, different story", "side story", or asks to write a story about a secondary character from an existing project:
-1. **Read `references/spinoff_guide.md` in full** before doing anything else.
-2. Run the **Spinoff Forge** — the lightweight onboarding conversation defined in that file. Ask one question at a time; everything is skippable.
-3. After approval, **initialize the spinoff directory structure** inside the parent project root:
- - Create `<spinoff-name>/book-memory-bank/` with Core and Style subdirectories
- - Set up memory bank files per the reference-based Inheritance Model in `references/spinoff_guide.md`
- - Link shared characters and world sections from the parent's `world_and_characters.md` using relative Markdown links, rather than duplicating the entire content blocks.
-4. At the start of every subsequent spinoff session, read the spinoff's memory bank files and resolve/read any referenced sections of the parent's `world_and_characters.md` as needed.
-5. After every spinoff chapter, run the **Cross-Reference Protocol** to flag potential canon conflicts before saving.
-
-## Boundary Protocol (Synergy with Research Dojo)
-When operating in a project with both `book-writer` and `research-dojo` installed:
-- Treat all files generated by `research-dojo` in the `Research/` directory as factual source-of-truth reference material.
-- Do NOT adopt the adversarial, hyper-skeptical critic persona of the Dojo when drafting narrative prose or revising chapters. Preserve the Master Author narrative register (Walter Isaacson voice, narrative warmth, and emotional resonance) at all times.
-- Keep the technical details focused and readable (adhering to the 80–90% narrative ratio and equation budget in the Style Guide) by translating dense Dojo analyses into simple visual analogies.
+After chapters are drafted, reviewed, and continuity-checked:
+1. Scan all chapter files for `[NEED RESEARCH]` flags and cross-reference against `Research/research_tracker.md`. Resolve or explicitly flag all open items before calling the manuscript finished.
+2. Present a final summary: Core files status, chapter outlines and titles guide, drafted/reviewed chapters, continuity report.
+3. Suggest next steps.
+4. Offer ongoing help: revise chapters, discuss family history details, refine structure.
 
 ## Chapter Titles Guide
 
-**After chapter outlines are finalized, auto-generate a `chapter-titles-guide.md` inside the `Outlines/` directory.** No separate user approval is needed.
+**After chapter outlines are finalized, auto-generate `chapter-titles-guide.md` inside `Outlines/`.** No separate approval needed.
 
 → **Full instructions and column guide:** `references/chapter_titles_guide.md`
 → **Template:** `assets/book-memory-bank/Core/Templates/chapter_titles_guide_template.md`

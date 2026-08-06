@@ -70,7 +70,7 @@ Use your file access to:
 3. Update the files directly using write_to_file or replace_in_file
 4. Confirm what changes were made
 
-Focus particularly on updating [relevant file, e.g., Core/world_and_characters.md, Core/story_structure.md, etc.]
+Focus particularly on updating [relevant file, e.g., Core/people_and_places.md, Core/story_structure.md, etc.]
 ```
 
 ## Consistency Check Prompts
@@ -137,49 +137,48 @@ Update Core/activeContext.md with this information for future reference.
 
 ## Specialized Update Prompts
 
-### New Character Introduction
+### New Person Introduction
 
 ```
-We've introduced a new character named [Name]. Please:
+We've introduced a new real person named [Name]. Please:
 
-1. Create or update the character profile in Core/world_and_characters.md
+1. Create or update their profile in Core/people_and_places.md
 2. Include all established information:
  - Physical description
  - Personality traits
  - Background/history
- - Relationships with other characters
- - Goals and motivations
+ - Relationships with other people in the book
+ - Real goals and motivations
  - Role in the story
 
-3. Update any relevant files that reference this character
-4. Update Core/activeContext.md to include this character in the current focus
+3. Update any relevant files that reference this person
+4. Update Core/activeContext.md to include this person in the current focus
 ```
 
-### World Building Expansion
+### Place/Setting Expansion
 
 ```
-We've expanded the world-building with new information about [element]. Please:
+We've learned new details about a real place. Please:
 
-1. Update Core/world_and_characters.md with details about:
- - [Element name]
+1. Update Core/people_and_places.md with details about:
+ - [Place name]
  - Description and characteristics
- - Rules/limitations
  - Significance to the story
- - Relationships to other world elements
+ - Relationships to other people/places already recorded
 
-2. Ensure consistent cross-referencing with related elements
-3. Update any character profiles that interact with this element
+2. Ensure consistent cross-referencing with related entries
+3. Update any person profiles connected to this place
 4. Incorporate this element into the active context
 ```
 
-### Plot Development Update
+### Event/Timeline Update
 
 ```
-We've established important plot developments regarding [plot element]. Please:
+We've established important real developments regarding [event]. Please:
 
 1. Update the master outline with these developments
-2. Record any foreshadowing or setups for future events
-3. Update Core/world_and_characters.md for characters affected by these plot points
+2. Record any foreshadowing or setups for future chapters
+3. Update Core/people_and_places.md for people affected by these events
 4. Update Core/story_structure.md with any narrative implications
 5. Ensure timeline consistency across all memory bank files
 6. Update Core/activeContext.md with the new narrative direction
