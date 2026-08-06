@@ -2,32 +2,35 @@
 
 This document tracks the current state of this book project. It should be updated frequently to reflect current focus, recent changes, and active considerations. This is the file read first, every session (see `references/book_memory_protocol.md` — Smart-Reading Protocol).
 
+**Read `CONTEXT.md` at the project root immediately after this file.** It holds the book's thesis, confirmed real people, proposed structure, and the scripture-reference framework (Bhagavad Gita, Mahabharata, Valmiki Ramayana, Chanakya Niti, Vedas) this book depends on.
+
 ## Memory Status & File Index
 
 | File | Status | Last Updated |
 |------|--------|--------------|
-| `Core/projectbrief.md` | TBD placeholders — awaiting real project details | 2026-08-06 |
-| `Core/story_structure.md` | TBD placeholders | 2026-08-06 |
-| `Core/people_and_places.md` | TBD placeholders | 2026-08-06 |
+| `../../CONTEXT.md` | Thesis, people, structure, scripture framework confirmed | 2026-08-06 |
+| `Core/projectbrief.md` | Thesis/premise/themes confirmed; title still TBD | 2026-08-06 |
+| `Core/story_structure.md` | TBD placeholders — proposed structure lives in CONTEXT.md for now | 2026-08-06 |
+| `Core/people_and_places.md` | Core people confirmed by name; detailed profiles/incidents TBD | 2026-08-06 |
 | `Core/progress.md` | TBD placeholders | 2026-08-06 |
 | `Style/style_guide.md` | TBD placeholders | 2026-08-06 |
 | `Outlines/Master_Outline.md` | Not yet created | — |
 
 ## Current Work Focus
 
-**Primary Focus**: Repository scaffolding is set up (book-writer skill customized for this memoir, `book-memory-bank/`, `Chapters/`, `Outlines/` created). Awaiting the author's real project details — title, father's name, family members, timeline, and existing content — to fill in the memory bank.
+**Primary Focus**: Thesis, central people, and the scripture-reference framework are confirmed (see `CONTEXT.md`). Still needed: book title, specific incidents (from birth/youth through relationships with his father, wife, and children), and chapter-level outlining.
 
 **Secondary Tasks**: None yet.
 
-**Blocked Items**: All chapter work is blocked on real project details from the author (Story Forge gate — see `references/story_forge.md`).
+**Blocked Items**: Chapter drafting is blocked on the author sharing specific incidents and confirming the Part structure proposed in `CONTEXT.md`.
 
 **Time Frame**: [TBD]
 
 ## Recent Changes
 
-**Latest Updates**: 2026-08-06 — Adapted the `book-writer` skill for this single memoir project (removed fiction-only workflows, renamed the character/worldbuilding file to `people_and_places.md`, added factual-license and privacy rules) and created the project scaffold.
+**Latest Updates**: 2026-08-06 — Created `CONTEXT.md` with the book's thesis, confirmed real people (Rakesh Patel, Heena Patel, Ferin Patel, Janvi Patel, Sukhdevbhai Patel, Nandanben Patel, Praful Patel), a proposed relationship-based structure, and the scripture-reference framework/format rules. Updated `people_and_places.md` and `projectbrief.md` to match. Then expanded `CONTEXT.md` with "The Wider Mission": the author wants this book to also serve as a role-model/eye-opening work for other Indian households living under a similar authoritative, image-conscious figure — added proposed Author's Note (front matter) and Afterword (back matter) as the bookend places for direct reader address, and a craft note on achieving universality through specificity rather than in-chapter lecturing. Updated `story_structure.md` and `projectbrief.md` (target audience, purpose, positioning) to match.
 
-**Decisions Made**: Repository is private; standard memoir factual license (reconstructed dialogue/scenes allowed, no invented events); Markdown chapters.
+**Decisions Made**: Repository is private, real names used throughout; standard memoir factual license (reconstructed dialogue/scenes allowed, no invented events); book organized by relationship/theme rather than strict chronology; scripture references (Devanagari + translation + analysis, no transliteration/commentary) placed per-chapter as epigraph or inline, whichever lands harder.
 
 **Feedback Incorporated**: N/A yet.
 
@@ -35,13 +38,13 @@ This document tracks the current state of this book project. It should be update
 
 ## Next Steps
 
-**Immediate Plans**: Run the Story Forge (`references/story_forge.md`) once the author is ready to share the father's name, family members, timeline, and any existing material.
+**Immediate Plans**: Gather specific incidents (birth/youth of Rakesh Patel; his relationship with his father Sukhdevbhai Patel; his marriage to Heena Patel; his fathering of Ferin and Janvi) and begin chapter-level outlining against the Part structure in `CONTEXT.md`. Begin selecting/verifying scripture verses per incident using the Scripture Reference Tracker.
 
-**Coming Challenges**: [TBD]
+**Coming Challenges**: Sourcing and verifying specific Sanskrit verses accurately (each must be checked against a reliable edition — see `CONTEXT.md` → Scripture & Reference Framework); handling emotionally difficult material with honesty rather than either softening or overstating it.
 
-**Research Needed**: [TBD — log specific items in `Research/research_tracker.md` once chapters begin]
+**Research Needed**: Specific dates/timeline for Rakesh Patel's life stages; verse verification per incident — log items in `Research/research_tracker.md` and `Research/scripture_reference_tracker.md` once chapters begin.
 
-**Questions to Resolve**: Title; whether the book is told in first person (author's POV) or close third person about the father; overall chapter count/structure.
+**Questions to Resolve**: Book title; confirm or replace the "Part V — The Reckoning" placeholder in `CONTEXT.md`; overall chapter count within each Part. (POV is settled: first person, Ferin Patel as narrator.)
 
 ## Active Decisions & Considerations
 

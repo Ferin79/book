@@ -6,33 +6,33 @@ This document combines elements of story context and narrative patterns to provi
 
 ### Why This Book Exists
 
-**Core Problem or Question**: [The central problem, question, or idea your book explores]
+**Core Problem or Question**: Can a person who performs virtue publicly — modernity, Hindu faith, care for others — while causing real, sustained harm privately be held accountable, when the performance is exactly what protects him from scrutiny?
 
-**Why It Matters**: [Why this problem/question is relevant to readers and society]
+**Why It Matters**: The author believes many households in India live behind a similarly authoritative, image-conscious figure, and that the social protection such figures enjoy (precisely because they look faithful and modern) is what keeps their families silent. See `CONTEXT.md` → "The Wider Mission."
 
-**Unique Perspective**: [What fresh angle or insight your book brings to this topic]
+**Unique Perspective**: A first-person, incident-by-incident account from the children of such a figure, paired with classical Hindu scripture used not to condemn from outside the tradition but to hold him against the very standard his public image claims — reclaiming dharma's real meaning from its performance.
 
-**Cultural Relevance**: [How the book connects to current cultural conversations]
+**Cultural Relevance**: Speaks directly to a pattern the author believes is common but rarely named directly in Indian family life: the publicly devout, modern-presenting patriarch whose private conduct contradicts everything he's credited for.
 
 ### Reader Experience
 
-**Primary Emotions**: [The main emotional reactions you want to evoke]
+**Primary Emotions**: Recognition, validation, righteous anger on behalf of the family, and — by the end — a sense of encouragement rather than despair.
 
-**Key Takeaways**: [What you want readers to learn or understand]
+**Key Takeaways**: That a convincing public image is not evidence of private virtue; that dharma/righteousness has a real definition independent of how devoutly someone performs it; that naming this pattern in one's own life is possible and worth doing.
 
-**Narrative Promise**: [The experience you're promising to deliver to readers]
+**Narrative Promise**: An honest, specific, unflinching account — not a lecture — that lets readers in a similar situation see their own experience reflected and feel less alone.
 
-**Target Impact**: [How you want the book to affect readers after they finish]
+**Target Impact**: Readers who recognize their own household in this book come away with language for what's happening to them and the sense that speaking about it is survivable and worthwhile. See `CONTEXT.md` for the full framing.
 
 ### Positioning
 
-**Market Gap**: [What need in the market your book fulfills]
+**Market Gap**: Few Indian memoirs name this exact pattern directly — the modern, devout, publicly caring patriarch whose private conduct contradicts his image — using the family's own religious tradition as the standard of judgment rather than a Western or purely secular framework.
 
-**Differentiation**: [How your book differs from similar works]
+**Differentiation**: The scripture-reference framework (Gita, Mahabharata, Valmiki Ramayana, Chanakya Niti, Vedas — see `CONTEXT.md`) distinguishes this from a general misery-memoir: it argues from within the tradition the subject claims to represent.
 
-**Reader Problem Solved**: [What reader need or desire your book satisfies]
+**Reader Problem Solved**: Gives readers living under a similar figure a mirror, a vocabulary, and permission to trust their own experience over a convincing public image.
 
-**Value Proposition**: [Why someone should read your book versus alternatives]
+**Value Proposition**: A true, specific, culturally grounded account of a pattern many recognize but few see named this directly and this carefully.
 
 ### Reader Considerations
 

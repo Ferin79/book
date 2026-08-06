@@ -2,6 +2,8 @@
 
 This document is the factual reference for everyone and everywhere in this book. Everyone named here is a real person; every place is a real place. There is no invented content in this file — if a detail isn't known, mark it `[TBD]` or `[NEED RESEARCH]` rather than inventing it. If a scene involving a person is a reconstruction (composite memory, approximated dialogue) rather than a directly documented fact, note that under their profile.
 
+**See `CONTEXT.md` at the project root for the book's full thesis and the scripture-reference framework.** This file holds the factual detail that framework is applied to.
+
 ## Part I: Setting & Context
 
 ### Overview
@@ -87,16 +89,46 @@ This document is the factual reference for everyone and everywhere in this book.
 
 ### Person Profiles
 
-#### [Father's Name — TBD]
-[Complete profile using the template above]
+#### Rakesh Patel
+- **Relationship to Author**: Father; central figure of the book
+- **Life Dates**: [TBD]
+- **Occupation**: [TBD]
+- **Public Persona**: Presents as modern, devoutly Hindu, and caring toward everyone in his social/community circle
+- **Private Reality (per author and sister's account)**: Prioritized personal pride and social standing over his duties as a husband and father; specific incidents to be documented as they're gathered
+- Full profile (traits, voice, incidents, arc) — [TBD, to be built out incident by incident]
 
-#### [Family Member 2 — TBD]
-[Complete profile using the template above]
+#### Heena Patel
+- **Relationship to Author**: Mother
+- **Life Dates**: [TBD]
+- Full profile — [TBD]
 
-#### [Family Member 3 — TBD]
-[Complete profile using the template above]
+#### Ferin Patel
+- **Relationship to Author**: Self (author/narrator)
+- **Role**: First-person narrator; son of Rakesh and Heena Patel
+- Full profile — [TBD]
 
-[Add more profiles as needed]
+#### Janvi Patel
+- **Relationship to Author**: Sister
+- **Life Dates**: [TBD]
+- Full profile — [TBD]
+
+#### Sukhdevbhai Patel
+- **Relationship to Author**: Paternal grandfather (Rakesh's father)
+- **Life Dates**: [TBD]
+- **Role in the Book**: Central to Part II ("Where It Began") — Rakesh's relationship with his own father
+- Full profile — [TBD]
+
+#### Nandanben Patel
+- **Relationship to Author**: Paternal grandmother (Rakesh's mother)
+- **Life Dates**: [TBD]
+- Full profile — [TBD]
+
+#### Praful Patel
+- **Relationship to Author**: Paternal uncle (Rakesh's brother)
+- **Life Dates**: [TBD]
+- Full profile — [TBD]
+
+*(This list will grow — more family members, extended relatives, and community figures tied to Rakesh Patel's public image will be added as incidents are gathered.)*
 
 ---
 
