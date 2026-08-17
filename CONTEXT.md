@@ -177,6 +177,6 @@ This book makes serious, specific claims about a real, named, living person. Tha
 
 - Book title: not yet decided.
 - Part V framing ("The Reckoning"), the Author's Note, and the Afterword are placeholders — confirm, rename, or replace with the author.
-- Specific incidents: not yet gathered — will populate `Outlines/` and `book-memory-bank/Core/people_and_places.md` as they're shared.
-- Specific verses per incident: not yet chosen — to be selected as each chapter is outlined, using the Scripture Reference Tracker above.
+- Specific incidents: Chapter 1 ("Shambu," `Chapters/Chapter_01_Shambu.md`) is drafted, covering Rakesh Patel's birth/name origin, family of origin, education, marriage, children, community reputation, and North America ambition — see `book-memory-bank/Core/people_and_places.md` for the confirmed facts. Incidents for Part II onward (his relationship with his own father, the marriage as lived, his fathering of Ferin and Janvi) not yet gathered.
+- Specific verses per incident: not yet chosen — Chapter 1 deliberately holds all scripture back (author's decision, 2026-08-17) since it's a "before the mask cracks" portrait chapter. First verse will be selected once a chapter first shows the gap between his public image and private conduct.
 - Publication ambition (traditional publishing / self-publishing / online serialization / undecided) — noted as a goal now, to be decided concretely once the manuscript takes shape.

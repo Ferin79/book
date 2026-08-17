@@ -4,8 +4,8 @@
 
 *A true story, told chapter by chapter — the life of a father, the family he made, and a mirror for every household still living behind a mask like his.*
 
-[![Status](https://img.shields.io/badge/status-early%20setup-orange?style=flat-square)](#)
-[![Chapters](https://img.shields.io/badge/chapters-0%20drafted-blue?style=flat-square)](#)
+[![Status](https://img.shields.io/badge/status-drafting-orange?style=flat-square)](#)
+[![Chapters](https://img.shields.io/badge/chapters-1%20drafted-blue?style=flat-square)](#)
 [![Type](https://img.shields.io/badge/type-memoir%20%2F%20true%20story-purple?style=flat-square)](#)
 
 </div>
@@ -30,8 +30,24 @@ This repository holds one book: a **non-fiction, storytelling-style memoir**, wr
 Beyond the personal account, the author intends this book as a **role-model / eye-opening work for readers — especially in India — living under a similarly authoritative, image-conscious household figure**: recognition, a scripturally grounded vocabulary for real vs. performed dharma, and encouragement to raise their voice. Full thesis and context: [`CONTEXT.md`](CONTEXT.md).
 
 - **Title:** not yet decided (`[Book Title — TBD]` is used as a placeholder throughout the project until one is chosen).
-- **Content:** the author has all of the book's material ready; it will be added to this repository over upcoming sessions.
+- **Content:** arriving incrementally, chapter by chapter. Chapter 1, "Shambu," is drafted (`Chapters/Chapter_01_Shambu.md`).
 - **Factual license:** standard memoir convention. Reconstructed dialogue and scene detail are allowed when grounded in real memory — but events, dates, and outcomes are never invented. Anything uncertain is flagged rather than guessed at.
+
+---
+
+## Writing Style
+
+Confirmed with the author starting Chapter 1 (2026-08-17). Full mechanics live in `.claude/skills/book-writer/references/author_rules.md` and `references/narrative_nonfiction_rules.md`; project-specific decisions are recorded in `book-memory-bank/Style/style_guide.md`. Every future chapter should follow this:
+
+- **Voice**: Warm, observational, literary but grounded — the voice of someone who loved and studied this person closely, not a detached reporter or a eulogy. Emotionally honest, never melodramatic. No hagiography, no character assassination — real strengths and real flaws, both.
+- **POV**: First person. Ferin Patel narrates throughout; other family members (starting with his father) are written in third person within that first-person frame.
+- **Tense**: Past tense for narrated events and biography; present tense only when the narrator steps back to name a lasting pattern or general truth.
+- **Chapter openings**: Scene-first by default — a concrete, lived image or moment, not a flat factual statement. (Chapter 1 opens on a street in Pal Gam calling a man by a name that wasn't his.)
+- **Concrete over abstract**: Never explain an emotion or circumstance when a specific, physical detail can show it instead. Biography is woven into scene as it becomes relevant, never dumped in a block.
+- **Restraint**: Let silence, subtext, and small gestures carry emotional weight. The facts, told specifically, are the argument — the narrator doesn't editorialize or lecture.
+- **Honesty about gaps**: If a detail isn't known, that gap is acknowledged in the prose (or flagged `[NEED RESEARCH]`) rather than filled with invented specifics.
+- **Mechanics**: Oxford comma always; em dashes used sparingly (interruption/sharp shifts only, otherwise commas/colons); no bold text in narrative prose; italics for foreign-language words/phrases and inner emphasis; scene breaks are three centered dashes (`---`).
+- **Scripture placement**: The Gita/Mahabharata/Ramayana/Chanakya Niti/Vedas framework (see `CONTEXT.md`) is load-bearing for the book overall but is a per-chapter decision, not automatic — introduced starting wherever a chapter first shows the gap between image and private conduct, not before.
 
 ---
 
@@ -41,18 +57,20 @@ Beyond the personal account, the author intends this book as a **role-model / ey
 book/
 ├── CONTEXT.md                         # Thesis, real people, structure, scripture framework — read first
 ├── Chapters/                          # Finished chapters (Markdown), one file per chapter
+│   └── Chapter_01_Shambu.md           # Drafted
 ├── Outlines/
 │   └── Chapter_Outlines/              # Per-chapter outlines, filled in as chapters are planned
+│       └── Chapter_01_Shambu.md       # Drafted
 ├── book-memory-bank/                  # AI writing memory bank — context continuity across sessions
 │   ├── Core/
 │   │   ├── projectbrief.md            # Title, scope, goals (currently TBD)
 │   │   ├── story_structure.md         # Narrative purpose and structure (currently TBD)
-│   │   ├── people_and_places.md       # Real people, real places, real timeline (currently TBD)
+│   │   ├── people_and_places.md       # Real people, real places, real timeline (Rakesh Patel's core facts confirmed)
 │   │   ├── activeContext.md           # Current session status — read this first
 │   │   ├── progress.md                # Completion tracking
 │   │   └── Templates/                 # Reusable templates for outlines, scene cards, etc.
 │   ├── Style/
-│   │   └── style_guide.md             # Voice and formatting conventions
+│   │   └── style_guide.md             # Voice and formatting conventions — confirmed, see "Writing Style" above
 │   └── Production/                    # Manuscript compilation scripts and cover-art prompts
 └── .agents/skills/book-writer/        # The Claude Code skill that drives this project
 ```
@@ -74,15 +92,16 @@ This repository uses a customized `book-writer` skill (`.agents/skills/book-writ
 
 ## Status
 
-**Current phase:** Early setup. The repository structure and writing skill are in place; the thesis, family members, and scripture-reference framework are confirmed in `CONTEXT.md`. Title, specific incidents, and chapter structure are still open.
+**Current phase:** Drafting. The repository structure, writing skill, and confirmed writing style are in place; the thesis, family members, and scripture-reference framework are confirmed in `CONTEXT.md`. Chapter 1 is drafted. Title and most specific incidents are still open.
 
 | Component | Status |
 |---|---|
 | Repository & skill setup | ✅ Complete |
 | Thesis & scripture framework (`CONTEXT.md`) | ✅ Complete |
+| Writing style confirmed | ✅ Complete |
 | Central people confirmed | ✅ Complete (list will grow) |
 | Title | ⏳ Not yet decided |
-| Chapter outlines | ⏳ Not started |
-| Chapters drafted | ⏳ Not started (0) |
+| Chapter outlines | 🟡 1 of many (Chapter 1) |
+| Chapters drafted | 🟡 1 drafted — "Shambu" (Part I) |
 
 *Started: August 2026*

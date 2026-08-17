@@ -8,43 +8,48 @@ This document is the factual reference for everyone and everywhere in this book.
 
 ### Overview
 
-**Primary Setting(s)**: [Main real places where the story takes place]
+**Primary Setting(s)**: Pal Gam, Surat, Gujarat, India — the village, all of it Kadva Patel Samaj — and specifically Moti Fadiyu, the street/lane within it where Rakesh Patel was born, raised, and remained rooted for his adult life.
 
-**Time Period**: [Real span of years/decades the story covers]
+**Time Period**: Story begins 1976 (Rakesh Patel's birth) and continues through his adult family life in Surat; specific chapter-by-chapter span still being gathered.
 
-**Scale**: [Family / local / regional / how far the story's world extends]
+**Scale**: Family and local community (a specific street/lane within Pal Gam, Surat) — chapters may widen to regional/national scale (e.g., the Hong Kong work trip, IELTS/PR applications to the USA and Canada).
 
-**Atmosphere**: [The real texture of the world — e.g., a particular decade, a particular town, a particular community]
+**Atmosphere**: [TBD — further sensory/atmospheric detail to be gathered]
 
 ### Physical World
 
-**Geography**: [Key real locations, towns, regions, countries]
+**Geography**: Pal Gam, Surat, Gujarat, India. International touchpoints: Hong Kong, China (work trip); USA and Canada (immigration attempts, never realized).
 
-**Notable Locations**: [Specific real places and their significance — the family home, a workplace, a place of worship, etc.]
+**Notable Locations**: Moti Fadiyu, the family's specific street within Pal Gam, where neighbors knew Rakesh Patel by his nickname "Shambu" rather than his given name. Other specific locations (family home, workplace, place of worship) — [TBD].
 
-**Everyday Life**: [What daily life actually looked like in this setting/era — routines, technology of the time, transportation]
+**Everyday Life**: [TBD — further detail to be gathered]
 
 ### Social & Cultural Context
 
-**Family Structure**: [How the family was organized — household, extended family, roles]
+**Family Structure**: Rakesh Patel's household of origin — father Sukhdevbhai Patel (farmer), mother Nandanben Patel (housewife); lower middle class to poor. His own adult household — wife Heena Patel, son Ferin Patel, daughter Janvi Patel.
 
-**Cultural Elements**: [Real traditions, rituals, religious or community practices relevant to the story]
+**Cultural Elements**: Gujarati Hindu family; Gujarati calendar used for reckoning auspicious dates (Rakesh Patel's birth is dated in the family's memory both by Gregorian date and by its position in the Gujarati calendar — first Monday of Shravan month). Strong household observance of daily prayer (mornings and evenings) and devotion to Lord Shiva. The family belongs to the **Kadva Patel Samaj** — a community organization/social network for the Kadva Patidar (Kadva Patel) sub-caste originating from Gujarat, uniting members through cultural events, caste-specific matchmaking, and charitable work (including schools and hospitals). Confirmed by the author (2026-08-17): the entire village of Pal Gam, including the family's street Moti Fadiyu, is Kadva Patel Samaj — every house and family on it belongs to this Samaj. The Samaj itself extends well beyond the village, across Patel families in Gujarat generally. Rakesh Patel is/was an active, well-regarded member.
 
-**Economic/Social Circumstances**: [Real context — occupation, class, community standing, hardships]
+**Economic/Social Circumstances**: Rakesh Patel's childhood/teenage years were lived in poverty to lower-middle-class conditions; his parents were uneducated. He financed his own college education (law degree) against that backdrop and separately learned English, notable achievements for his background and era. As an adult he held a stable Accounting job in Surat and was known in the community for honesty and hard work.
 
 ### Historical Context
 
-**Era Events**: [Real historical events that intersected with the family's life — migrations, wars, economic shifts, local events]
+**Era Events**: A work trip to Hong Kong, China gave Rakesh Patel his first real exposure to a life abroad and accelerated his ambition to settle in North America. [Further historical/era context TBD.]
 
-**Family History**: [Known history prior to the story's main timeline — where the family came from, prior generations]
+**Family History**: Rakesh Patel is the son of Sukhdevbhai Patel (farmer) and Nandanben Patel (housewife) of Pal Gam, Surat. Further prior-generation history — [TBD].
 
-**Timeline**: [Major real events in chronological order — see also `Outlines/Master_Outline.md`]
+**Timeline** (confirmed dates so far — see also `Outlines/Master_Outline.md` once created):
+- **2 August 1976** (Monday; first Monday of Shravan month, Gujarati calendar) — Rakesh Patel born, Pal Gam, Surat. Nicknamed "Shambu" by the neighborhood.
+- **~age 30 (c. 2006)** — Rakesh Patel begins attempting IELTS exams and applies through permanent-residency programs to the USA and Canada, following the earlier Hong Kong work trip; ultimately unsuccessful.
+- **10 December 1998** — Rakesh Patel marries Heena Patel.
+- **9 December 1999** — Son Ferin Patel born.
+- **11 November 2002** — Daughter Janvi Patel born.
 
 ### Additional Elements
 
-**Languages**: [Languages/dialects actually spoken in the family]
+**Languages**: Gujarati (family/community language); English (learned by Rakesh Patel as a young man — notable given his background and the era).
 
-**Sensory Landscape**: [Real, specific sights, sounds, smells distinctive to this setting — the things that make it feel lived-in and true]
+**Sensory Landscape**: The specific texture of the *fadiyu*/*fali* in Pal Gam where neighbors call out to Rakesh Patel as "Shambu" — further sensory detail to be gathered as more chapters are drafted.
 
 ---
 
@@ -91,36 +96,47 @@ This document is the factual reference for everyone and everywhere in this book.
 
 #### Rakesh Patel
 - **Relationship to Author**: Father; central figure of the book
-- **Life Dates**: [TBD]
-- **Occupation**: [TBD]
-- **Public Persona**: Presents as modern, devoutly Hindu, and caring toward everyone in his social/community circle
+- **Life Dates**: Born 2 August 1976 (Monday; first Monday of Shravan month, Gujarati calendar), Pal Gam, Surat
+- **Occupation**: Accounting (stable job, Surat); trained as a lawyer (completed a law degree despite his family's poverty and his parents being uneducated)
+- **Nickname**: "Shambu" — given by everyone in his *fadiyu*/*fali* (lane/street) in Pal Gam; not a family nickname but a neighborhood one. Note the resonance: Shambhu is a name of Lord Shiva, and Rakesh Patel is a committed Shiva devotee (prays mornings and evenings) — whether the name was chosen with that in mind or is a coincidence of the Shravan-Monday birth is [TBD, worth asking the author].
+- **Public Persona**: Presents as modern, devoutly Hindu, and caring toward everyone in his social/community circle; known throughout his community for honesty and hard work
 - **Private Reality (per author and sister's account)**: Prioritized personal pride and social standing over his duties as a husband and father; specific incidents to be documented as they're gathered
-- Full profile (traits, voice, incidents, arc) — [TBD, to be built out incident by incident]
+- **Background**: Born and raised in Pal Gam, Surat. Childhood and teenage years spent in poverty to lower-middle-class conditions. Son of Sukhdevbhai Patel (farmer) and Nandanben Patel (housewife), both uneducated. Struggled to finance his own college education because of this; completed a law degree and separately learned English, both notable achievements for his background and era (per the author's account of his father telling this story).
+- **Marriage & Children**: Married Heena Patel on 10 December 1998. Son Ferin Patel born 9 December 1999; daughter Janvi Patel born 11 November 2002. By the time his family was "complete" (two children, one wife), he also held a stable Accounting job in Surat.
+- **Ambition — North America**: Held a longstanding interest in foreign countries and settling in North America. A work trip to Hong Kong, China gave him direct exposure to life abroad and accelerated this ambition. At around age 30 he attempted the IELTS exam several times and applied through permanent-residency programs in both the USA and Canada. He did not get the opportunity he was hoping for. He remained content with what he had built in Surat regardless.
+- **Children's Education**: Ensured Ferin and Janvi were admitted into English medium school rather than the Gujarati medium school most families on the street used — a deliberate, unexplained decision, framed by the author as a direct throughline from his own self-taught English/law degree.
+- **Standing in the Samaj**: His own street (Moti Fadiyu) and the whole village of Pal Gam are entirely Kadva Patel Samaj, but his standing extended well beyond that — across the wider **Kadva Patel Samaj**, the community organization/social network for the Kadva Patidar (Kadva Patel) sub-caste across Gujarat, which unites members through cultural events, caste-specific matchmaking, and charitable work including schools and hospitals. Regularly called on to help organize or attend community weddings, funerals, and festivals. Publicly perceived as an ideal man: does not drink alcohol, does not smoke, is fully vegetarian, and is considered trustworthy — this reputation is described by the author as something that took a lifetime to build and was maintained at an (as yet unspecified) ongoing cost.
+- **[NARRATIVE THREAD — NOT YET RESOLVED]**: Chapter 1 ends by explicitly stating (author's deliberate choice, 2026-08-17) that maintaining his status/pride/importance in the Samaj required some sacrifice, without naming what it was. **This is a planted Chekhov's gun that a later chapter must pay off once the author shares what the actual private cost was.** Do not resolve or guess at this in any file until the author provides it.
+- Full profile (traits, voice, further incidents, arc) — additional detail to be built out incident by incident in later chapters
 
 #### Heena Patel
 - **Relationship to Author**: Mother
 - **Life Dates**: [TBD]
+- **Marriage**: Married Rakesh Patel on 10 December 1998.
 - Full profile — [TBD]
 
 #### Ferin Patel
 - **Relationship to Author**: Self (author/narrator)
 - **Role**: First-person narrator; son of Rakesh and Heena Patel
+- **Life Dates**: Born 9 December 1999
 - Full profile — [TBD]
 
 #### Janvi Patel
 - **Relationship to Author**: Sister
-- **Life Dates**: [TBD]
+- **Life Dates**: Born 11 November 2002
 - Full profile — [TBD]
 
 #### Sukhdevbhai Patel
 - **Relationship to Author**: Paternal grandfather (Rakesh's father)
 - **Life Dates**: [TBD]
-- **Role in the Book**: Central to Part II ("Where It Began") — Rakesh's relationship with his own father
+- **Occupation**: Farmer
+- **Role in the Book**: Central to Part II ("Where It Began") — Rakesh's relationship with his own father. Household was poor to lower-middle-class and uneducated; this shaped how hard Rakesh had to work to finance his own education.
 - Full profile — [TBD]
 
 #### Nandanben Patel
 - **Relationship to Author**: Paternal grandmother (Rakesh's mother)
 - **Life Dates**: [TBD]
+- **Occupation**: Housewife
 - Full profile — [TBD]
 
 #### Praful Patel
