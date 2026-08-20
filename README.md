@@ -37,16 +37,17 @@ Beyond the personal account, the author intends this book as a **role-model / ey
 
 ## Writing Style
 
-Confirmed with the author starting Chapter 1 (2026-08-17). Full mechanics live in `.claude/skills/book-writer/references/author_rules.md` and `references/narrative_nonfiction_rules.md`; project-specific decisions are recorded in `book-memory-bank/Style/style_guide.md`. Every future chapter should follow this:
+Confirmed with the author starting Chapter 1 (2026-08-17), then corrected the same day for complexity. Full mechanics live in `.claude/skills/book-writer/references/author_rules.md` and `references/narrative_nonfiction_rules.md`; project-specific decisions are recorded in `book-memory-bank/Style/style_guide.md`. Every future chapter should follow this:
 
-- **Voice**: Warm, observational, literary but grounded — the voice of someone who loved and studied this person closely, not a detached reporter or a eulogy. Emotionally honest, never melodramatic. No hagiography, no character assassination — real strengths and real flaws, both.
+- **Simplicity is a firm requirement, not a preference.** The author flagged the first pass at Chapter 1 as too complex to follow. Default to short, direct, subject-verb-object sentences. Two short sentences beat one joined by a semicolon or several commas. If a sentence needs a second read, rewrite it. See `book-memory-bank/Style/style_guide.md` → "Sentence Structure" for the full corrected rule.
+- **Voice**: Warm, observational, grounded — the voice of someone who loved and studied this person closely, not a detached reporter or a eulogy. Emotionally honest, never melodramatic. No hagiography, no character assassination — real strengths and real flaws, both. The warmth comes from true, specific detail, not from ornate sentences.
 - **POV**: First person. Ferin Patel narrates throughout; other family members (starting with his father) are written in third person within that first-person frame.
 - **Tense**: Past tense for narrated events and biography; present tense only when the narrator steps back to name a lasting pattern or general truth.
 - **Chapter openings**: Scene-first by default — a concrete, lived image or moment, not a flat factual statement. (Chapter 1 opens on a street in Pal Gam calling a man by a name that wasn't his.)
 - **Concrete over abstract**: Never explain an emotion or circumstance when a specific, physical detail can show it instead. Biography is woven into scene as it becomes relevant, never dumped in a block.
 - **Restraint**: Let silence, subtext, and small gestures carry emotional weight. The facts, told specifically, are the argument — the narrator doesn't editorialize or lecture.
 - **Honesty about gaps**: If a detail isn't known, that gap is acknowledged in the prose (or flagged `[NEED RESEARCH]`) rather than filled with invented specifics.
-- **Mechanics**: Oxford comma always; em dashes used sparingly (interruption/sharp shifts only, otherwise commas/colons); no bold text in narrative prose; italics for foreign-language words/phrases and inner emphasis; scene breaks are three centered dashes (`---`).
+- **Mechanics**: Oxford comma always; em dashes used sparingly (interruption/sharp shifts only); semicolons essentially never (split the sentence instead); no bold text in narrative prose; italics for foreign-language words/phrases and inner emphasis; scene breaks are three centered dashes (`---`).
 - **Scripture placement**: The Gita/Mahabharata/Ramayana/Chanakya Niti/Vedas framework (see `CONTEXT.md`) is load-bearing for the book overall but is a per-chapter decision, not automatic — introduced starting wherever a chapter first shows the gap between image and private conduct, not before.
 
 ---

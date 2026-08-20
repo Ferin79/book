@@ -2,6 +2,8 @@
 
 This document defines the writing style, language choices, and formatting conventions for this book. Confirmed with the author starting Chapter 1 (2026-08-17). It records project-specific *decisions*; the full rule set behind these decisions lives in `.claude/skills/book-writer/references/author_rules.md` and `references/narrative_nonfiction_rules.md` — read this file for the confirmed choices, those for the complete mechanics.
 
+**Read this before drafting any chapter, especially "Sentence Structure" below.** The author's first pass at Chapter 1 was corrected for being too complex — hard to follow phrasing and sentence structure. Simplicity is now a firm requirement, not a nice-to-have. When rewriting or drafting new material, favor clarity over literary flourish every time this is in tension.
+
 ## Voice & Tone
 
 **Narrative Voice**: Warm, observational, literary but grounded — the voice of someone who loved and studied this person closely, not a detached reporter or a eulogy. Confirmed with the author over the fiction-workshop alternatives ("more conversational" and "more formal/journalistic") — this is the established default for every chapter unless a specific chapter calls for a deliberate shift (e.g., a colder register for a scene of real distance).
@@ -24,9 +26,15 @@ This document defines the writing style, language choices, and formatting conven
 
 ## Language Choices
 
-**Vocabulary Level**: Plain, common words over rare/formal ones (*walked* not *traversed*). One idea per sentence.
+**Vocabulary Level**: Plain, common words over rare/formal ones (*walked* not *traversed*). One idea per sentence. If a word would send an average reader to a dictionary, replace it.
 
-**Sentence Structure**: Varied — short, direct sentences for action/movement; longer, unhurried sentences for reflection. Never convoluted.
+**Sentence Structure — CORRECTED 2026-08-17**: The author flagged Chapter 1's first pass as too complex — phrasing and sentence structure that was hard to follow. **This is a firm correction, not a stylistic option.** Default to short, direct, subject-verb-object sentences. Concretely:
+- Prefer two short sentences over one sentence joined by a semicolon, colon, or multiple commas.
+- Avoid inverted or fronted clauses ("It was, in its way, the same instinct that..." → "In a way, it was the same instinct."). Lead with the subject.
+- Avoid stacking more than one subordinate clause in a sentence.
+- Short sentence fragments are fine for rhythm and emphasis ("Paperwork. Fees.") — they read as *easier*, not harder.
+- "Longer, unhurried sentences for reflection" (the old guidance) still applies, but "longer" means slightly longer and still plain — not layered or literary. When in doubt, split it.
+- Test: read the sentence once. If it needs a second read to parse, rewrite it.
 
 **Paragraph Length**: Short to medium (roughly 3–5 lines); varied for rhythm, not walls of text.
 
@@ -46,7 +54,7 @@ This document defines the writing style, language choices, and formatting conven
 
 **Tense**: Past tense for all narrated events and biography. Present tense reserved for the narrator stepping back to name a lasting pattern or general truth (e.g., "That habit never left him.").
 
-**Punctuation Preferences**: Oxford comma always. Em dashes sparingly (interruption/sharp shifts only). Semicolons sparingly. Ellipses only for genuine trailing off.
+**Punctuation Preferences**: Oxford comma always. Em dashes sparingly (interruption/sharp shifts only). Semicolons essentially never — split into two sentences instead. Colons are fine for a short, direct payoff ("It was hard: he did it anyway") but shouldn't chain multiple clauses together. Ellipses only for genuine trailing off.
 
 **Capitalization**: Standard; proper names and place names as given.
 
@@ -86,4 +94,6 @@ This document defines the writing style, language choices, and formatting conven
 
 ## Notes
 
-The version of "write like a human author" that applies to this project is the memoir voice above — warm, restrained, concrete — not a fiction-workshop voice. Contractions and informal rhythm are welcome in narration and especially in remembered dialogue; avoid perfectly modulated speeches. Use similes/metaphors sparingly and only when they're grounded in this family's actual world (Gujarat, Surat, the lane, the mandir) rather than generic comparisons.
+The version of "write like a human author" that applies to this project is the memoir voice above — warm, restrained, concrete — not a fiction-workshop voice. Contractions and informal rhythm are welcome in narration and especially in remembered dialogue; avoid perfectly modulated speeches. Use similes/metaphors sparingly and only when they're grounded in this family's actual world (Gujarat, Surat, the street, the mandir) rather than generic comparisons.
+
+"Warm, literary but grounded" (the voice) and "simple, direct sentences" (the structure) are not in conflict — the warmth and the literary quality should come from specific, true detail and honest emotion, not from ornate sentence construction. A short sentence can still be moving. When simplicity and "sounding literary" pull in different directions, simplicity wins.
