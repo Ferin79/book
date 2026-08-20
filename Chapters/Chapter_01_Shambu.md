@@ -4,7 +4,7 @@
 
 Every story about my father starts the same way. Not with his real name, but with a different one.
 
-On Moti Fali, the street where he grew up, in the village of Pal Gam, nobody called him by his real name.
+On Moti Fadiyu, the street where he grew up, in the village of Pal Gam, nobody called him by his real name.
 
 "Shambu, kem che?" a neighbor would call from a doorway. He'd wave back without slowing down, already halfway to somewhere else. Uncles called him Shambu. Aunties who'd known him since he was a baby called him Shambu. Even the boys he grew up with still called him that, years later, without a second thought. His real name was Rakesh Patel. The street gave him a different one, and it wasn't random. He was born on a Monday, August 2, 1976. That day was the first Monday of Shravan.
 
@@ -42,11 +42,11 @@ So he stayed in Surat. He kept his job in accounting. He kept praying morning an
 
 I've heard the Hong Kong story more than once. I've heard the IELTS story too. They always come together, in the same shape: proof that he tried, and proof that trying isn't always enough. Neither story ever comes with a complaint attached, not one I've ever caught anyway. That's the part I still can't explain. A man who wanted to leave that badly, who never got the chance, and who still seemed, as far as a child could tell, genuinely content.
 
-Say his name on Moti Fali today and people still smile. *Shambu.* Not Rakesh. Never Rakesh. For the first thirty years of his life, on that street and almost everywhere else, the name fit him perfectly.
+Say his name on Moti Fadiyu today and people still smile. *Shambu.* Not Rakesh. Never Rakesh. For the first thirty years of his life, on that street and almost everywhere else, the name fit him perfectly.
 
 ---
 
-Moti Fali was Kadva Patel *Samaj*. Every house on it. So was the rest of Pal Gam. But the *Samaj* didn't stop at the edge of the village. It was a caste network that had connected Patel families across Gujarat for generations. It ran everything from a single wedding to its own schools and hospitals. Inside that bigger world, my father was known by far more people than just his neighbors, and they thought of him exactly the same way.
+Moti Fadiyu was Kadva Patel *Samaj*. Every house on it. So was the rest of Pal Gam. But the *Samaj* didn't stop at the edge of the village. It was a caste network that had connected Patel families across Gujarat for generations. It ran everything from a single wedding to its own schools and hospitals. Inside that bigger world, my father was known by far more people than just his neighbors, and they thought of him exactly the same way.
 
 Weddings needed someone to set things up before the guests arrived. He showed up. Funerals needed someone steady enough to stand at the front and handle what nobody else wanted to deal with. He was there. Every festival that came through the street, and in that neighborhood they came often, found him already involved, never just watching from the side. When the *Samaj* needed something organized, or a disagreement settled quietly before it turned into something bigger, his name came up first.
 

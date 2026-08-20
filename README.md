@@ -5,7 +5,7 @@
 *A true story, told chapter by chapter — the life of a father, the family he made, and a mirror for every household still living behind a mask like his.*
 
 [![Status](https://img.shields.io/badge/status-drafting-orange?style=flat-square)](#)
-[![Chapters](https://img.shields.io/badge/chapters-1%20drafted-blue?style=flat-square)](#)
+[![Chapters](https://img.shields.io/badge/chapters-2%20drafted-blue?style=flat-square)](#)
 [![Type](https://img.shields.io/badge/type-memoir%20%2F%20true%20story-purple?style=flat-square)](#)
 
 </div>
@@ -30,7 +30,7 @@ This repository holds one book: a **non-fiction, storytelling-style memoir**, wr
 Beyond the personal account, the author intends this book as a **role-model / eye-opening work for readers — especially in India — living under a similarly authoritative, image-conscious household figure**: recognition, a scripturally grounded vocabulary for real vs. performed dharma, and encouragement to raise their voice. Full thesis and context: [`CONTEXT.md`](CONTEXT.md).
 
 - **Title:** not yet decided (`[Book Title — TBD]` is used as a placeholder throughout the project until one is chosen).
-- **Content:** arriving incrementally, chapter by chapter. Chapter 1, "Shambu," is drafted (`Chapters/Chapter_01_Shambu.md`).
+- **Content:** arriving incrementally, chapter by chapter. Chapter 1, "Shambu" (`Chapters/Chapter_01_Shambu.md`, Part I — The Mask), and Chapter 2, "Sukhdev Papa" (`Chapters/Chapter_02_Sukhdev_Papa.md`, opening Part II — Where It Began), are drafted.
 - **Factual license:** standard memoir convention. Reconstructed dialogue and scene detail are allowed when grounded in real memory — but events, dates, and outcomes are never invented. Anything uncertain is flagged rather than guessed at.
 
 ---
@@ -58,10 +58,14 @@ Confirmed with the author starting Chapter 1 (2026-08-17), then corrected the sa
 book/
 ├── CONTEXT.md                         # Thesis, real people, structure, scripture framework — read first
 ├── Chapters/                          # Finished chapters (Markdown), one file per chapter
-│   └── Chapter_01_Shambu.md           # Drafted
+│   ├── Chapter_01_Shambu.md           # Drafted
+│   └── Chapter_02_Sukhdev_Papa.md     # Drafted
 ├── Outlines/
 │   └── Chapter_Outlines/              # Per-chapter outlines, filled in as chapters are planned
-│       └── Chapter_01_Shambu.md       # Drafted
+│       ├── Chapter_01_Shambu.md       # Drafted
+│       └── Chapter_02_Sukhdev_Papa.md # Drafted
+├── Research/
+│   └── scripture_reference_tracker.md # Log of every scripture citation used, with verification notes
 ├── book-memory-bank/                  # AI writing memory bank — context continuity across sessions
 │   ├── Core/
 │   │   ├── projectbrief.md            # Title, scope, goals (currently TBD)
@@ -93,7 +97,7 @@ This repository uses a customized `book-writer` skill (`.agents/skills/book-writ
 
 ## Status
 
-**Current phase:** Drafting. The repository structure, writing skill, and confirmed writing style are in place; the thesis, family members, and scripture-reference framework are confirmed in `CONTEXT.md`. Chapter 1 is drafted. Title and most specific incidents are still open.
+**Current phase:** Drafting. The repository structure, writing skill, and confirmed writing style are in place; the thesis, family members, and scripture-reference framework are confirmed in `CONTEXT.md`. Chapters 1–2 are drafted. Title and most specific incidents for Part III onward are still open.
 
 | Component | Status |
 |---|---|
@@ -102,7 +106,7 @@ This repository uses a customized `book-writer` skill (`.agents/skills/book-writ
 | Writing style confirmed | ✅ Complete |
 | Central people confirmed | ✅ Complete (list will grow) |
 | Title | ⏳ Not yet decided |
-| Chapter outlines | 🟡 1 of many (Chapter 1) |
-| Chapters drafted | 🟡 1 drafted — "Shambu" (Part I) |
+| Chapter outlines | 🟡 2 of many (Chapters 1–2) |
+| Chapters drafted | 🟡 2 drafted — "Shambu" (Part I), "Sukhdev Papa" (Part II) |
 
 *Started: August 2026*
