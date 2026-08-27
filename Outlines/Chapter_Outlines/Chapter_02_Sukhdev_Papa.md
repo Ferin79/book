@@ -12,7 +12,7 @@ Opens Part II — Where It Began, and directly answers the question Chapter 1 de
 
 ## Setting
 
-- **Location(s)**: The family home in Pal Gam, Moti Fadiyu, Surat — interior, domestic. A private counter-setting to Chapter 1's public street/Samaj spaces.
+- **Location(s)**: The family home in Pal Gam, Moti Fali, Surat — interior, domestic. A private counter-setting to Chapter 1's public street/Samaj spaces.
 - **Time**: Spans roughly the 2010s decade (author's phrasing) through Sukhdevbhai Patel's death; narrator's specific age at the time not given by the author — do not invent one. Narrator notes he is 28 years old *now*, looking back (anchors the reflective present).
 - **Mood/Atmosphere**: Cold shift from Chapter 1's warmth. Domestic, nocturnal, physically violent, then grief-stricken, then quietly fearful. Restraint in the prose against genuinely disturbing material — show concretely, do not sensationalize.
 
