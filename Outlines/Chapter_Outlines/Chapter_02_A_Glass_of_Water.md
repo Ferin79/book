@@ -1,4 +1,4 @@
-# Chapter 2: Sukhdev Papa
+# Chapter 2: A Glass of Water
 
 *(Memoir outline — adapted from the fiction template; sections that assume an invented plot are omitted. Every beat below maps to something real, per the author's account in `prompt-2.md`.)*
 
