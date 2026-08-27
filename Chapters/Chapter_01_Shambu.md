@@ -1,6 +1,4 @@
-# Part I — The Mask
-
-## Chapter One: Shambu
+# Chapter One: Shambu
 
 Every story about my father starts the same way. Not with his real name, but with a different one.
 

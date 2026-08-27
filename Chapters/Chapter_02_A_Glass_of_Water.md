@@ -1,6 +1,4 @@
-# Part II — Where It Began
-
-## Chapter Two: A Glass of Water
+# Chapter Two: A Glass of Water
 
 I know part of that price now. Not all of it. I don't think I ever will.
 

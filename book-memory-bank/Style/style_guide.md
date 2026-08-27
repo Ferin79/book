@@ -62,7 +62,7 @@ This document defines the writing style, language choices, and formatting conven
 
 ## Formatting
 
-**Chapter Headers**: `## Chapter [Number]: [Title]`, with a `# Part [Roman Numeral] — [Part Name]` heading above the first chapter of a new part.
+**Chapter Headers**: `# Chapter [Number]: [Title]` — the only heading in the file. **Corrected 2026-08-27**: chapter files do not carry a separate `# Part [Roman Numeral] — [Part Name]` heading above the chapter title, even for the first chapter of a new part. Part groupings are a structural/organizational concept tracked in `CONTEXT.md` and the memory bank, not something printed inside each chapter file.
 
 **Scene Breaks**: Exactly three dashes (`---`), centered on their own line.
 
