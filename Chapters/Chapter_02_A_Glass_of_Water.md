@@ -72,11 +72,13 @@ By the third or fourth time, something in how he did it had changed. The anger c
 
 The next morning, he got up, got dressed, and went to work like any other day. No apology. No mention of the night before, not to Sukhdev papa, not to the rest of us. I never once saw him carry any of it on his face. Whatever it cost him, if it cost him anything at all, he kept it as well hidden as everything else he carried.
 
+None of it has ever added up for me, no matter how many times I've turned it over. He beat Sukhdev papa while he was drunk, at the exact moment his father was least able to understand what was happening to him, let alone learn anything from it. Then the next day, sober, standing right in front of him, my father said nothing. He never sat him down. He never told him to stop drinking. He never brought up the night before at all, not as a warning, not as a plea, not even as an accusation. If the beatings were ever meant to teach Sukhdev papa a lesson, the lesson never reached him. The only version of him that got punished was too far gone to hear it. The only version capable of hearing it was never told a single word. I don't have a clean word for what that makes him. Stupid feels too small for it, and somehow too kind at the same time. It wasn't a plan that failed. It was never a plan at all.
+
 ---
 
 One night stands apart from the rest, the way one night always does, even inside a pattern like this one.
 
-The house had gone quiet by then, the particular quiet that comes after something loud has finally stopped. My sister and I found Sukhdev papa sitting alone, still in whatever position the beating had left him in, crying. Not quietly. We were young enough that we didn't have a plan, only an instinct, the same one that sends any child toward a person in pain. We went to the kitchen. We filled a glass with water. We carried it back to him together and put it in his hands.
+The house had gone quiet by then, the particular quiet that comes after something loud has finally stopped. My sister and I found Sukhdev papa sitting alone, still in whatever position the beating had left him in, crying. Quietly. We were young enough that we didn't have a plan, only an instinct, the same one that sends any child toward a person in pain. We went to the kitchen. We filled a glass with water. We carried it back to him together and put it in his hands.
 
 I don't remember which of us thought of it first. I remember his hands shaking around the glass, water trembling right up to the rim without spilling. I remember his eyes, and the particular kind of tears that come from a person who has stopped expecting anyone to come. He didn't say much. I don't think there was much left in him to say.
 
