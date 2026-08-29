@@ -1,0 +1,15 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "book-web",
+  "compatibility_date": "2026-08-29",
+  "assets": {
+    "directory": "./dist",
+    // Navigation is hash-based on a single page, so there are no client-side
+    // routes to fall back for. Serving index.html on every unknown path would
+    // turn typos and probes into soft 404s that return the whole book.
+    "not_found_handling": "none"
+  },
+  "observability": {
+    "enabled": true
+  }
+}

@@ -1,0 +1,108 @@
+/* ─────────────────────────────────────────────────────────────
+   Design tokens — soft pastel, warm paper, quiet literary
+   ───────────────────────────────────────────────────────────── */
+
+:root {
+  color-scheme: light;
+
+  /* Surfaces — bright, sunlit cream rather than dusty beige */
+  --paper: #fffcf7;
+  --paper-raised: #ffffff;
+  --paper-sunken: #fff3e6;
+  --paper-veil: rgba(255, 252, 247, 0.85);
+
+  /* Ink — warm espresso, kept dark so bright surfaces stay legible */
+  --ink: #33231a;
+  --ink-2: #6e5445;
+  --ink-3: #7f6353; /* meets 4.5:1 on --paper; used for small meta text */
+  --ink-faint: #b9a08c;
+
+  /* Lines */
+  --rule: #f5e2ce;
+  --rule-soft: #fbeedf;
+
+  /* Accent — bright warm coral */
+  --accent: #f27649;
+  --accent-deep: #c4511f;
+  --accent-wash: #ffe7d8;
+
+  /* Solid coral button: bright coral is too light to carry white text
+     (2.8:1), so the filled variant uses the deeper tone. */
+  --on-accent-bg: #c4511f;
+  --on-accent-fg: #ffffff;
+
+  /* Pastel chapter tints — warm and luminous, rotated per chapter */
+  --tint-1: #ffd8c2; /* peach   */
+  --tint-2: #ffe9b5; /* honey   */
+  --tint-3: #ffd1d6; /* blush   */
+  --tint-4: #d9edbf; /* leaf    */
+  --tint-5: #c6e6f5; /* sky     */
+
+  /* Elevation — warm-tinted shadow, never grey */
+  --shadow-sm: 0 1px 2px rgba(120, 70, 35, 0.05), 0 2px 8px rgba(120, 70, 35, 0.05);
+  --shadow-md: 0 2px 6px rgba(120, 70, 35, 0.06), 0 12px 32px rgba(120, 70, 35, 0.09);
+  --shadow-lg: 0 4px 12px rgba(120, 70, 35, 0.08), 0 24px 60px rgba(120, 70, 35, 0.13);
+
+  /* Type families */
+  --font-display: 'Fraunces Variable', 'Iowan Old Style', Georgia, serif;
+  --font-body: 'Newsreader Variable', Georgia, 'Times New Roman', serif;
+  --font-ui: 'Inter Variable', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-deva: 'Noto Serif Devanagari', 'Nirmala UI', Mangal, var(--font-body);
+
+  /* Fluid type scale */
+  --step--2: clamp(0.72rem, 0.7rem + 0.1vw, 0.78rem);
+  --step--1: clamp(0.83rem, 0.8rem + 0.15vw, 0.92rem);
+  --step-0: clamp(1.06rem, 1rem + 0.28vw, 1.2rem);
+  --step-1: clamp(1.28rem, 1.18rem + 0.5vw, 1.55rem);
+  --step-2: clamp(1.6rem, 1.4rem + 1vw, 2.2rem);
+  --step-3: clamp(2rem, 1.65rem + 1.75vw, 3.1rem);
+  --step-4: clamp(2.6rem, 1.9rem + 3.4vw, 5rem);
+
+  /* Rhythm */
+  --measure: 34rem;
+  --gutter: clamp(1.25rem, 4vw, 3rem);
+  --rail: 17rem;
+  --header-h: 3.75rem;
+
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+
+  --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+/* Dark: warm cocoa, never grey — the same bright coral carries over */
+:root[data-theme='dark'] {
+  color-scheme: dark;
+
+  --paper: #1b130f;
+  --paper-raised: #251b15;
+  --paper-sunken: #140e0a;
+  --paper-veil: rgba(27, 19, 15, 0.86);
+
+  --ink: #faede0;
+  --ink-2: #cdb4a1;
+  --ink-3: #a68a76;
+  --ink-faint: #7d6454;
+
+  --rule: #3b2b22;
+  --rule-soft: #2b1f19;
+
+  --accent: #ff9165;
+  --accent-deep: #ffb392;
+  --accent-wash: #33211a;
+
+  /* Inverted in dark: bright coral fill carrying dark text. */
+  --on-accent-bg: #ff9165;
+  --on-accent-fg: #2a1710;
+
+  --tint-1: #5a3527;
+  --tint-2: #55401f;
+  --tint-3: #552c31;
+  --tint-4: #33421f;
+  --tint-5: #1e3d4d;
+
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.34), 0 2px 8px rgba(0, 0, 0, 0.28);
+  --shadow-md: 0 2px 6px rgba(0, 0, 0, 0.38), 0 12px 32px rgba(0, 0, 0, 0.38);
+  --shadow-lg: 0 4px 12px rgba(0, 0, 0, 0.44), 0 24px 60px rgba(0, 0, 0, 0.5);
+}

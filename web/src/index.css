@@ -1,0 +1,10 @@
+/* Self-hosted variable fonts — bundled at build time, no external requests */
+@import '@fontsource-variable/fraunces/index.css';
+@import '@fontsource-variable/newsreader/index.css';
+@import '@fontsource-variable/newsreader/standard-italic.css';
+@import '@fontsource-variable/inter/index.css';
+
+@import './styles/tokens.css';
+@import './styles/base.css';
+@import './styles/prose.css';
+@import './styles/layout.css';

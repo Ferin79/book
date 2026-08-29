@@ -1,0 +1,125 @@
+/* ─────────────────────────────────────────────────────────────
+   Reset + document base
+   ───────────────────────────────────────────────────────────── */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  /* `clip` on the root, not `overflow-x: hidden` on body: the latter turns
+     body into a scroll container in some engines, which quietly breaks
+     scroll-margin-top and smooth anchor jumps on mobile. */
+  overflow-x: clip;
+}
+
+body {
+  min-height: 100dvh;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: var(--step-0);
+  font-weight: 400;
+  line-height: 1.72;
+  font-optical-sizing: auto;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.4s var(--ease), color 0.4s var(--ease);
+}
+
+/* Scroll lock while the contents drawer is open. Applied to the root so the
+   page keeps its scroll position; body-level overflow lets iOS drift. */
+html[data-locked='true'] {
+  overflow: hidden;
+}
+
+img,
+picture,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+a {
+  color: var(--accent-deep);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: var(--radius-sm);
+}
+
+::selection {
+  background: var(--accent-wash);
+  color: var(--ink);
+}
+
+/* Screen-reader only, but focusable (skip link) */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.skip-link {
+  position: fixed;
+  top: 0.75rem;
+  left: 50%;
+  translate: -50% -200%;
+  z-index: 100;
+  padding: 0.7rem 1.2rem;
+  background: var(--paper-raised);
+  color: var(--ink);
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  box-shadow: var(--shadow-md);
+  font-family: var(--font-ui);
+  font-size: var(--step--1);
+  text-decoration: none;
+  transition: translate 0.25s var(--ease);
+}
+
+.skip-link:focus-visible {
+  translate: -50% 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

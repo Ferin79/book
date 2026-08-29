@@ -1,0 +1,6 @@
+# Search indexing is off while the book is in draft.
+# To go public: set INDEXABLE = true in src/config.ts and replace the
+# rules below with "Allow: /" plus the sitemap line.
+
+User-agent: *
+Disallow: /
