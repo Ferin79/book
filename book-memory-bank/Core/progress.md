@@ -6,11 +6,11 @@ This document tracks the overall progress of your book project. It serves as a d
 
 **Project Phase**: Drafting
 
-**Completion Percentage**: 2 of an estimated 15–20+ chapters drafted (Full Book scope, per `references/chapter_craft.md`) — early.
+**Completion Percentage**: 3 of an estimated 15–20+ chapters drafted (Full Book scope, per `references/chapter_craft.md`) — early.
 
 **Deadline Status**: No deadline set.
 
-**Current Milestone**: Chapter 1 ("Shambu") and Chapter 2 ("A Glass of Water," opening Part II) complete. Next milestone: gather specific incidents for the rest of Part II, Part III (the marriage as lived), and Part IV (his fathering of Ferin and Janvi).
+**Current Milestone**: Chapters 1–3 complete — Ch 1 ("Shambu," opens Part I), Ch 2 ("A Glass of Water," opens Part II), Ch 3 ("The Money He Wouldn't Take," opens Part III — The Husband). Next milestone: gather specific incidents for the rest of Part III (Heena Patel's own account of the marriage) and Part IV (his fathering of Ferin and Janvi — the "control" thread), and outline those chapters.
 
 ## What Works
 
@@ -24,23 +24,23 @@ This document tracks the overall progress of your book project. It serves as a d
 
 ## What's Left to Build
 
-**Incomplete Sections**: Rest of Part II beyond this first chapter (if more Sukhdevbhai Patel material exists), Part III (the marriage as lived), Part IV (his fathering of Ferin and Janvi), Part V ("The Reckoning," placeholder), Author's Note, Afterword.
+**Incomplete Sections**: Rest of Part II beyond Ch 2 (if more Sukhdevbhai Patel material exists), rest of Part III beyond Ch 3 (Heena Patel's own interior account of the marriage), Part IV (his fathering of Ferin and Janvi — the "control" thread flagged forward in Ch 2 and Ch 3), Part V ("The Reckoning," placeholder), Author's Note, Afterword.
 
-**Drafting Needed**: All chapters after Chapter 2.
+**Drafting Needed**: All chapters after Chapter 3.
 
-**Revision Needed**: Neither Chapter 1 nor Chapter 2 has had a formal revision pass yet.
+**Revision Needed**: None of Chapters 1–3 has had a formal revision pass yet. A light continuity pass across the three would catch: "Samaj" italic (Ch 1) vs. roman (Ch 2–3); the narrator's "28 now" (Ch 2) against his 9 Dec 1999 birth date; consistency of the in-prose book self-references ("earlier in this book" / "its own chapter further on").
 
 **Polishing Needed**: N/A yet.
 
 ## Known Issues
 
-**Quality Gaps**: None currently tracked. Chapter 1 is ~1,890 words; Chapter 2 is ~2,500 words of prose (plus four scripture blocks) — both below the 2,500–5,000-word mid-book target in `chapter_craft.md`, judged appropriate given each chapter's actual content rather than padded to hit a number.
+**Quality Gaps**: None currently tracked. Ch 1 ~1,890 words; Ch 2 ~2,500 prose words + 4 scripture blocks; Ch 3 ~3,050 prose words (~3,220 total incl. 4 scripture blocks) — near the low end of the chapter's 3,000–3,800 target, judged complete on content. Ch 1–2 sit below the 2,500–5,000-word mid-book target, judged appropriate to their content rather than padded.
 
-**Open Narrative Thread**: None currently open. (Chapter 1's planted "unnamed cost" thread — see below — was resolved in Chapter 2.)
+**Open Narrative Threads**: Two, both deliberately planted, neither to be resolved without the author's specific account — (1) Heena Patel's own fuller interior experience of the marriage (rest of Part III); (2) Rakesh Patel's direct control of Ferin and Janvi (Part IV), flagged in prose in both Ch 2 and Ch 3. Ch 1's "unnamed cost" thread was resolved in Ch 2; Ch 2's "Heena feared him too" thread was paid off in Ch 3.
 
 ## Evolution of Project Decisions
 
-**New Directions**: Confirmed (2026-08-17) that scripture references are placed per-chapter by decision, not automatically — Chapter 1 has none, by design, since it's a "before the mask cracks" portrait chapter. **Chapter 2 (2026-08-20)** is the first chapter to use the scripture framework — four verses (Chanakya Niti 2.5, Bhagavad Gita 2.62–63, Mahabharata Vana Parva/Yaksha Prashna, Valmiki Ramayana Ayodhya Kanda 24.1), all placed inline at the moment of the incident they comment on, all independently verified before drafting. See `Research/scripture_reference_tracker.md`.
+**New Directions**: Confirmed (2026-08-17) that scripture references are placed per-chapter by decision, not automatically — Chapter 1 has none, by design, since it's a "before the mask cracks" portrait chapter. **Chapter 2 (2026-08-20)** is the first chapter to use the scripture framework — four verses (Chanakya Niti 2.5, Bhagavad Gita 2.62–63, Mahabharata Vana Parva/Yaksha Prashna, Valmiki Ramayana Ayodhya Kanda 24.1), all placed inline at the moment of the incident they comment on, all independently verified before drafting. **Chapter 3 (2026-08-27)** continues the same method — four inline verses (Bhagavad Gita 16.21, Rigveda 10.85.46, Mahabharata Udyoga Parva 93.48, Bhagavad Gita 3.6), none reused from Ch 2, all externally verified. Ch 3 established two workable patterns: (a) the Gita can be drawn on more than once in a chapter when the themes map directly (16.21 for the vices, 3.6 for the word "hypocrite"); (b) when a raw author prompt asks to "prove him wrong" with epithets, honour the intent by letting the verses carry the argument and stating convictions plainly in the reflective register, rather than importing the epithets. See `Research/scripture_reference_tracker.md`.
 
 ## Activity Log
 
@@ -52,7 +52,9 @@ This document tracks the overall progress of your book project. It serves as a d
 
 **2026-08-27, same day** — Author flagged Chapter 2's title, "Sukhdev Papa," as generic. Retitled to **"A Glass of Water"** (the chapter's central image — young Ferin and Janvi bringing their beaten grandfather water). Renamed both the chapter and outline files and updated every cross-reference. See `activeContext.md` for the full note and the craft lesson drawn from it.
 
-**Next Work Session**: Author review of Chapter 2; then gather specific incidents for Part III (the marriage as Heena Patel lived it) or the rest of Part II, per the author's preference.
+**2026-08-27, Chapter 3 session** — Author supplied `plan-3.md` and asked for Chapter 3, continuing from Chapter 2's ending with heavy scripture use. Outlined and drafted **Chapter 3, "The Money He Wouldn't Take"** (~3,050 prose words; ~3,220 total incl. 4 scripture blocks) — opens **Part III — The Husband**. Covers the joint family after Sukhdevbhai Patel's death, the family's rise to upper-middle class (Pal Gam into Surat city limits), Rakesh Patel's parent-travel arrangements read as a Samaj performance, his unchanged miserliness and anger, the domestic-violence catalogue against Heena Patel (incl. a Goa trip in front of relatives), the centrepiece Sunday incident (beaten for planning to accept her father's land money, over Samaj optics), the hypocrisy reveal (he later lived on that inheritance while keeping his salary), the cost to the children, and Ferin Patel's young-adult intervention. Completes the book's "who pays the price" line (Ch 1 → Ch 2 Sukhdevbhai's body → Ch 3 Heena's inheritance and body). Verified four new scripture citations (Bhagavad Gita 16.21; Rigveda 10.85.46 — first use of the Vedas; Mahabharata Udyoga Parva 93.48; Bhagavad Gita 3.6) against external sources before use — see `Research/scripture_reference_tracker.md`. Updated `people_and_places.md` (Heena Patel profile built out; Ferin/Janvi/Praful expanded; Heena's father/sister/brother added; Setting + Timeline expanded), `activeContext.md`, and this file.
+
+**Next Work Session**: Author review of Chapter 3; then gather specific incidents for the rest of Part III (Heena Patel's own account of the marriage) or Part IV (his fathering of Ferin and Janvi), per the author's preference. Optionally a light continuity/revision pass across Chapters 1–3.
 
 ## Notes
 
