@@ -1,0 +1,82 @@
+# ─────────────────────────────────────────────
+# Operating system
+# ─────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ─────────────────────────────────────────────
+# Editors / IDEs
+# ─────────────────────────────────────────────
+.idea/
+*.swp
+*.swo
+*~
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+
+# ─────────────────────────────────────────────
+# Environment / secrets
+# ─────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+*.local
+
+# ─────────────────────────────────────────────
+# Logs
+# ─────────────────────────────────────────────
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ─────────────────────────────────────────────
+# Book project — writing tooling
+# ─────────────────────────────────────────────
+# Compiled / exported manuscripts (keep source .md in git)
+Manuscript/*.pdf
+Manuscript/*.docx
+Manuscript/*.epub
+*.tmp
+
+# ─────────────────────────────────────────────
+# web/ — React app (Vite/CRA/Next) deployed on Cloudflare
+# ─────────────────────────────────────────────
+web/node_modules/
+web/dist/
+web/build/
+web/.next/
+web/out/
+web/.turbo/
+web/.cache/
+web/coverage/
+web/*.tsbuildinfo
+
+# Cloudflare Wrangler
+web/.wrangler/
+web/.dev.vars
+web/.dev.vars.*
+web/wrangler.toml.bak
+
+# web env / logs
+web/.env
+web/.env.*
+!web/.env.example
+web/npm-debug.log*
+web/yarn-error.log*
+web/pnpm-debug.log*
+
+# Generic fallback (in case node projects land elsewhere)
+node_modules/
+dist/
+build/
