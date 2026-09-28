@@ -84,13 +84,24 @@ This document defines the writing style, language choices, and formatting conven
 
 ## Character-Specific Elements
 
-**Name Usage**: First introduction uses the full real name to ground identity (e.g., "Rakesh Patel"). Subsequent references use first name, relation term ("my father"), or — specifically for Rakesh Patel — his neighborhood nickname "Shambu" when the narration is inside that community context. No invented pet names not confirmed by the author.
+**Name Usage**: First introduction uses the full real name to ground identity (e.g., "Rakesh Patel"). Subsequent references use first name, relation term ("my father"), or — specifically for Rakesh Patel — his neighborhood nickname "Shambu" when the narration is inside that community context. No invented pet names not confirmed by the author. **Confirmed kinship terms (2026-09-28):** "Kaki" for Praful Patel's wife and "Masi" for Heena Patel's sister. Use them like names (no italics, the same as "Sukhdev papa"), and introduce each once with context ("my uncle's wife, my Kaki"; "my mother's sister, my Masi").
 
 ## Problem Areas to Watch
 
 **Info Dumps**: The single biggest risk in early chapters given how much biographical fact exists per person — always weave, never list.
 
 **Invented Specificity**: Never fill a genuine factual gap (an unknown date, an unremembered detail) with a plausible-sounding invented one — flag it in prose or with `[NEED RESEARCH]` instead.
+
+**Staging Details**: Small invented specifics creep in during drafting: "in a hotel," "one night," "in the lane," "in the doorway," a city name when only the country is known. Each one is a fact the author never gave. Leave them out unless the author confirmed them. The 2026-09-28 revision of Chapter 3 removed several.
+
+**Flow Between Sections — CORRECTED 2026-09-28**: The author reviewed Chapter 3 and said the content was good but the flow was not natural. Sections read like separate essays, and one paragraph ("He never sent us out of the room") sat far from the events it referred to. This is a firm rule for every chapter, not a style option:
+- The first line of each section must pick up something from the last lines of the section before it: an image, a word, a person, a question, or a cause. Never open a section on a new topic cold.
+- Put every paragraph next to the material it refers to. A reaction belongs beside the event it reacts to.
+- If a chapter announces its subject ("This chapter is hers"), get to that subject early, not four sections later.
+- Plant concrete details early and call back to them later. In Chapter 3 the daily kitchen routine returns in the Sunday morning, the maid's pay returns in the money reveal, and both return in the closing line.
+- Test: read only the last line of each section and the first line of the next. The pair should make sense on its own.
+
+**Hindu Customs**: The family is Hindu. The dead are cremated, never buried. Never write "buried" or "grave" for anyone in this family (author correction, 2026-09-28).
 
 ## Notes
 
