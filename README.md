@@ -30,7 +30,7 @@ This repository holds one book: a **non-fiction, storytelling-style memoir**, wr
 Beyond the personal account, the author intends this book as a **role-model / eye-opening work for readers — especially in India — living under a similarly authoritative, image-conscious household figure**: recognition, a scripturally grounded vocabulary for real vs. performed dharma, and encouragement to raise their voice. Full thesis and context: [`CONTEXT.md`](CONTEXT.md).
 
 - **Title:** not yet decided (`[Book Title — TBD]` is used as a placeholder throughout the project until one is chosen).
-- **Content:** arriving incrementally, chapter by chapter. Drafted so far: Chapter 1, "Shambu" (`Chapters/Chapter_01_Shambu.md`, opening Part I — The Mask); Chapter 2, "A Glass of Water" (`Chapters/Chapter_02_A_Glass_of_Water.md`, opening Part II — Where It Began); and Chapter 3, "The Money He Wouldn't Take" (`Chapters/Chapter_03_The_Money_He_Wouldnt_Take.md`, opening Part III — The Husband).
+- **Content:** arriving incrementally, chapter by chapter. Drafted so far: Chapter 1, "Shambu" (`Chapters/Chapter_01_Shambu.md`, opening Part I — The Mask); Chapter 2, "The Father" (`Chapters/Chapter_02_The_Father.md`, opening Part II — Where It Began); and Chapter 3, "The Wife" (`Chapters/Chapter_03_The_Wife.md`, opening Part III — The Husband).
 - **Factual license:** standard memoir convention. Reconstructed dialogue and scene detail are allowed when grounded in real memory — but events, dates, and outcomes are never invented. Anything uncertain is flagged rather than guessed at.
 
 ---
@@ -60,13 +60,13 @@ book/
 ├── CONTEXT.md                         # Thesis, real people, structure, scripture framework — read first
 ├── Chapters/                          # Finished chapters (Markdown), one file per chapter
 │   ├── Chapter_01_Shambu.md           # Drafted
-│   ├── Chapter_02_A_Glass_of_Water.md # Drafted
-│   └── Chapter_03_The_Money_He_Wouldnt_Take.md # Drafted
+│   ├── Chapter_02_The_Father.md # Drafted
+│   └── Chapter_03_The_Wife.md # Drafted
 ├── Outlines/
 │   └── Chapter_Outlines/              # Per-chapter outlines, filled in as chapters are planned
 │       ├── Chapter_01_Shambu.md       # Drafted
-│       ├── Chapter_02_A_Glass_of_Water.md # Drafted
-│       └── Chapter_03_The_Money_He_Wouldnt_Take.md # Drafted
+│       ├── Chapter_02_The_Father.md # Drafted
+│       └── Chapter_03_The_Wife.md # Drafted
 ├── Research/
 │   └── scripture_reference_tracker.md # Log of every scripture citation used, with verification notes
 ├── book-memory-bank/                  # AI writing memory bank — context continuity across sessions
@@ -110,6 +110,6 @@ This repository uses a customized `book-writer` skill (`.agents/skills/book-writ
 | Central people confirmed | ✅ Complete (list will grow) |
 | Title | ⏳ Not yet decided |
 | Chapter outlines | 🟡 3 of many (Chapters 1–3) |
-| Chapters drafted | 🟡 3 drafted — "Shambu" (Part I), "A Glass of Water" (Part II), "The Money He Wouldn't Take" (Part III) |
+| Chapters drafted | 🟡 3 drafted — "Shambu" (Part I), "The Father" (Part II), "The Wife" (Part III) |
 
 *Started: August 2026*

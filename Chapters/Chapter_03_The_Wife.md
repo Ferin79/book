@@ -1,4 +1,4 @@
-# Chapter Three: The Money He Wouldn't Take
+# Chapter Three: The Wife
 
 My sister and I were not the only ones in that house who were afraid of him. I said so at the end of the last chapter, and then I left it there. My mother was afraid of him too. Hers was a different kind of fear. She could not leave him, and she still had to cook his dinner every night. This chapter is hers.
 

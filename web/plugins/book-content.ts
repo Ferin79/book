@@ -23,7 +23,7 @@ export interface Chapter {
 }
 
 /**
- * Splits "# Chapter Two: A Glass of Water" into its label and title halves.
+ * Splits "# Chapter Two: The Father" into its label and title halves.
  * Falls back gracefully when a heading has no colon.
  */
 function splitHeading(heading: string): { label: string; title: string } {

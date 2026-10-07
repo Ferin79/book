@@ -25,8 +25,8 @@ npm run deploy     # build + wrangler deploy
 ```
 
 Chapters are picked up automatically. Ordering comes from the numeric part of the
-filename, and each file's `# Chapter Two: A Glass of Water` heading is split into
-the label (`Chapter Two`) and the title (`A Glass of Water`). Add a new
+filename, and each file's `# Chapter Two: The Father` heading is split into
+the label (`Chapter Two`) and the title (`The Father`). Add a new
 `Chapter_04_*.md` and it appears with no code change.
 
 Markdown conventions the site understands:

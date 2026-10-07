@@ -1,4 +1,4 @@
-# Chapter 3: The Money He Wouldn't Take
+# Chapter 3: The Wife
 
 *(Memoir outline — adapted from the fiction template; sections that assume an invented plot are omitted. Every beat maps to something real, per the author's account in `plan-3.md` and the author's direct answers during the 2026-09-28 revision.)*
 
