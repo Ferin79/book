@@ -9,9 +9,11 @@ This document is the foundation for this book project. It defines the core conce
 
 ## Project Definition
 
-**Title**: [Book Title — TBD]
+**Title**: Treat Your Father as a God (confirmed by the author, 2026-10-12)
 
-**Working Title**: [TBD]
+**Subtitle**: [TBD]
+
+**Title Source**: The English of *pitṛdevo bhava* ("Treat your father as a god"), Taittiriya Upanishad, Shiksha Valli 1.11.2, the verse that closes Chapter 4. The title is ironic on purpose. The same verse goes on to say "Whatever deeds are blameless, those you should follow. Not the others." The book is the "not the others."
 
 **Author**: Ferin Patel
 

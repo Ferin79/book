@@ -4,9 +4,9 @@
  */
 
 export const BOOK = {
-  /** PLACEHOLDER — the real title is still TBD. Swap this when it's chosen. */
-  title: 'Shambu',
-  titleIsPlaceholder: true,
+  /** Confirmed by the author 2026-10-12. */
+  title: 'Treat Your Father as a God',
+  titleIsPlaceholder: false,
 
   eyebrow: 'A true story',
   subtitle:
