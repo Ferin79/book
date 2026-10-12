@@ -5,7 +5,7 @@
 *A true story, told chapter by chapter — the life of a father, the family he made, and a mirror for every household still living behind a mask like his.*
 
 [![Status](https://img.shields.io/badge/status-drafting-orange?style=flat-square)](#)
-[![Chapters](https://img.shields.io/badge/chapters-3%20drafted-blue?style=flat-square)](#)
+[![Chapters](https://img.shields.io/badge/chapters-4%20drafted-blue?style=flat-square)](#)
 [![Type](https://img.shields.io/badge/type-memoir%20%2F%20true%20story-purple?style=flat-square)](#)
 
 </div>
@@ -19,7 +19,7 @@
 📖 **Read [`CONTEXT.md`](CONTEXT.md) before doing anything else in this project.** It holds the book's thesis, the real people involved, the proposed structure, and the scripture-reference framework this book is built around. `book-memory-bank/Core/activeContext.md` points here too, but `CONTEXT.md` is the source of truth for *why* this book exists and *how* it argues its case.
 
 > ### ⚠️ Big Note: Scriptural References Are Load-Bearing
-> This book uses verses from the **Shreemad Bhagavad Gita, Mahabharata, Valmiki Ramayana, Chanakya Niti, and the Vedas** — quoted in Devanagari with translation and analysis — as its central rhetorical device: measuring the father's private conduct against the very religious standard his public image claims to uphold. **Use these references as much as the material can bear**, per the full framework, format, and accuracy rules in `CONTEXT.md` → *The Scripture & Reference Framework*.
+> This book uses verses from the **Shreemad Bhagavad Gita, Mahabharata, Valmiki Ramayana, Chanakya Niti, and the Vedas** (and, since Chapter 4, the Upanishads, the Yoga Vasishtha, and Kabir) — quoted in Devanagari with translation and analysis — as its central rhetorical device: measuring the father's private conduct against the very religious standard his public image claims to uphold. **Use these references as much as the material can bear**, per the full framework, format, and accuracy rules in `CONTEXT.md` → *The Scripture & Reference Framework*.
 
 ---
 
@@ -30,7 +30,7 @@ This repository holds one book: a **non-fiction, storytelling-style memoir**, wr
 Beyond the personal account, the author intends this book as a **role-model / eye-opening work for readers — especially in India — living under a similarly authoritative, image-conscious household figure**: recognition, a scripturally grounded vocabulary for real vs. performed dharma, and encouragement to raise their voice. Full thesis and context: [`CONTEXT.md`](CONTEXT.md).
 
 - **Title:** not yet decided (`[Book Title — TBD]` is used as a placeholder throughout the project until one is chosen).
-- **Content:** arriving incrementally, chapter by chapter. Drafted so far: Chapter 1, "Shambu" (`Chapters/Chapter_01_Shambu.md`, opening Part I — The Mask); Chapter 2, "The Father" (`Chapters/Chapter_02_The_Father.md`, opening Part II — Where It Began); and Chapter 3, "The Wife" (`Chapters/Chapter_03_The_Wife.md`, opening Part III — The Husband).
+- **Content:** arriving incrementally, chapter by chapter. Drafted so far: Chapter 1, "Shambu" (`Chapters/Chapter_01_Shambu.md`, opening Part I — The Mask); Chapter 2, "The Father" (`Chapters/Chapter_02_The_Father.md`, opening Part II — Where It Began); Chapter 3, "The Wife" (`Chapters/Chapter_03_The_Wife.md`, opening Part III — The Husband); and Chapter 4, "The Son" (`Chapters/Chapter_04_The_Son.md`, opening Part IV).
 - **Factual license:** standard memoir convention. Reconstructed dialogue and scene detail are allowed when grounded in real memory — but events, dates, and outcomes are never invented. Anything uncertain is flagged rather than guessed at.
 
 ---

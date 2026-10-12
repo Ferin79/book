@@ -103,6 +103,16 @@ This document defines the writing style, language choices, and formatting conven
 
 **Hindu Customs**: The family is Hindu. The dead are cremated, never buried. Never write "buried" or "grave" for anyone in this family (author correction, 2026-09-28).
 
+**"Add more examples" in a plan**: When the author's notes ask to "add more examples" of a pattern, do not invent incidents. Use the examples the author gave elsewhere in the notes, and ask for more. For Chapter 4, `plan-4.md` asked for more "he never liked anything" examples, and the author's own teenage-years list (phone, games, clothes, beard, curfew) supplied them.
+
+## Per-Chapter Exceptions (author decisions, not standing rules)
+
+- **Chapter 4, "The Son" (2026-10-11)**:
+  - **Strong wording allowed.** The author is writing his own feelings, so his strongest phrases stay: "1800s," "narrow-minded," "I was living in hell," "Hypocrite," "the death of choice," "I am ashamed to call him my father," "the Samaj's disease," "cage." Simple sentences still apply.
+  - **Direct Samaj critique allowed.** The Chapter 1 instruction ("just a hint, don't blame the Samaj") is lifted for this chapter only. The Samaj's wealth-as-status custom in matchmaking is named directly. The main blame still rests on Rakesh Patel.
+  - **Scripture from beyond the five original sources** (Upanishads, Yoga Vasishtha, Kabir), at the author's request. See `CONTEXT.md` → Approved Sources.
+  - Ask the author before carrying either exception into later chapters.
+
 ## Notes
 
 The version of "write like a human author" that applies to this project is the memoir voice above — warm, restrained, concrete — not a fiction-workshop voice. Contractions and informal rhythm are welcome in narration and especially in remembered dialogue; avoid perfectly modulated speeches. Use similes/metaphors sparingly and only when they're grounded in this family's actual world (Gujarat, Surat, the street, the mandir) rather than generic comparisons.

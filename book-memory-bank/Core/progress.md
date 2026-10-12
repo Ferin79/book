@@ -6,11 +6,11 @@ This document tracks the overall progress of your book project. It serves as a d
 
 **Project Phase**: Drafting
 
-**Completion Percentage**: 3 of an estimated 15–20+ chapters drafted (Full Book scope, per `references/chapter_craft.md`) — early.
+**Completion Percentage**: 4 of an estimated 15–20+ chapters drafted (Full Book scope, per `references/chapter_craft.md`) — early.
 
 **Deadline Status**: No deadline set.
 
-**Current Milestone**: Chapters 1–3 complete — Ch 1 ("Shambu," opens Part I), Ch 2 ("The Father," opens Part II), Ch 3 ("The Wife," opens Part III — The Husband). Next milestone: gather specific incidents for the rest of Part III (Heena Patel's own account of the marriage) and Part IV (his fathering of Ferin and Janvi — the "control" thread), and outline those chapters.
+**Current Milestone**: Chapters 1–4 drafted. Ch 4 ("The Son," opens Part IV) was added 2026-10-11. Next milestone: Janvi Patel's chapter (Ch 5, hers alone per the author). Earlier milestone: Chapters 1–3 complete — Ch 1 ("Shambu," opens Part I), Ch 2 ("The Father," opens Part II), Ch 3 ("The Wife," opens Part III — The Husband). Next milestone: gather specific incidents for the rest of Part III (Heena Patel's own account of the marriage) and Part IV (his fathering of Ferin and Janvi — the "control" thread), and outline those chapters.
 
 ## What Works
 
@@ -63,3 +63,5 @@ This document tracks the overall progress of your book project. It serves as a d
 ## Notes
 
 [Any additional progress information that doesn't fit elsewhere]
+
+**2026-10-11, Chapter 4 session** — The author supplied `plan-4.md` and answered 14 clarifying questions before drafting (facts, title, length, tone, Samaj framing, scripture scope). Outlined and drafted **Chapter 4, "The Son"** (~4,950 prose words; ~5,670 total incl. 12 scripture blocks), opening Part IV. It covers the father's real support (education, karate in Sri Lanka and Nepal, Canada, a clean life), then his control from childhood to the 2023 marriage pressure, the "rich house" filter, Vrunda, and the December 2023 engagement. Strong wording and direct Samaj critique were allowed for this chapter only, by author decision. Twelve verses from seven texts were verified against primary sources (BORI CE e-texts for the Mahabharata/Gita; Sanskrit Wikisource for Chanakya Niti and the Upanishads; structured verse pages for the Yoga Vasishtha; multiple sources for Kabir). This is the first use of the Upanishads, the Yoga Vasishtha, and Kabir. Updated `people_and_places.md` (new Vrunda profile), `activeContext.md`, `Style/style_guide.md`, `CONTEXT.md`, `README.md`, and the scripture tracker.
