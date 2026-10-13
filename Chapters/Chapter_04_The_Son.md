@@ -116,6 +116,20 @@ The rules kept coming. I did not have my own phone until I finished twelfth grad
 
 I could only buy the clothes he approved of. I could only wear what he liked, and he decided what suited each event. If my beard or my hair grew even a little, he nagged me to trim it. If I went out in the evening and was not home by ten, the calls started. Ten calls. And anger, every single time.
 
+Even our plates were his to decide. He did not like pizza. He did not like burgers, or soft drinks like Coke, or anything made with bread, and the list went on from there. Because he did not like them, we could not have them either.
+
+He was sure they were bad for the stomach. "These things are poison," he would say. "You should not eat such things." I never believed that. I agree that moderation is the key. Too much of anything is bad for you. But a complete ban is not good either, especially for a young man in college.
+
+Earlier in this chapter, I quoted Krishna on balance. That verse opens with food. *Yuktahara*. Balanced eating. Not banned eating.
+
+This is where all his travelling should have helped him. People travel to see other cultures and to taste other food. That is half the reason to leave home at all. My father travelled for a stamp in his passport and a post on Facebook, so the Samaj could see where Shambu had been. He never understood what travel is for. There is a whole country in this world where pizza is everyday food, and its people live some of the longest lives on earth. Italy. He could have learned that on any one of his trips. He never did.
+
+The food was never really about food. It was about a man who would not change his mind for a new generation. The world kept changing around him. Pal Gam stopped being a village and became part of Surat. His own children grew up in English medium schools, the way he had wanted. A whole new generation was growing up with new food, new music, and new ideas about how to live. Each of those changes was a chance to grow. He let every one of them pass. He never adapted. He never grew. He only kept his ego big, and kept his grip on the people under his roof.
+
+I think I understand why. Outside the house, he could not control what the Samaj thought of him. He could only work to please it. At home, there was no one he had to please. His family was the only place where his word was final. So that is where he used it, all of it.
+
+His control even came with us when we ate out. When the family went to a restaurant, he decided which one. He decided what to order. Nobody else had a say. Only he and his brother, my uncle Praful, decided for all of us. The rest of us ate whatever came to the table. Everyone ate what he liked.
+
 No freedom. No choice. No life. Just do what he says, and he will be happy. He never asked for my opinion on anything. To be honest, I was living in hell.
 
 I used to look at the fathers of my friends, boys my own age. Those fathers were completely different from mine. I felt that difference badly, many times. In my father's mind, a child outside the house had to be up to something bad. There was no other explanation. It was a stressful way to live, and it went on for years.
