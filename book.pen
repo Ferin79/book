@@ -1,0 +1,1251 @@
+{
+  "version": "2.21",
+  "children": [
+    {
+      "type": "frame",
+      "id": "bi8Au",
+      "x": 0,
+      "y": 0,
+      "name": "Frame",
+      "clip": true,
+      "width": 800,
+      "height": 600,
+      "fill": "#FFFFFF",
+      "layout": "none"
+    },
+    {
+      "type": "frame",
+      "id": "QfEHb",
+      "x": 920,
+      "y": 0,
+      "name": "Front Cover",
+      "clip": true,
+      "width": 600,
+      "height": 900,
+      "fill": [
+        "$ink",
+        {
+          "type": "gradient",
+          "gradientType": "radial",
+          "enabled": true,
+          "rotation": 0,
+          "size": {
+            "width": 1.3,
+            "height": 0.75
+          },
+          "colors": [
+            {
+              "color": "#6B22168C",
+              "position": 0
+            },
+            {
+              "color": "#14100D00",
+              "position": 1
+            }
+          ],
+          "center": {
+            "y": 0.34
+          }
+        }
+      ],
+      "layout": "vertical",
+      "padding": [
+        56,
+        0
+      ],
+      "justifyContent": "space_between",
+      "children": [
+        {
+          "type": "frame",
+          "id": "NPI6Z",
+          "name": "Top",
+          "width": "fill_container",
+          "justifyContent": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "cZoh4",
+              "name": "Eyebrow",
+              "fill": "$ash-muted",
+              "content": "A TRUE STORY",
+              "fontFamily": "$font-label",
+              "fontSize": 11,
+              "fontWeight": "500",
+              "letterSpacing": 5
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "r4Pot",
+          "name": "Middle",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 60,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "l1mUf",
+              "name": "Tripundra Mark",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 18,
+              "children": [
+                {
+                  "type": "rectangle",
+                  "id": "xKJ53",
+                  "name": "Ash Line 1",
+                  "fill": "$ash",
+                  "width": "fill_container",
+                  "height": 20
+                },
+                {
+                  "type": "frame",
+                  "id": "qiGpb",
+                  "name": "Ash Line 2",
+                  "width": "fill_container",
+                  "height": 20,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "Ntz6C",
+                      "x": 0,
+                      "y": 0,
+                      "name": "Line",
+                      "fill": "$ash",
+                      "width": 600,
+                      "height": 20
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "hrYdl",
+                      "x": 273,
+                      "y": -17,
+                      "name": "Bindu",
+                      "fill": "$kumkum",
+                      "width": 54,
+                      "height": 54
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "qmTDr",
+                  "name": "Ash Line 3 (cracked)",
+                  "width": "fill_container",
+                  "height": 24,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "UG7VK",
+                      "x": 0,
+                      "y": 0,
+                      "name": "Line Left",
+                      "fill": "$ash",
+                      "width": 372,
+                      "height": 20
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "aeYFa",
+                      "x": 386,
+                      "y": 4,
+                      "name": "Line Right",
+                      "fill": "$ash",
+                      "width": 214,
+                      "height": 20
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "e4sJn",
+              "name": "Title Block",
+              "layout": "vertical",
+              "gap": 20,
+              "padding": [
+                0,
+                52
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "tl3TD",
+                  "name": "Sanskrit",
+                  "fill": "$kumkum",
+                  "content": "पितृदेवो भव",
+                  "fontFamily": "$font-deva",
+                  "fontSize": 20,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "MDKBC",
+                  "name": "Title",
+                  "layout": "vertical",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "pFJXs",
+                      "name": "Line 1",
+                      "fill": "$ash",
+                      "content": "Treat Your",
+                      "lineHeight": 0.98,
+                      "fontFamily": "$font-display",
+                      "fontSize": 92,
+                      "fontWeight": "normal",
+                      "letterSpacing": -2.5
+                    },
+                    {
+                      "type": "text",
+                      "id": "y6mni",
+                      "name": "Line 2",
+                      "fill": "$ash",
+                      "content": "Father",
+                      "lineHeight": 0.98,
+                      "fontFamily": "$font-display",
+                      "fontSize": 92,
+                      "fontWeight": "normal",
+                      "letterSpacing": -2.5
+                    },
+                    {
+                      "type": "frame",
+                      "id": "j5HQV",
+                      "name": "Line 3",
+                      "gap": 18,
+                      "alignItems": "end",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "fuLPC",
+                          "name": "as a",
+                          "fill": "$ash",
+                          "content": "as a",
+                          "lineHeight": 0.98,
+                          "fontFamily": "$font-display",
+                          "fontSize": 92,
+                          "fontWeight": "normal",
+                          "letterSpacing": -2.5
+                        },
+                        {
+                          "type": "text",
+                          "id": "L3EGn",
+                          "name": "God",
+                          "fill": "$ash",
+                          "content": "God",
+                          "lineHeight": 0.98,
+                          "fontFamily": "$font-display",
+                          "fontSize": 92,
+                          "fontWeight": "normal",
+                          "letterSpacing": -2.5,
+                          "fontStyle": "italic"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Mmt8F",
+          "name": "Bottom",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 30,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "gDpHH",
+              "name": "Pull Quote",
+              "fill": "$ash-muted",
+              "content": "The Samaj had a word for my father.\nIdeal.",
+              "lineHeight": 1.4,
+              "textAlign": "center",
+              "fontFamily": "$font-body",
+              "fontSize": 20,
+              "fontWeight": "normal",
+              "fontStyle": "italic"
+            },
+            {
+              "type": "rectangle",
+              "id": "W0yMb",
+              "name": "Rule",
+              "fill": "$kumkum",
+              "width": 28,
+              "height": 2
+            },
+            {
+              "type": "text",
+              "id": "xf1Pl",
+              "name": "Author",
+              "fill": "$ash",
+              "content": "FERIN PATEL",
+              "fontFamily": "$font-label",
+              "fontSize": 14,
+              "fontWeight": "500",
+              "letterSpacing": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "efB9X",
+      "x": 1600,
+      "y": 0,
+      "name": "Back Cover",
+      "clip": true,
+      "width": 600,
+      "height": 900,
+      "fill": [
+        "$ink",
+        {
+          "type": "gradient",
+          "gradientType": "radial",
+          "enabled": true,
+          "rotation": 0,
+          "size": {
+            "width": 1.3,
+            "height": 0.5
+          },
+          "colors": [
+            {
+              "color": "#6B221666",
+              "position": 0
+            },
+            {
+              "color": "#14100D00",
+              "position": 1
+            }
+          ],
+          "center": {
+            "y": 0.12
+          }
+        }
+      ],
+      "layout": "vertical",
+      "gap": 34,
+      "padding": [
+        60,
+        56,
+        48,
+        56
+      ],
+      "justifyContent": "space_between",
+      "children": [
+        {
+          "type": "frame",
+          "id": "oNyrR",
+          "name": "Verse",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 16,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "Ubr8Q",
+              "name": "Mini Mark",
+              "width": 48,
+              "height": 28,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "id": "e3YDFe",
+                  "x": 0,
+                  "y": 0,
+                  "name": "Bar 1",
+                  "fill": "$ash",
+                  "width": 48,
+                  "height": 5
+                },
+                {
+                  "type": "rectangle",
+                  "id": "UyZdl",
+                  "x": 0,
+                  "y": 10,
+                  "name": "Bar 2",
+                  "fill": "$ash",
+                  "width": 48,
+                  "height": 5
+                },
+                {
+                  "type": "rectangle",
+                  "id": "i7ZzJ",
+                  "x": 0,
+                  "y": 20,
+                  "name": "Bar 3",
+                  "fill": "$ash",
+                  "width": 48,
+                  "height": 5
+                },
+                {
+                  "type": "ellipse",
+                  "id": "xKRZY",
+                  "x": 18,
+                  "y": 6.5,
+                  "name": "Bindu",
+                  "fill": "$kumkum",
+                  "width": 12,
+                  "height": 12
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "L1Kwz",
+              "name": "Sanskrit Verse",
+              "fill": "$ash",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "मातृदेवो भव । पितृदेवो भव ।\nआचार्यदेवो भव । अतिथिदेवो भव ।\nयान्यनवद्यानि कर्माणि तानि सेवितव्यानि । नो इतराणि ।",
+              "lineHeight": 1.6,
+              "textAlign": "center",
+              "fontFamily": "$font-deva",
+              "fontSize": 17,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "NtlhZ",
+              "name": "Translation",
+              "fill": "$ash-muted",
+              "content": "Treat your mother as a god. Treat your father as a god.\nTreat your teacher as a god. Treat your guest as a god.\nWhatever deeds are blameless, those you should follow.",
+              "lineHeight": 1.5,
+              "textAlign": "center",
+              "fontFamily": "$font-body",
+              "fontSize": 15,
+              "fontWeight": "normal",
+              "fontStyle": "italic"
+            },
+            {
+              "type": "text",
+              "id": "x87sb",
+              "name": "Not the others",
+              "fill": "$kumkum",
+              "content": "Not the others.",
+              "fontFamily": "$font-body",
+              "fontSize": 19,
+              "fontWeight": "normal",
+              "fontStyle": "italic"
+            },
+            {
+              "type": "text",
+              "id": "YKVyC",
+              "name": "Citation",
+              "fill": "$ash-muted",
+              "content": "TAITTIRIYA UPANISHAD  1.11.2",
+              "fontFamily": "$font-label",
+              "fontSize": 9,
+              "fontWeight": "500",
+              "letterSpacing": 3
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Qy2oZ",
+          "name": "Blurb",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 12,
+          "children": [
+            {
+              "type": "text",
+              "id": "P1dq42",
+              "name": "Paragraph 1",
+              "fill": "$ash",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "On Moti Fali, in the village of Pal Gam in Surat, nobody used his real name. The street called him Shambu, one of Shiva's own names. Honest. Devout. The man the Samaj sent for first, for every wedding and every funeral.",
+              "lineHeight": 1.5,
+              "fontFamily": "$font-body",
+              "fontSize": 15,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "ugWhK",
+              "name": "Paragraph 2",
+              "fill": "$kumkum",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "His family knew a different man.",
+              "lineHeight": 1.5,
+              "fontFamily": "$font-body",
+              "fontSize": 17,
+              "fontWeight": "normal",
+              "fontStyle": "italic"
+            },
+            {
+              "type": "text",
+              "id": "XWLtx",
+              "name": "Paragraph 3",
+              "fill": "$ash",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "In this true story, his son tells what happened behind the door the street never saw. A grandfather tied to his bed and beaten for his drinking. A mother who cooked for nine, paid the household's bills, and was hit for disagreeing. Two children who grew up afraid of their own father. And a son whose own marriage was decided by one question: what will the Samaj say?",
+              "lineHeight": 1.5,
+              "fontFamily": "$font-body",
+              "fontSize": 15,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "O998Y",
+              "name": "Paragraph 4",
+              "fill": "$ash",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Ferin Patel holds his father up against the scriptures he took such pride in knowing. The result is a son's reckoning, and a mirror for every family still living behind a respectable front door.",
+              "lineHeight": 1.5,
+              "fontFamily": "$font-body",
+              "fontSize": 15,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "a5Pbw",
+          "name": "Footer",
+          "width": "fill_container",
+          "gap": 24,
+          "justifyContent": "space_between",
+          "alignItems": "end",
+          "children": [
+            {
+              "type": "frame",
+              "id": "Q5XFb4",
+              "name": "Author Bio",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 14,
+              "children": [
+                {
+                  "type": "rectangle",
+                  "id": "BS88k",
+                  "name": "Rule",
+                  "fill": "$kumkum",
+                  "width": 28,
+                  "height": 2
+                },
+                {
+                  "type": "text",
+                  "id": "WOwkN",
+                  "name": "Bio",
+                  "fill": "$ash-muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Ferin Patel grew up on Moti Fali in Surat, Gujarat. He now lives in Halifax, Canada, where he works in software.",
+                  "lineHeight": 1.45,
+                  "fontFamily": "$font-body",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "WpkpB",
+                  "name": "Category",
+                  "fill": "$ash",
+                  "content": "MEMOIR",
+                  "fontFamily": "$font-label",
+                  "fontSize": 9,
+                  "fontWeight": "600",
+                  "letterSpacing": 3
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "VxiCS",
+              "name": "Barcode Placeholder",
+              "width": 150,
+              "height": 86,
+              "fill": "$ash",
+              "layout": "vertical",
+              "gap": 4,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "APA5R",
+                  "name": "Barcode Label",
+                  "fill": "$ink",
+                  "content": "ISBN BARCODE",
+                  "fontFamily": "$font-label",
+                  "fontSize": 9,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "Q7K0u6",
+                  "name": "Barcode Note",
+                  "fill": "#14100D99",
+                  "content": "placeholder",
+                  "fontFamily": "$font-label",
+                  "fontSize": 9,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "vlKYs",
+      "x": 920,
+      "y": 1020,
+      "name": "Front Cover — Gujarati",
+      "clip": true,
+      "width": 600,
+      "height": 900,
+      "fill": [
+        "$ink",
+        {
+          "type": "gradient",
+          "gradientType": "radial",
+          "enabled": true,
+          "rotation": 0,
+          "size": {
+            "width": 1.3,
+            "height": 0.75
+          },
+          "colors": [
+            {
+              "color": "#6B22168C",
+              "position": 0
+            },
+            {
+              "color": "#14100D00",
+              "position": 1
+            }
+          ],
+          "center": {
+            "y": 0.34
+          }
+        }
+      ],
+      "layout": "vertical",
+      "padding": [
+        56,
+        0
+      ],
+      "justifyContent": "space_between",
+      "children": [
+        {
+          "type": "frame",
+          "id": "zUUQ2",
+          "name": "Top",
+          "width": "fill_container",
+          "justifyContent": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "aCA9N",
+              "name": "Eyebrow",
+              "fill": "$ash-muted",
+              "content": "એક સત્ય કથા",
+              "fontFamily": "$font-gu-label",
+              "fontSize": 15,
+              "fontWeight": "500"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ltZoH",
+          "name": "Middle",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 60,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "cvcut",
+              "name": "Tripundra Mark",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 18,
+              "children": [
+                {
+                  "type": "rectangle",
+                  "id": "eYVfp",
+                  "name": "Ash Line 1",
+                  "fill": "$ash",
+                  "width": "fill_container",
+                  "height": 20
+                },
+                {
+                  "type": "frame",
+                  "id": "pzD18",
+                  "name": "Ash Line 2",
+                  "width": "fill_container",
+                  "height": 20,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "N2Zaq",
+                      "x": 0,
+                      "y": 0,
+                      "name": "Line",
+                      "fill": "$ash",
+                      "width": 600,
+                      "height": 20
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "S2rxHG",
+                      "x": 273,
+                      "y": -17,
+                      "name": "Bindu",
+                      "fill": "$kumkum",
+                      "width": 54,
+                      "height": 54
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "LYaqc",
+                  "name": "Ash Line 3 (cracked)",
+                  "width": "fill_container",
+                  "height": 24,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "rbyHA",
+                      "x": 0,
+                      "y": 0,
+                      "name": "Line Left",
+                      "fill": "$ash",
+                      "width": 372,
+                      "height": 20
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "yE85L",
+                      "x": 386,
+                      "y": 4,
+                      "name": "Line Right",
+                      "fill": "$ash",
+                      "width": 214,
+                      "height": 20
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ee2NT",
+              "name": "Title Block",
+              "layout": "vertical",
+              "gap": 20,
+              "padding": [
+                0,
+                52
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "S39aj",
+                  "x": 167,
+                  "y": 0,
+                  "name": "Sanskrit",
+                  "enabled": false,
+                  "fill": "$kumkum",
+                  "content": "પિતૃદેવો ભવ",
+                  "fontFamily": "$font-gu-body",
+                  "fontSize": 24,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "XyXOj",
+                  "name": "Title",
+                  "layout": "vertical",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "mi7wV",
+                      "name": "Line 1",
+                      "fill": "$ash",
+                      "content": "પિતૃદેવો",
+                      "lineHeight": 1.1,
+                      "fontFamily": "Rasa",
+                      "fontSize": 132,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "BsMjo",
+                      "x": 85.5,
+                      "y": 90,
+                      "name": "Line 2",
+                      "enabled": false,
+                      "fill": "$ash",
+                      "content": "Father",
+                      "lineHeight": 0.98,
+                      "fontFamily": "$font-display",
+                      "fontSize": 92,
+                      "fontWeight": "normal",
+                      "letterSpacing": -2.5
+                    },
+                    {
+                      "type": "frame",
+                      "id": "K6QJoS",
+                      "name": "Line 3",
+                      "gap": 28,
+                      "alignItems": "end",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "xez1m",
+                          "name": "as a",
+                          "fill": "$ash",
+                          "content": "ભવ",
+                          "lineHeight": 1.1,
+                          "fontFamily": "Rasa",
+                          "fontSize": 132,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Cn4dy",
+                          "x": 135,
+                          "y": 0,
+                          "name": "God",
+                          "enabled": false,
+                          "fill": "$ash",
+                          "content": "માનો",
+                          "lineHeight": 1.1,
+                          "fontFamily": "Rasa",
+                          "fontSize": 120,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "FACxM",
+          "name": "Bottom",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 30,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "pJRUi",
+              "name": "Pull Quote",
+              "fill": "$ash-muted",
+              "content": "સમાજ પાસે મારા પિતા માટે એક શબ્દ હતો.\nઆદર્શ.",
+              "lineHeight": 1.5,
+              "textAlign": "center",
+              "fontFamily": "$font-gu-body",
+              "fontSize": 21,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "rectangle",
+              "id": "rxUpr",
+              "name": "Rule",
+              "fill": "$kumkum",
+              "width": 28,
+              "height": 2
+            },
+            {
+              "type": "text",
+              "id": "ytErQ",
+              "name": "Author",
+              "fill": "$ash",
+              "content": "ફેરિન પટેલ",
+              "fontFamily": "$font-gu-label",
+              "fontSize": 20,
+              "fontWeight": "600"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "H6FGwB",
+      "x": 1600,
+      "y": 1020,
+      "name": "Back Cover — Gujarati",
+      "clip": true,
+      "width": 600,
+      "height": 900,
+      "fill": [
+        "$ink",
+        {
+          "type": "gradient",
+          "gradientType": "radial",
+          "enabled": true,
+          "rotation": 0,
+          "size": {
+            "width": 1.3,
+            "height": 0.5
+          },
+          "colors": [
+            {
+              "color": "#6B221666",
+              "position": 0
+            },
+            {
+              "color": "#14100D00",
+              "position": 1
+            }
+          ],
+          "center": {
+            "y": 0.12
+          }
+        }
+      ],
+      "layout": "vertical",
+      "gap": 34,
+      "padding": [
+        60,
+        56,
+        48,
+        56
+      ],
+      "justifyContent": "space_between",
+      "children": [
+        {
+          "type": "frame",
+          "id": "mUHdl",
+          "name": "Verse",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 16,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "e5SGGR",
+              "name": "Mini Mark",
+              "width": 48,
+              "height": 28,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "id": "zeEh0",
+                  "x": 0,
+                  "y": 0,
+                  "name": "Bar 1",
+                  "fill": "$ash",
+                  "width": 48,
+                  "height": 5
+                },
+                {
+                  "type": "rectangle",
+                  "id": "H9vmw",
+                  "x": 0,
+                  "y": 10,
+                  "name": "Bar 2",
+                  "fill": "$ash",
+                  "width": 48,
+                  "height": 5
+                },
+                {
+                  "type": "rectangle",
+                  "id": "ZE8VU",
+                  "x": 0,
+                  "y": 20,
+                  "name": "Bar 3",
+                  "fill": "$ash",
+                  "width": 48,
+                  "height": 5
+                },
+                {
+                  "type": "ellipse",
+                  "id": "S8TIU",
+                  "x": 18,
+                  "y": 6.5,
+                  "name": "Bindu",
+                  "fill": "$kumkum",
+                  "width": 12,
+                  "height": 12
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "Y91sjO",
+              "name": "Sanskrit Verse",
+              "fill": "$ash",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "માતૃદેવો ભવ । પિતૃદેવો ભવ ।\nઆચાર્યદેવો ભવ । અતિથિદેવો ભવ ।\nયાન્યનવદ્યાનિ કર્માણિ તાનિ સેવિતવ્યાનિ । નો ઇતરાણિ ।",
+              "lineHeight": 1.55,
+              "textAlign": "center",
+              "fontFamily": "$font-gu-body",
+              "fontSize": 19,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "ga6c4",
+              "name": "Translation",
+              "fill": "$ash-muted",
+              "content": "માતાને દેવ માનો. પિતાને દેવ માનો.\nગુરુને દેવ માનો. અતિથિને દેવ માનો.\nજે કર્મો નિર્દોષ છે, તે જ અપનાવો.",
+              "lineHeight": 1.55,
+              "textAlign": "center",
+              "fontFamily": "$font-gu-body",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "fApiP",
+              "name": "Not the others",
+              "fill": "$kumkum",
+              "content": "બાકીનાં નહીં.",
+              "fontFamily": "$font-gu-body",
+              "fontSize": 21,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "h6riW",
+              "name": "Citation",
+              "fill": "$ash-muted",
+              "content": "તૈત્તિરીય ઉપનિષદ  ૧.૧૧.૨",
+              "fontFamily": "$font-gu-label",
+              "fontSize": 12,
+              "fontWeight": "500"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "zRNyz",
+          "name": "Blurb",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 12,
+          "children": [
+            {
+              "type": "text",
+              "id": "Vas2c",
+              "name": "Paragraph 1",
+              "fill": "$ash",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "સુરતના પાલ ગામની મોટી ફળીમાં કોઈ તેમને સાચા નામથી બોલાવતું નહોતું. ફળી તેમને શંભુ કહેતી, જે શિવનું જ એક નામ છે. પ્રામાણિક. શ્રદ્ધાળુ. દરેક લગ્ન અને દરેક અંતિમવિધિ વખતે સમાજ સૌથી પહેલાં તેમને જ બોલાવતો.",
+              "lineHeight": 1.55,
+              "fontFamily": "$font-gu-body",
+              "fontSize": 15.5,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "phAZ0",
+              "name": "Paragraph 2",
+              "fill": "$kumkum",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "તેમનો પરિવાર એક જુદા જ માણસને ઓળખતો હતો.",
+              "lineHeight": 1.55,
+              "fontFamily": "$font-gu-body",
+              "fontSize": 18,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "zIyGr",
+              "name": "Paragraph 3",
+              "fill": "$ash",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "આ સત્ય કથામાં તેમનો દીકરો બંધ દરવાજા પાછળની વાત કહે છે, જે ફળીએ ક્યારેય જોઈ નહોતી. દારૂની ટેવ બદલ પલંગ સાથે બાંધીને મારવામાં આવેલા દાદા. નવ જણની રસોઈ કરતી, ઘરનો ખર્ચ ઉપાડતી, અને પોતાનો મત રાખવા બદલ માર ખાતી મા. પોતાના જ પિતાના ડર હેઠળ મોટાં થયેલાં બે બાળકો. અને એક દીકરો, જેનાં લગ્ન એક જ સવાલ પરથી નક્કી થયાં: સમાજ શું કહેશે?",
+              "lineHeight": 1.55,
+              "fontFamily": "$font-gu-body",
+              "fontSize": 15.5,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "JC9j2",
+              "name": "Paragraph 4",
+              "fill": "$ash",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "જે શાસ્ત્રો જાણવાનો પિતાને આટલો ગર્વ હતો, ફેરિન પટેલ એ જ શાસ્ત્રોના ત્રાજવે પિતાને તોલે છે. પરિણામ છે એક દીકરાનો હિસાબ, અને આબરૂદાર દરવાજા પાછળ જીવતા દરેક પરિવાર માટે એક અરીસો.",
+              "lineHeight": 1.55,
+              "fontFamily": "$font-gu-body",
+              "fontSize": 15.5,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "lAz1B",
+          "name": "Footer",
+          "width": "fill_container",
+          "gap": 24,
+          "justifyContent": "space_between",
+          "alignItems": "end",
+          "children": [
+            {
+              "type": "frame",
+              "id": "ES9ax",
+              "name": "Author Bio",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 14,
+              "children": [
+                {
+                  "type": "rectangle",
+                  "id": "D2FpH",
+                  "name": "Rule",
+                  "fill": "$kumkum",
+                  "width": 28,
+                  "height": 2
+                },
+                {
+                  "type": "text",
+                  "id": "LyNqF",
+                  "name": "Bio",
+                  "fill": "$ash-muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "ફેરિન પટેલ સુરતના પાલ ગામની મોટી ફળીમાં મોટા થયા. હાલ તેઓ કેનેડાના હેલિફેક્સમાં રહે છે અને સોફ્ટવેર ક્ષેત્રે કામ કરે છે.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$font-gu-body",
+                  "fontSize": 13.5,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "zrOVJ",
+                  "name": "Category",
+                  "fill": "$ash",
+                  "content": "સંસ્મરણ",
+                  "fontFamily": "$font-gu-label",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "eEm2B",
+              "name": "Barcode Placeholder",
+              "width": 150,
+              "height": 86,
+              "fill": "$ash",
+              "layout": "vertical",
+              "gap": 4,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "O37MDQ",
+                  "name": "Barcode Label",
+                  "fill": "$ink",
+                  "content": "ISBN BARCODE",
+                  "fontFamily": "$font-label",
+                  "fontSize": 9,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "MS1o2",
+                  "name": "Barcode Note",
+                  "fill": "#14100D99",
+                  "content": "placeholder",
+                  "fontFamily": "$font-label",
+                  "fontSize": 9,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "ink": {
+      "type": "color",
+      "value": "#14100D"
+    },
+    "ash": {
+      "type": "color",
+      "value": "#EDE5D8"
+    },
+    "ash-muted": {
+      "type": "color",
+      "value": "#EDE5D8A8"
+    },
+    "kumkum": {
+      "type": "color",
+      "value": "#D9412F"
+    },
+    "font-display": {
+      "type": "string",
+      "value": "Fraunces"
+    },
+    "font-body": {
+      "type": "string",
+      "value": "Newsreader"
+    },
+    "font-label": {
+      "type": "string",
+      "value": "Inter"
+    },
+    "font-deva": {
+      "type": "string",
+      "value": "Tiro Devanagari Sanskrit"
+    },
+    "font-gu-display": {
+      "type": "string",
+      "value": "Rasa"
+    },
+    "font-gu-body": {
+      "type": "string",
+      "value": "Rasa"
+    },
+    "font-gu-label": {
+      "type": "string",
+      "value": "Hind Vadodara"
+    }
+  },
+  "fileToken": "9aa30233-a529-4c2a-a467-2d002ae8acea"
+}

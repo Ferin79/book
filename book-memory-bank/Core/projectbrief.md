@@ -13,6 +13,8 @@ This document is the foundation for this book project. It defines the core conce
 
 **Subtitle**: [TBD]
 
+**Gujarati Edition Title**: પિતૃદેવો ભવ (the Sanskrit phrase itself, in Gujarati script; author's decision, 2026-10-12). Do not use a Gujarati translation such as "પિતાને દેવ માનો". The author called it over-explanation, since Gujarati readers already know the phrase.
+
 **Title Source**: The English of *pitṛdevo bhava* ("Treat your father as a god"), Taittiriya Upanishad, Shiksha Valli 1.11.2, the verse that closes Chapter 4. The title is ironic on purpose. The same verse goes on to say "Whatever deeds are blameless, those you should follow. Not the others." The book is the "not the others."
 
 **Author**: Ferin Patel
