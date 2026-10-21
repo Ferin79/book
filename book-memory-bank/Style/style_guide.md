@@ -112,6 +112,13 @@ This document defines the writing style, language choices, and formatting conven
   - **Direct Samaj critique allowed.** The Chapter 1 instruction ("just a hint, don't blame the Samaj") is lifted for this chapter only. The Samaj's wealth-as-status custom in matchmaking is named directly. The main blame still rests on Rakesh Patel.
   - **Scripture from beyond the five original sources** (Upanishads, Yoga Vasishtha, Kabir), at the author's request. See `CONTEXT.md` → Approved Sources.
   - Ask the author before carrying either exception into later chapters.
+- **Chapter 5, "The Daughter" (2026-10-20)**:
+  - **Strong wording allowed again**, by author decision and with Janvi's permission: "tyranny," "torture," "hellish," "Hypocrisy." Direct Samaj critique is carried over. Simple sentences still apply.
+  - **Creative liberty granted** for reconstructed dialogue (the author does not remember exact words) and for the mother's care scenes in the drop year. These remain reconstructions, so flag them in the outline and replace them if real memories surface. Creative liberty does **not** extend to the raised-hand scene: keep it to the author's words ("My mother stopped him"), with no staging.
+  - **Sensitive content**: Janvi's thoughts of ending her life are stated once, plainly, with no method or detail, followed by her consent ("Janvi wants this in the book. She wants it heard") and the mother's care. Do not place scripture containing lines about death next to this material.
+  - **Scripture sources widened**: the Devi Mahatmya (a Purana) and the Sri Sukta (Rigveda Khila). The author wants verses that fit an incident precisely and are researched, not the most famous ones ("good but not excellent" was the rejection of a first list).
+  - **No dedication line** inside the chapter. "Dedicated to my sister" meant the chapter is her story.
+  - Ask the author before carrying these exceptions further.
 
 ## Notes
 

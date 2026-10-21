@@ -19,7 +19,7 @@
 📖 **Read [`CONTEXT.md`](CONTEXT.md) before doing anything else in this project.** It holds the book's thesis, the real people involved, the proposed structure, and the scripture-reference framework this book is built around. `book-memory-bank/Core/activeContext.md` points here too, but `CONTEXT.md` is the source of truth for *why* this book exists and *how* it argues its case.
 
 > ### ⚠️ Big Note: Scriptural References Are Load-Bearing
-> This book uses verses from the **Shreemad Bhagavad Gita, Mahabharata, Valmiki Ramayana, Chanakya Niti, and the Vedas** (and, since Chapter 4, the Upanishads, the Yoga Vasishtha, and Kabir) — quoted in Devanagari with translation and analysis — as its central rhetorical device: measuring the father's private conduct against the very religious standard his public image claims to uphold. **Use these references as much as the material can bear**, per the full framework, format, and accuracy rules in `CONTEXT.md` → *The Scripture & Reference Framework*.
+> This book uses verses from the **Shreemad Bhagavad Gita, Mahabharata, Valmiki Ramayana, Chanakya Niti, and the Vedas** (and, since Chapter 4, the Upanishads, the Yoga Vasishtha, and Kabir; since Chapter 5, the Devi Mahatmya and the Sri Sukta) — quoted in Devanagari with translation and analysis — as its central rhetorical device: measuring the father's private conduct against the very religious standard his public image claims to uphold. **Use these references as much as the material can bear**, per the full framework, format, and accuracy rules in `CONTEXT.md` → *The Scripture & Reference Framework*.
 
 ---
 
@@ -30,7 +30,7 @@ This repository holds one book: a **non-fiction, storytelling-style memoir**, wr
 Beyond the personal account, the author intends this book as a **role-model / eye-opening work for readers — especially in India — living under a similarly authoritative, image-conscious household figure**: recognition, a scripturally grounded vocabulary for real vs. performed dharma, and encouragement to raise their voice. Full thesis and context: [`CONTEXT.md`](CONTEXT.md).
 
 - **Title:** *Treat Your Father as a God* (decided 2026-10-12). It is the English of *pitṛdevo bhava* from the Taittiriya Upanishad, the verse that closes Chapter 4. The irony is deliberate: the same verse goes on to say a child should follow only a father's blameless deeds, "not the others." Subtitle: not yet decided.
-- **Content:** arriving incrementally, chapter by chapter. Drafted so far: Chapter 1, "Shambu" (`Chapters/Chapter_01_Shambu.md`, opening Part I — The Mask); Chapter 2, "The Father" (`Chapters/Chapter_02_The_Father.md`, opening Part II — Where It Began); Chapter 3, "The Wife" (`Chapters/Chapter_03_The_Wife.md`, opening Part III — The Husband); and Chapter 4, "The Son" (`Chapters/Chapter_04_The_Son.md`, opening Part IV).
+- **Content:** arriving incrementally, chapter by chapter. Drafted so far: Chapter 1, "Shambu" (`Chapters/Chapter_01_Shambu.md`, opening Part I — The Mask); Chapter 2, "The Father" (`Chapters/Chapter_02_The_Father.md`, opening Part II — Where It Began); Chapter 3, "The Wife" (`Chapters/Chapter_03_The_Wife.md`, opening Part III — The Husband); Chapter 4, "The Son" (`Chapters/Chapter_04_The_Son.md`, opening Part IV); and the first half of Chapter 5, "The Daughter" (`Chapters/Chapter_05_The_Daughter.md`, Janvi's chapter; second half to come).
 - **Factual license:** standard memoir convention. Reconstructed dialogue and scene detail are allowed when grounded in real memory — but events, dates, and outcomes are never invented. Anything uncertain is flagged rather than guessed at.
 
 ---
@@ -62,13 +62,15 @@ book/
 │   ├── Chapter_01_Shambu.md           # Drafted
 │   ├── Chapter_02_The_Father.md       # Drafted
 │   ├── Chapter_03_The_Wife.md         # Drafted
-│   └── Chapter_04_The_Son.md          # Drafted
+│   ├── Chapter_04_The_Son.md          # Drafted
+│   └── Chapter_05_The_Daughter.md     # First half drafted
 ├── Outlines/
 │   └── Chapter_Outlines/              # Per-chapter outlines, filled in as chapters are planned
 │       ├── Chapter_01_Shambu.md       # Drafted
 │       ├── Chapter_02_The_Father.md   # Drafted
 │       ├── Chapter_03_The_Wife.md     # Drafted
-│       └── Chapter_04_The_Son.md      # Drafted
+│       ├── Chapter_04_The_Son.md      # Drafted
+│       └── Chapter_05_The_Daughter.md # First half
 ├── Research/
 │   └── scripture_reference_tracker.md # Log of every scripture citation used, with verification notes
 ├── book-memory-bank/                  # AI writing memory bank — context continuity across sessions
@@ -111,7 +113,7 @@ This repository uses a customized `book-writer` skill (`.agents/skills/book-writ
 | Writing style confirmed | ✅ Complete |
 | Central people confirmed | ✅ Complete (list will grow) |
 | Title | ✅ *Treat Your Father as a God* (subtitle ⏳) |
-| Chapter outlines | 🟡 4 of many (Chapters 1–4) |
-| Chapters drafted | 🟡 4 drafted — "Shambu" (Part I), "The Father" (Part II), "The Wife" (Part III), "The Son" (Part IV) |
+| Chapter outlines | 🟡 5 of many (Chapters 1–4; Chapter 5 first half) |
+| Chapters drafted | 🟡 4½ drafted — "Shambu" (Part I), "The Father" (Part II), "The Wife" (Part III), "The Son" (Part IV), "The Daughter" (Part IV, first half) |
 
 *Started: August 2026*
