@@ -90,7 +90,33 @@ On those days, my father decided everything. He decided what looked good on her.
 
 That is how he sees women. In the third chapter, I wrote that in his mind women were made for work, and made to be under him. To him they are objects, and an object can be arranged. He is not the only man in India who thinks this way. My uncle Praful thinks the same. Between them, they believed a woman's life was theirs to control however they liked.
 
-Before each meeting came a photograph, or a biodata. And that is where the arguments began.
+---
+
+That control did not begin with the viewings. It began earlier, with her phone.
+
+Janvi was young, and she was in college. By then, everyone her age in India was on social media. It was the trend. Her friends posted photos on Instagram. They put up stories on WhatsApp. It was an ordinary part of being young. My father never understood any of it.
+
+He did not allow her to post photos on Instagram. He did not allow her to put up stories on WhatsApp. She was not even allowed a DP, the small profile photo that sits beside a person's name on WhatsApp. "Why use social media?" he would say. "It is a waste of time. Focus on your studies."
+
+From time to time, he also checked her phone. He went through it to keep an eye on her, and on her contacts. He was not checking because he worried for her. He was checking for boys. He wanted to be sure she was not talking to any boy in college, and that there was no affair.
+
+In the fourth chapter, I wrote that I had no phone of my own until I finished twelfth grade, and I wrote why. He could not trust his own son. He trusted his daughter no more than that. She had a phone, and he searched it.
+
+If he had truly believed that social media was a waste of time, that would at least have been a belief. He did not believe it. I found that out when the talk of my own engagement began.
+
+Suddenly he had no problem with social media at all. He shared the girls' profiles with me gladly. He found them fascinating. "Look at her photo. She looks perfect for you." "Wow, she travels a lot." "She is so fashionable." He said these things to me himself.
+
+Every one of those girls was somebody's daughter. She posted her photos. She posted her travels. She showed her style to anyone who looked. In another man's daughter, he admired all of it. In his own, he had forbidden it, down to one small photo beside her name. If it was so good in someone else's daughter, why was it banned for his?
+
+He was not against social media for himself, either. In the last chapter, I wrote about his Facebook. The Samaj had watched his passport fill with stamps there. He posted there when Janvi cracked NEET. It was never a waste of time when it showed him well. His daughter could not put her own face on her own phone. He put her result on his page.
+
+Hypocrisy, once more. And the reason behind it is the one this book keeps arriving at. He cared about his image. He did not want one photo, one story, or one message that might spoil it. He never trusted anyone. Not even his own children.
+
+So he kept her face off her own phone, and on the day of a viewing he chose her dress and her hair. Who saw his daughter, and when, was his to decide.
+
+Janvi is a grown woman now, and she will soon be a doctor. He still controls everything for her, to this day. It still surprises me.
+
+When her own turn came, the photographs were of boys. Before each meeting came a boy's photograph, or his biodata. And that is where the arguments began.
 
 ---
 
@@ -110,7 +136,7 @@ And it forgets how long a marriage is. A child fills twenty years of it, perhaps
 
 I do not think he was trying to be clever. I think he was describing the only marriage he knows. I wrote about that marriage in the third chapter.
 
-There is one more thing. He did not really believe that looks do not matter. On the day of a viewing, he chose the colour of her dress and the way her hair was done. So looks mattered a great deal. They mattered when she was the one being looked at. They only stopped mattering when she was the one looking.
+There is one more thing. He did not really believe that looks do not matter. When the photographs were of girls for his son, looks were what he pointed to. "Look at her photo. She looks perfect for you." And on the day of a viewing, he chose the colour of Janvi's dress and the way her hair was done. So looks mattered a great deal. They mattered when a woman was the one being looked at. They only stopped mattering when she was the one looking.
 
 ---
 
@@ -226,7 +252,7 @@ He was furious, as always. He spoke to her rudely. He used foul language. His an
 
 "How dare you," he said. "I do not approve of him. Are you having an affair with him?"
 
-In the fourth chapter, I wrote about the word *lafda*. An affair. The kind of trouble people whisper about. My father lectured me against it for years, for the sake of his image. Now he threw the same idea at his own daughter. She had come to him openly, with a boy's name, the way a daughter is supposed to. He answered by questioning her character.
+In the fourth chapter, I wrote about the word *lafda*. An affair. The kind of trouble people whisper about. My father lectured me against it for years, for the sake of his image. He had searched Janvi's phone for it. Now he threw the same idea at her, to her face. She had come to him openly, with a boy's name, the way a daughter is supposed to. He answered by questioning her character.
 
 A family protects its daughter's name. When people talk, her father is the one who stands in front of her. In our house, the first person to put a stain on her name was her father.
 

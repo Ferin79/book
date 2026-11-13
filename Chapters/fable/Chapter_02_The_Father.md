@@ -36,7 +36,11 @@ In my father's mind, his father's drinking was not a medical problem. It was a p
 
 "Nobody will marry their daughters into this house because of your drinking," he told Sukhdev papa. He said it more than once.
 
-That was the real sum. He was not counting what the alcohol was doing to an old man's body. He was counting what it might do, one day, to a marriage proposal. In the last chapter, I wrote that the Samaj is where a family's name is kept, and that the name decides who a family's children will marry. My father had spent his whole life building that name. Honest. Devout. Trustworthy. The man every function wanted at the front of the room. A father with a known drinking habit did not fit beside a name like that.
+He also put it more plainly. "You are ruining my image," he told him. "Our image, in front of the Samaj."
+
+That was the real sum, and he said it himself. His image came first. The family's came second. He was not counting what the alcohol was doing to an old man's body. He was counting what it might do to his name, and, one day, to a marriage proposal.
+
+In the last chapter, I wrote that the Samaj is where a family's name is kept, and that the name decides who a family's children will marry. My father had spent his whole life building that name. Honest. Devout. Trustworthy. The man every function wanted at the front of the room. A father with a known drinking habit did not fit beside a name like that.
 
 So the drinking had to stop. Not for Sukhdev papa's sake. For the name's.
 
