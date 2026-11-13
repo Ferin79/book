@@ -76,6 +76,8 @@ Full profiles live in `book-memory-bank/Core/people_and_places.md`. This list wi
 | **Praful Patel** | Paternal uncle | Rakesh's brother |
 | **Praful Patel's wife ("Kaki")** | Paternal aunt by marriage | The joint family's other daughter-in-law; with Heena, treated as the house's unpaid servant (Ch 3); with Heena and Janvi, backed Ferin's choice of Vrunda (Ch 4) |
 | **Vrunda** | Ferin's fiancée (engaged December 2023) | Proposed by Rakesh for her family's wealth; chosen by Ferin; Rakesh then pushed richer families (Ch 4) |
+| **Jash** | Janvi's friend, same Samaj | The groom Janvi proposed; Rakesh called him "a perfect boy" and rejected him for lack of land (Ch 6). Naming consent not yet confirmed |
+| **Khushi** | A relative on Rakesh's mother's side | A doctor who got engaged where her father chose; Rakesh's example to Janvi (Ch 6). Naming consent not yet confirmed |
 
 *(More people — extended family, witnesses, community figures tied to his public image — will be added as incidents are gathered.)*
 

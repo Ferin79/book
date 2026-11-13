@@ -285,5 +285,3 @@ In his mind, of course, she got there because of him. Because of his pressure. B
 For a little while, Janvi was happy. She was far away from him, and she could breathe.
 
 It was not going to last. Medical school would be hard in its own way once her studies began. And further down the road, something even bigger was waiting for her.
-
-<!-- CHAPTER FIVE CONTINUES: the second half of Janvi's story will be added here from the author's next plan. -->
