@@ -125,3 +125,15 @@ This document defines the writing style, language choices, and formatting conven
 The version of "write like a human author" that applies to this project is the memoir voice above — warm, restrained, concrete — not a fiction-workshop voice. Contractions and informal rhythm are welcome in narration and especially in remembered dialogue; avoid perfectly modulated speeches. Use similes/metaphors sparingly and only when they're grounded in this family's actual world (Gujarat, Surat, the street, the mandir) rather than generic comparisons.
 
 "Warm, literary but grounded" (the voice) and "simple, direct sentences" (the structure) are not in conflict — the warmth and the literary quality should come from specific, true detail and honest emotion, not from ornate sentence construction. A short sentence can still be moving. When simplicity and "sounding literary" pull in different directions, simplicity wins.
+
+## Gujarati Edition Conventions (author decision, 2026-11-17)
+
+- **Proper names**: the street is always **મોટી ફળી** (with case endings: મોટી ફળીમાં, મોટી ફળીના…). The village is always **પાલ ગામ** (પાલ ગામમાં, પાલ ગામના…), never a bare "પાલ."
+- **"The street" depends on context (author correction, 2026-11-17: "it cannot be a find and replace type of change").** Read each sentence against the English and choose:
+  - **મોટી ફળી** when the English names Moti Fali, or when "the street" clearly means that specific place and naming it reads better (e.g. "far older than the street" → "મોટી ફળી કરતાં ઘણું જૂનું").
+  - **ફળિયું / ફળિયામાં** (neuter: ફળિયાનું, ફળિયાને, ફળિયામાંથી…) for the street as a place: "on that street" → એ ફળિયામાં, "from the street" → ફળિયામાંથી જોતાં, "on his street" → પોતાના ફળિયાનું. Also for idioms where Gujarati itself personifies it: આખું ફળિયું જોતું હતું / જાણતું હતું, આખા ફળિયાએ જોયા, and the Ch 3 aphorism "ફળિયું માણસને… માપે છે. ઘર એને… માપે છે."
+  - **ફળિયાના લોકો** (plural agreement) when "the street" is doing something only people do: gave the name, admired him, believed in him, never asked, saw his credits, would talk.
+  - Other phrasings when the meaning calls for it, e.g. "for the street" (= for show) → "ફળિયાને દેખાડવા માટે."
+  - Watch pronouns: the father is always the honorific એમણે/એમને, so where "the street" is followed by "it" in the next sentence, a personified ફળિયું (એણે) avoids confusion with him.
+  - Never a bare "ફળી" for the generic street, and not "શેરી."
+- **"Image"** is ઈમેજ (not છબી). **"House" vs. "home"** in Ch 7: મકાન vs. ઘર.

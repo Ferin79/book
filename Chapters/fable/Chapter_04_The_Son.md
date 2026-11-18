@@ -142,7 +142,18 @@ I used to look at the fathers of my friends, boys my own age. Those fathers were
 
 My sister and I grew up. He did not. He never changed his behaviour. He still got angry at everyone, including us. My sister's rules were even stricter than mine. Her story belongs to the next chapter, and I will give it all of that chapter.
 
-By the end of school, that house felt like a cage. I wanted out of it.
+By the end of school, that house felt like a cage.
+
+Years later, I came across a line that has stayed with me ever since. It is usually credited to Alejandro Jodorowsky, a writer and filmmaker from Chile.
+
+> "Birds born in a cage think flying is an illness."
+> — *Alejandro Jodorowsky (attributed)*
+
+When I read it, I thought of my father. He was born in a cage too. It was not made of iron. It was made of the Samaj's rules, and of what people would say. He grew up inside it, and he never once questioned it. In the first chapter, I wrote that he trusted the Samaj completely. In the last chapter, I wrote that his mind left Surat on every trip and came back exactly the size it had been. His body flew to ten countries. His mind never left the cage.
+
+So when his children wanted to fly, it looked to him like a sickness. A night out with friends was a symptom. A slice of pizza was poison. A phone was a danger. A son who wanted to choose for himself had to be cured of it, with lectures, with calls, and with fear. I do not think he saw any of this as cruelty. To him, the wings were the illness.
+
+I did not want to be cured. I wanted out of the cage.
 
 ---
 

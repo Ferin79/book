@@ -314,3 +314,14 @@ This document is the factual reference for everyone and everywhere in this book.
 ## Notes
 
 **Street name — settled 2026-08-27**: The family's street is **Moti Fali**. On 2026-08-17 a prior session recorded a mistaken "correction" to "Moti Fadiyu" and propagated it through Chapter 1, Chapter 2's outline, and this file. The author corrected this on 2026-08-27: the name is Moti Fali, full stop. All chapters and memory files have been reverted. Do not reintroduce "Moti Fadiyu" anywhere — always use "Moti Fali."
+
+**Ch 7 additions (2026-11-17):**
+- **Timeline, January 2026**: the new family house on Moti Fali is finished. It was built from scratch by Rakesh Patel and Praful Patel on the site of the old house, which was demolished because it "needed more than repairs." Features: expensive furniture, chandeliers, an elevator, spacious rooms, solar panels, a car garage, and a well-kept back garden. People still come to see it.
+- **Rakesh Patel**: pride in the house turned to ego ("my house"; a new position in the Samaj). Tells Janvi he will not marry her into anyone lower than them now that he has built the house and the status. Unchanged behaviour as of November 2026.
+- **Praful Patel**: co-decided every design choice with Rakesh. Asked by Ferin why there was no dishwasher: "We already have someone for the dishes," pointing at the women of the house.
+- **Heena Patel and Kaki**: not consulted on any part of the new house, the kitchen included. Still wash the dishes by hand in the new house.
+- **Diya Patel** (named by the author 2026-11-17): Praful Patel and Kaki's daughter, in high school (a minor). Lives in the joint family.
+- **Praveg Patel** (named by the author 2026-11-17): Praful Patel and Kaki's son, in college. Lives in the joint family.
+- **Rakesh Patel controls Diya and Praveg as well (Ch 6 addition)**: no staying out late, no talking to friends on the phone, no "dirty business" (no girlfriend/boyfriend, no bad habits). The rules are unchanged since Ferin's youth. Reason: in the Samaj's eyes the joint family is one unit. Praful and Kaki stay silent.
+- **Money habits (Ch 6 addition)**: Heena Patel tells him a lower amount for take-out bills, because if he learns the real amount he nags for days. The children hid prices from him too.
+- **Consent**: Jash and Khushi agreed to be named (author, 2026-11-17).

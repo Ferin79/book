@@ -1,0 +1,48 @@
+# Chapter 7: The House
+
+*(Memoir outline. Every beat maps to the author's `plan.md` (2026-11-17). No events are invented. Where the plan said "add more" or "expand the idea here, AI," the additions are reflection drawn from facts already established in Chapters 1–6, not new incidents.)*
+
+**Status:** drafted 2026-11-17 at `Chapters/fable/Chapter_07_The_House.md` (~4,400 words incl. 4 verse blocks). The last chapter of the book. Title "The House" confirmed by the author 2026-11-17. Awaiting author review.
+
+## Chapter Summary
+
+Chapter 6 ended "But the silence is over." Chapter 7 opens on the question that follows: why now? The stories are not all old (5–10 years, 3–5, 1–2, and some from last month), and nothing has changed as of November 2026. The proof is the newest thing the father built. In January 2026 he and Praful finished a completely new house on the site of the old one on Moti Fali, with chandeliers, an elevator, solar panels, a garage, and a garden. Credit first: it is his biggest achievement, and the family (Ferin included) is proud of it. Then pride turns to ego: "my house," a new position in the Samaj, more to lose. The house becomes the measure for Janvi ("Why would I marry you now into anyone lower than us?"). Every design decision was made by the two men alone; the women were not asked even about the kitchen ("women don't know anything… we are paying"). There is an elevator but no dishwasher: "We already have someone for the dishes." *Makaan* vs. *ghar*: for the women, it is still a house, not a home. The old walls came down, but what needed more than repairs moved into the new house. The ending: what's next is unknown; he will not change; he will say his image was spoiled (the Ch 2 line returns); the book was written not to change him but to show the Samaj both sides of the coin. Then, plainly, whom the book is for, where everyone stands today, and a closing bookend to Chapter 1's first line.
+
+## Craft approach to the ending (author asked for research)
+
+The real story has no ending, so the chapter makes the openness deliberate rather than leaving it hanging. Techniques used, drawn from memoir craft writing (an unresolved ending "must feel shaped, not abandoned"; endings land best on an image, an action, a line of dialogue, or a careful reflection):
+- **The change is in the narrator, not the situation.** The father is not reformed. What has ended is the silence, and what Ferin will build differently.
+- **Return to the opening.** The last section answers Chapter 1's first line ("Nobody on Moti Fali called my father by his name").
+- **A present-tense snapshot** of where each person stands in November 2026, then a list of what is not known.
+- **The thesis stated plainly, once**, in the "This is why I wrote this book" section, after the evidence and not before it.
+- **End on a concrete image, not an abstraction**: the visitors who see the chandeliers, and then two short lines: "It is a beautiful house. / It is still not a home."
+
+## Key Beats (in order)
+
+1. **Why now?** Handoff from Ch 6's "the silence is over." The imagined objection ("old stories… move on"). The plan's time ranges. He has not changed or felt sorry. November 2026: same mindset, ego, and Samaj, and the Samaj above his children. "Look at the newest thing my father built."
+2. **The house.** Finished January 2026; built by the father and Praful on the old site on Moti Fali; the old house "needed more than repairs" (planted, paid off in beat 8). Features from the plan. People still come to see it. Credit: the family is proud, and Ferin too; callback to Ch 1's farmer's son. "He has never once believed he was wrong."
+3. **Pride becomes ego** (plan: "Add more cause of ego here"). "My house"; the others just happen to live there; a new Samaj position; more to lose. Four causes, all from established facts: a house is a permanent, visible image (Ch 5's Facebook passport stamps); the distance he travelled feels like proof he was right; the Samaj's money-and-land scorekeeping (Ch 4, Ch 6); fear (the higher he climbs, the tighter the grip). [Verse: **Gita 16.15** "Who else is there like me?"; 16.13 and 16.17 (*mada*, drunk on wealth and pride) paraphrased, with a callback to the no-alcohol rule and Ch 2.] Callback: Gita 16.21 in Ch 3.
+4. **The house as the measure for Janvi** (plan: "expand the idea here"). "Why would I marry you now into anyone lower than us? I built this big house…" Ch 6's "wealthier than ours" test, with "ours" now bigger; "You have no options left" turned around (he removed them brick by brick); Jash's land vs. his house; Janvi's achievements left out of his sum; earning cow callback; "money cannot change the way a man thinks"; "he was never wrong."
+5. **Who chose everything.** "Someone might think…" (the plan's "You might think," kept in the third person). Callbacks to restaurants, clothes, and marriages (Ch 4, Ch 6). Rooms, tiles, kitchen layout and equipment, lights, furniture: two men. "Women don't know anything… we are paying." The kitchen: the women were not invited. Counter-points from established facts: the mother has run a kitchen since 1998 (Ch 3); the household once ran on her inheritance (Ch 3). [Verse: **Rigveda 10.85.26**, *grihapatni*, "you shall speak to the gathering," from the same wedding hymn as Ch 3's 10.85.46; both scholarly readings acknowledged.] "Still treated as the house's maids."
+6. **Elevator, no dishwasher.** Ferin asked his uncle; "We already have someone for the dishes," pointing at the women. Not about the machine or money; whose time is worth saving. Maid's-pay callback (Ch 3). "That one sentence shows a man's whole character."
+7. **House, not home.** The deliberate word choice explained; *makaan* vs. *ghar* (Gujarati). [Verse: **"न गृहं गृहमित्याहुर्गृहिणी गृहमुच्यते"**, the pigeon's lament, Shanti Parva, **popular (vulgate) text, not in the Critical Edition**, said so in the prose. The same lament as Ch 3's Shanti 142.10.] The women are the home itself, treated as its servant.
+8. **The old walls.** Payoff of beat 2: most of the book happened inside those walls (Ch 1); the grandfather, the mother, the children's fear. The walls came down, and the treatment moved in with the furniture. Only he can rebuild a mindset.
+9. **What's next.** "I don't know." He will not change. He will blame Ferin for spoiling his image: the fable Ch 2 line "You are ruining my image. Our image, in front of the Samaj," said to his own father, will now be said to his son. A book cannot ruin an image; only the man can. Not written to change him; written for the Samaj and society; "both sides of the coin" = Ch 6's balance sheet.
+10. **Where else to look.** [Verse: **Taittiriya Upanishad 1.11.4**: when in doubt, follow the wise who judge with care, are devoted, are not harsh, and love dharma.] Completes the title-verse thread (Ch 1 → Ch 4's 1.11.2 → Ch 6's 1.11.1 → here). He is devoted but fails "not harsh." Where Ferin looked: his mother (who stopped the raised hand, Ch 5), the other father in their society (Ch 6), and Ashvapati (Ch 4, Ch 6).
+11. **Why I wrote this book.** For the Samaj (measure a man in his own kitchen, a Ch 3 line; the land/money/house measure is breaking its daughters); for fathers like him; for sons and daughters in houses like theirs (respect is not silence; "not the rest"); for the mother and Kaki; for Janvi ("This is her voice"); for Sukhdev papa (the glass of water, Ch 2); for himself (the chain ends with him, Ch 4; a future home where the people who use the kitchen choose it and nobody is "someone for the dishes").
+12. **Where the story stands.** No ending yet. A present-tense snapshot: the father praying in the new house; the mother and Kaki at the sink; Janvi still fighting, the mother beside her; Ferin on the phone. What is not known. The truth is on the page; "Whoever reads it is free to do the sum." Bookend: "Nobody on Moti Fali called my father by his name… They still do." The visitors. "It is a beautiful house. / It is still not a home."
+
+## Scripture (4 verses, verified 2026-11-17)
+
+Gita 16.15 (with 16.13 and 16.17 paraphrased) · Rigveda 10.85.26 · Mahabharata Shanti Parva, the pigeon's lament ("na gṛhaṃ gṛham ity āhuḥ…", popular text) · Taittiriya Upanishad 1.11.4. See `Research/scripture_reference_tracker.md`.
+
+## Open items / check with the author
+
+- **"Who is lower than us in status?"** The plan's wording was unclear. It is rendered as "Why would I marry you now into anyone lower than us?" Confirm.
+- **Reconstructed lines:** "We already have someone for the dishes" follows the plan. The father's house speech to Janvi is built from the plan's paraphrase.
+- **Kaki's years in the house** are not known, so the text says "for as long as I can remember." The mother's start date is "since 1998" (her wedding).
+- **Inference flagged:** "He saw them as something closer to equipment" (from the dishwasher line). "One day soon, I think, he will say it to his son" is a prediction, not an event.
+- **The vulgate verse:** the author chose to keep it (2026-11-17). The prose says "the popular text."
+- **Reader address:** the "Why I wrote this book" section keeps the third person ("fathers like mine… Their children are not their image"). If the author wants it spoken directly to the reader ("Your children are not your image"), that could move into an Afterword, per the style guide.
+- **"A few happened last month"** is kept from the plan without saying what happened. Add the events if the author wants them on the page.
+- **The future home** ("Some day I will build a home of my own…") is a resolve, not an event. Confirm it is in the author's voice.

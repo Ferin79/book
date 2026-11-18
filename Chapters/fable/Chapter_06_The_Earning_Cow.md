@@ -396,7 +396,49 @@ He ruins a life, and then he gets a clean start. Every time. He beat his own fat
 
 Four people. My grandfather. My mother. Me. My sister. And that is not the full list. He has brought pain into other lives too.
 
-Each time, the account was wiped clean. The hard part to admit is that we were the ones who wiped it. We stayed silent. We let things go. We forgot, because it was easier to forget. We told ourselves that he is our father.
+---
+
+Two of those lives are in our own house.
+
+I have written that we live as a joint family. My uncle Praful's children grew up under the same roof as Janvi and me. His daughter, Diya, is in high school. His son, Praveg, is in college. My father controls their lives too.
+
+The rules are the ones I grew up with. They cannot stay out of the house late. They cannot talk to their friends on the phone. And there is to be no dirty business. That means no girlfriend or boyfriend, and no bad habits. Nothing that people might whisper about.
+
+I grew up in different times from Praveg. I know that. Years have passed. The world those two are growing up in is not the one I grew up in. Rules usually loosen with time. A father learns something from his first child, and he is a little easier on the next. These rules did not loosen. They are exactly as orthodox now as they were when I was a boy. In the fourth chapter, I wrote that he refused to adapt to a new generation. Now there is a newer generation still, and he still has not adapted. In that same chapter, I quoted a line about birds born in a cage, who think flying is an illness. Diya and Praveg were born in the same cage I was.
+
+Why would he control children who are not even his? The answer is the one this book keeps arriving at. His image. We still live as a joint family, so in the Samaj's eyes we are one unit. One house. One name. If Praveg is seen out late, people will not only talk about Praful's son. They will talk about Rakesh's family. To my father, every child under that roof carries his name. So every child under that roof must be controlled.
+
+That is what worries me most about this part of the story. Diya and Praveg have their own parents. Praful and Kaki can make decisions for their own children. But they stay silent, and he makes the rules. In the third chapter, I wrote that my Kaki has never had much of a voice in that house. My uncle has one. He does not use it.
+
+Nobody has the right to run everyone's life. Diya and Praveg are not his children.
+
+This is the point I want to make. My father will do anything inside his family to protect his own image. It does not stop at his wife. It does not stop at his own son and daughter. It reaches as far as his name reaches. Anyone who lives under his roof lives under his rules.
+
+---
+
+Control is not his only habit, either.
+
+Most of this book has been about one habit of his. In the fourth chapter, I called it the Samaj's disease. I have come to think of it as a virus, the Samaj virus. But it is not the only one. He has others. A mind that puts money at the centre of everything. A miserliness that goes far beyond being careful. A habit of putting himself first. And an ego that can never be wrong.
+
+These habits did not only shape him. They shaped every person in the family, in one way or another. And they show up in small things, every single day.
+
+Take the food we order from outside. When my mother orders a take-out meal, she cannot tell my father what it really cost. If he knows the real amount, he starts nagging. It does not end that evening. It goes on for days. So she tells him a smaller number. In the third chapter, I wrote that for years this house ran on my mother's inheritance. The same woman has to lie about the price of a dinner to keep the peace.
+
+She is not the only one. We children learned to do the same. Whatever we bought, the price shrank on its way to him. It was not that we wanted to lie. The truth simply cost more than the thing itself.
+
+Anything new that came into the house met the same first question. "How much?" Not "Do you like it?" Not "Will it be useful?" The price came first, and then the lecture. It was too expensive. We had been cheated. We should have bargained. We should have waited. Somewhere in that lecture, whatever joy the thing had brought was gone.
+
+In the third chapter, I also wrote that my mother and my Kaki needed permission to spend money. Every rupee had to be asked for and explained. Yet the same man spent freely wherever it showed. He has travelled to ten countries. His passport stamps went up on Facebook for the Samaj to see. Outside, people saw a man who lived well. At home, we saw a man who counted the cost of a take-out meal.
+
+That is the self-centred part. His money goes to what he wants, and to how he looks. Everyone else's spending is a question that has to be answered.
+
+The ego is there in every argument. No argument in our house ends until he has won it. I cannot remember him ever saying sorry to any of us. "Whatever I am doing is right," he told Janvi. In one form or another, he has said it to all of us, all our lives.
+
+A habit sounds like a small thing. But when one person's habits rule a house, everyone else in it has to bend around them. My mother learned to lie about a bill. We children learned to hide a price. My cousins are learning to keep their phones quiet. None of us chose these habits. We caught them from him, the way a virus is caught.
+
+---
+
+Big wounds and small ones. Each time, the account was wiped clean. The hard part to admit is that we were the ones who wiped it. We stayed silent. We let things go. We forgot, because it was easier to forget. We told ourselves that he is our father.
 
 In the third chapter, I quoted Vidura. People take the one who forgives to be weak. I wrote it about my mother. It was true of all of us. My father took our silence for weakness. He took it as permission.
 
